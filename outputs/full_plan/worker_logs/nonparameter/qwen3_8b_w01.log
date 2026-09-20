@@ -1,0 +1,2369 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/usr/lib/python3/dist-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/usr/lib/python3/dist-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/usr/lib/python3/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 50, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.10 from "/usr/bin/python3.10"
+  * The NumPy version is: "1.26.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/scripts/run_manifest.py", line 15, in <module>
+    from agentunlearn.engine import ExperimentEngine
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/engine.py", line 8, in <module>
+    from agentunlearn.datasets import get_adapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/__init__.py", line 5, in <module>
+    from agentunlearn.datasets.muse import MUSEAdapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/muse.py", line 6, in <module>
+    from agentunlearn.datasets.base import (
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/base.py", line 8, in <module>
+    from agentunlearn.io import answer_list, first_text, recursive_dict_records
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/io.py", line 13, in <module>
+    import numpy as np
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/usr/lib/python3/dist-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/usr/lib/python3/dist-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/usr/lib/python3/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 50, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.10 from "/usr/bin/python3.10"
+  * The NumPy version is: "1.26.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/scripts/run_manifest.py", line 15, in <module>
+    from agentunlearn.engine import ExperimentEngine
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/engine.py", line 8, in <module>
+    from agentunlearn.datasets import get_adapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/__init__.py", line 5, in <module>
+    from agentunlearn.datasets.muse import MUSEAdapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/muse.py", line 6, in <module>
+    from agentunlearn.datasets.base import (
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/base.py", line 8, in <module>
+    from agentunlearn.io import answer_list, first_text, recursive_dict_records
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/io.py", line 13, in <module>
+    import numpy as np
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+
+=== LOAD qwen3_8b (745 conditions) ===
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 5815.58it/s]
+[1/745] RUN AU000676 qwen3_8b TOFU/tofu_forget01 independent none
+  DONE AU000676 161.4s
+[2/745] RUN AU000679 qwen3_8b TOFU/tofu_forget01 independent target_memory
+  DONE AU000679 161.5s
+[3/745] RUN AU000681 qwen3_8b TOFU/tofu_forget01 independent target_context_memory
+  DONE AU000681 158.8s
+[4/745] RUN AU000682 qwen3_8b TOFU/tofu_forget01 independent target_context_comm
+  DONE AU000682 161.2s
+[5/745] RUN AU000683 qwen3_8b TOFU/tofu_forget01 independent target_memory_comm
+  DONE AU000683 161.4s
+[6/745] RUN AU000684 qwen3_8b TOFU/tofu_forget01 independent full_inference
+  DONE AU000684 159.0s
+[7/745] RUN AU000692 qwen3_8b TOFU/tofu_forget01 sequential target_memory_comm
+  DONE AU000692 186.6s
+[8/745] RUN AU000693 qwen3_8b TOFU/tofu_forget01 sequential full_inference
+  DONE AU000693 172.1s
+[9/745] RUN AU000696 qwen3_8b TOFU/tofu_forget01 debate target_context
+  DONE AU000696 558.0s
+[10/745] RUN AU000700 qwen3_8b TOFU/tofu_forget01 debate target_context_comm
+  DONE AU000700 575.1s
+[11/745] RUN AU000702 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU000702 522.6s
+[12/745] RUN AU000705 qwen3_8b TOFU/tofu_forget01 scratchpad target_context
+  DONE AU000705 283.5s
+[13/745] RUN AU000707 qwen3_8b TOFU/tofu_forget01 scratchpad communication
+  DONE AU000707 273.2s
+[14/745] RUN AU000709 qwen3_8b TOFU/tofu_forget01 scratchpad target_context_comm
+  DONE AU000709 283.3s
+[15/745] RUN AU000710 qwen3_8b TOFU/tofu_forget01 scratchpad target_memory_comm
+  DONE AU000710 288.0s
+[16/745] RUN AU000711 qwen3_8b TOFU/tofu_forget01 scratchpad full_inference
+  DONE AU000711 279.8s
+[17/745] RUN AU000712 qwen3_8b TOFU/tofu_forget01 hierarchical none
+  DONE AU000712 163.6s
+[18/745] RUN AU000715 qwen3_8b TOFU/tofu_forget01 hierarchical target_memory
+  DONE AU000715 163.9s
+[19/745] RUN AU000716 qwen3_8b TOFU/tofu_forget01 hierarchical communication
+  DONE AU000716 164.1s
+[20/745] RUN AU000724 qwen3_8b TOFU/tofu_forget05 independent target_memory
+  DONE AU000724 105.7s
+[21/745] RUN AU000725 qwen3_8b TOFU/tofu_forget05 independent communication
+  DONE AU000725 106.0s
+[22/745] RUN AU000726 qwen3_8b TOFU/tofu_forget05 independent target_context_memory
+  DONE AU000726 107.8s
+[23/745] RUN AU000727 qwen3_8b TOFU/tofu_forget05 independent target_context_comm
+  DONE AU000727 105.8s
+[24/745] RUN AU000729 qwen3_8b TOFU/tofu_forget05 independent full_inference
+  DONE AU000729 107.1s
+[25/745] RUN AU000730 qwen3_8b TOFU/tofu_forget05 sequential none
+  DONE AU000730 123.6s
+[26/745] RUN AU000731 qwen3_8b TOFU/tofu_forget05 sequential global_context
+  DONE AU000731 132.6s
+[27/745] RUN AU000733 qwen3_8b TOFU/tofu_forget05 sequential target_memory
+  DONE AU000733 120.7s
+[28/745] RUN AU000734 qwen3_8b TOFU/tofu_forget05 sequential communication
+  DONE AU000734 123.9s
+[29/745] RUN AU000737 qwen3_8b TOFU/tofu_forget05 sequential target_memory_comm
+  DONE AU000737 124.9s
+[30/745] RUN AU000739 qwen3_8b TOFU/tofu_forget05 debate none
+  DONE AU000739 424.1s
+[31/745] RUN AU000740 qwen3_8b TOFU/tofu_forget05 debate global_context
+  DONE AU000740 384.8s
+[32/745] RUN AU000741 qwen3_8b TOFU/tofu_forget05 debate target_context
+  DONE AU000741 454.2s
+[33/745] RUN AU000745 qwen3_8b TOFU/tofu_forget05 debate target_context_comm
+  DONE AU000745 446.3s
+[34/745] RUN AU000747 qwen3_8b TOFU/tofu_forget05 debate full_inference
+  DONE AU000747 454.6s
+[35/745] RUN AU000749 qwen3_8b TOFU/tofu_forget05 scratchpad global_context
+  DONE AU000749 212.8s
+[36/745] RUN AU000750 qwen3_8b TOFU/tofu_forget05 scratchpad target_context
+  DONE AU000750 194.4s
+[37/745] RUN AU000751 qwen3_8b TOFU/tofu_forget05 scratchpad target_memory
+  DONE AU000751 197.3s
+[38/745] RUN AU000752 qwen3_8b TOFU/tofu_forget05 scratchpad communication
+  DONE AU000752 179.6s
+[39/745] RUN AU000754 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_comm
+  DONE AU000754 192.4s
+[40/745] RUN AU000755 qwen3_8b TOFU/tofu_forget05 scratchpad target_memory_comm
+  DONE AU000755 209.6s
+[41/745] RUN AU000756 qwen3_8b TOFU/tofu_forget05 scratchpad full_inference
+  DONE AU000756 198.8s
+[42/745] RUN AU000757 qwen3_8b TOFU/tofu_forget05 hierarchical none
+  DONE AU000757 106.3s
+[43/745] RUN AU000763 qwen3_8b TOFU/tofu_forget05 hierarchical target_context_comm
+  DONE AU000763 115.3s
+[44/745] RUN AU000766 qwen3_8b TOFU/tofu_forget10 independent none
+  DONE AU000766 144.1s
+[45/745] RUN AU000769 qwen3_8b TOFU/tofu_forget10 independent target_memory
+  DONE AU000769 142.9s
+[46/745] RUN AU000770 qwen3_8b TOFU/tofu_forget10 independent communication
+  DONE AU000770 144.1s
+[47/745] RUN AU000775 qwen3_8b TOFU/tofu_forget10 sequential none
+  DONE AU000775 160.5s
+[48/745] RUN AU000777 qwen3_8b TOFU/tofu_forget10 sequential target_context
+  DONE AU000777 156.9s
+[49/745] RUN AU000778 qwen3_8b TOFU/tofu_forget10 sequential target_memory
+  DONE AU000778 157.2s
+[50/745] RUN AU000779 qwen3_8b TOFU/tofu_forget10 sequential communication
+  DONE AU000779 157.2s
+[51/745] RUN AU000791 qwen3_8b TOFU/tofu_forget10 debate target_memory_comm
+  DONE AU000791 491.7s
+[52/745] RUN AU000793 qwen3_8b TOFU/tofu_forget10 scratchpad none
+  DONE AU000793 262.6s
+[53/745] RUN AU000794 qwen3_8b TOFU/tofu_forget10 scratchpad global_context
+  DONE AU000794 220.6s
+[54/745] RUN AU000795 qwen3_8b TOFU/tofu_forget10 scratchpad target_context
+  DONE AU000795 262.1s
+[55/745] RUN AU000796 qwen3_8b TOFU/tofu_forget10 scratchpad target_memory
+  DONE AU000796 275.3s
+[56/745] RUN AU000798 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU000798 263.0s
+[57/745] RUN AU000801 qwen3_8b TOFU/tofu_forget10 scratchpad full_inference
+  DONE AU000801 247.4s
+[58/745] RUN AU000802 qwen3_8b TOFU/tofu_forget10 hierarchical none
+  DONE AU000802 143.9s
+[59/745] RUN AU000803 qwen3_8b TOFU/tofu_forget10 hierarchical global_context
+  DONE AU000803 126.1s
+[60/745] RUN AU000804 qwen3_8b TOFU/tofu_forget10 hierarchical target_context
+  DONE AU000804 140.2s
+[61/745] RUN AU000806 qwen3_8b TOFU/tofu_forget10 hierarchical communication
+  DONE AU000806 144.0s
+[62/745] RUN AU000808 qwen3_8b TOFU/tofu_forget10 hierarchical target_context_comm
+  DONE AU000808 140.5s
+[63/745] RUN AU000809 qwen3_8b TOFU/tofu_forget10 hierarchical target_memory_comm
+  DONE AU000809 143.0s
+[64/745] RUN AU000810 qwen3_8b TOFU/tofu_forget10 hierarchical full_inference
+  DONE AU000810 142.8s
+[65/745] RUN AU000813 qwen3_8b MUSE-News/muse_news independent target_context
+  DONE AU000813 162.7s
+[66/745] RUN AU000816 qwen3_8b MUSE-News/muse_news independent target_context_memory
+  DONE AU000816 136.5s
+[67/745] RUN AU000818 qwen3_8b MUSE-News/muse_news independent target_memory_comm
+  DONE AU000818 137.0s
+[68/745] RUN AU000820 qwen3_8b MUSE-News/muse_news sequential none
+  DONE AU000820 143.5s
+[69/745] RUN AU000821 qwen3_8b MUSE-News/muse_news sequential global_context
+  DONE AU000821 140.4s
+[70/745] RUN AU000822 qwen3_8b MUSE-News/muse_news sequential target_context
+  DONE AU000822 137.9s
+[71/745] RUN AU000831 qwen3_8b MUSE-News/muse_news debate target_context
+  DONE AU000831 499.8s
+[72/745] RUN AU000834 qwen3_8b MUSE-News/muse_news debate target_context_memory
+  DONE AU000834 483.0s
+[73/745] RUN AU000837 qwen3_8b MUSE-News/muse_news debate full_inference
+  DONE AU000837 492.5s
+[74/745] RUN AU000838 qwen3_8b MUSE-News/muse_news scratchpad none
+  DONE AU000838 179.2s
+[75/745] RUN AU000839 qwen3_8b MUSE-News/muse_news scratchpad global_context
+  DONE AU000839 176.5s
+[76/745] RUN AU000841 qwen3_8b MUSE-News/muse_news scratchpad target_memory
+  DONE AU000841 166.1s
+[77/745] RUN AU000842 qwen3_8b MUSE-News/muse_news scratchpad communication
+  DONE AU000842 179.4s
+[78/745] RUN AU000843 qwen3_8b MUSE-News/muse_news scratchpad target_context_memory
+  DONE AU000843 160.1s
+[79/745] RUN AU000844 qwen3_8b MUSE-News/muse_news scratchpad target_context_comm
+  DONE AU000844 160.2s
+[80/745] RUN AU000846 qwen3_8b MUSE-News/muse_news scratchpad full_inference
+  DONE AU000846 160.7s
+[81/745] RUN AU000847 qwen3_8b MUSE-News/muse_news hierarchical none
+  DONE AU000847 142.5s
+[82/745] RUN AU000850 qwen3_8b MUSE-News/muse_news hierarchical target_memory
+  DONE AU000850 136.0s
+[83/745] RUN AU000852 qwen3_8b MUSE-News/muse_news hierarchical target_context_memory
+  DONE AU000852 143.9s
+[84/745] RUN AU000854 qwen3_8b MUSE-News/muse_news hierarchical target_memory_comm
+  DONE AU000854 146.2s
+[85/745] RUN AU000855 qwen3_8b MUSE-News/muse_news hierarchical full_inference
+  DONE AU000855 148.7s
+[86/745] RUN AU000859 qwen3_8b MUSE-Books/muse_books independent target_memory
+  DONE AU000859 204.2s
+[87/745] RUN AU000867 qwen3_8b MUSE-Books/muse_books sequential target_context
+  DONE AU000867 208.2s
+[88/745] RUN AU000869 qwen3_8b MUSE-Books/muse_books sequential communication
+  DONE AU000869 218.5s
+[89/745] RUN AU000874 qwen3_8b MUSE-Books/muse_books debate none
+  DONE AU000874 934.1s
+[90/745] RUN AU000876 qwen3_8b MUSE-Books/muse_books debate target_context
+  DONE AU000876 815.7s
+[91/745] RUN AU000877 qwen3_8b MUSE-Books/muse_books debate target_memory
+  DONE AU000877 842.0s
+[92/745] RUN AU000878 qwen3_8b MUSE-Books/muse_books debate communication
+  DONE AU000878 833.6s
+[93/745] RUN AU000879 qwen3_8b MUSE-Books/muse_books debate target_context_memory
+  DONE AU000879 783.2s
+[94/745] RUN AU000884 qwen3_8b MUSE-Books/muse_books scratchpad global_context
+  DONE AU000884 225.6s
+[95/745] RUN AU000885 qwen3_8b MUSE-Books/muse_books scratchpad target_context
+  DONE AU000885 266.6s
+[96/745] RUN AU000886 qwen3_8b MUSE-Books/muse_books scratchpad target_memory
+  DONE AU000886 271.8s
+[97/745] RUN AU000889 qwen3_8b MUSE-Books/muse_books scratchpad target_context_comm
+  DONE AU000889 248.2s
+[98/745] RUN AU000890 qwen3_8b MUSE-Books/muse_books scratchpad target_memory_comm
+  DONE AU000890 269.6s
+[99/745] RUN AU000893 qwen3_8b MUSE-Books/muse_books hierarchical global_context
+  DONE AU000893 184.3s
+[100/745] RUN AU000895 qwen3_8b MUSE-Books/muse_books hierarchical target_memory
+  DONE AU000895 197.9s
+[101/745] RUN AU000897 qwen3_8b MUSE-Books/muse_books hierarchical target_context_memory
+  DONE AU000897 196.5s
+[102/745] RUN AU000898 qwen3_8b MUSE-Books/muse_books hierarchical target_context_comm
+  DONE AU000898 205.3s
+[103/745] RUN AU000901 qwen3_8b RWKU/rwku_001 independent none
+  DONE AU000901 86.6s
+[104/745] RUN AU000902 qwen3_8b RWKU/rwku_001 independent global_context
+  DONE AU000902 91.7s
+[105/745] RUN AU000906 qwen3_8b RWKU/rwku_001 independent target_context_memory
+  DONE AU000906 86.8s
+[106/745] RUN AU000908 qwen3_8b RWKU/rwku_001 independent target_memory_comm
+  DONE AU000908 85.0s
+[107/745] RUN AU000911 qwen3_8b RWKU/rwku_001 sequential global_context
+  DONE AU000911 91.3s
+[108/745] RUN AU000914 qwen3_8b RWKU/rwku_001 sequential communication
+  DONE AU000914 110.2s
+[109/745] RUN AU000916 qwen3_8b RWKU/rwku_001 sequential target_context_comm
+  DONE AU000916 104.9s
+[110/745] RUN AU000918 qwen3_8b RWKU/rwku_001 sequential full_inference
+  DONE AU000918 98.4s
+[111/745] RUN AU000919 qwen3_8b RWKU/rwku_001 debate none
+  DONE AU000919 382.2s
+[112/745] RUN AU000920 qwen3_8b RWKU/rwku_001 debate global_context
+  DONE AU000920 327.0s
+[113/745] RUN AU000921 qwen3_8b RWKU/rwku_001 debate target_context
+  DONE AU000921 396.7s
+[114/745] RUN AU000926 qwen3_8b RWKU/rwku_001 debate target_memory_comm
+  DONE AU000926 351.8s
+[115/745] RUN AU000927 qwen3_8b RWKU/rwku_001 debate full_inference
+  DONE AU000927 354.5s
+[116/745] RUN AU000928 qwen3_8b RWKU/rwku_001 scratchpad none
+  DONE AU000928 134.1s
+[117/745] RUN AU000930 qwen3_8b RWKU/rwku_001 scratchpad target_context
+  DONE AU000930 138.2s
+[118/745] RUN AU000931 qwen3_8b RWKU/rwku_001 scratchpad target_memory
+  DONE AU000931 126.5s
+[119/745] RUN AU000933 qwen3_8b RWKU/rwku_001 scratchpad target_context_memory
+  DONE AU000933 119.3s
+[120/745] RUN AU000936 qwen3_8b RWKU/rwku_001 scratchpad full_inference
+  DONE AU000936 124.4s
+[121/745] RUN AU000937 qwen3_8b RWKU/rwku_001 hierarchical none
+  DONE AU000937 109.5s
+[122/745] RUN AU000939 qwen3_8b RWKU/rwku_001 hierarchical target_context
+  DONE AU000939 106.5s
+[123/745] RUN AU000941 qwen3_8b RWKU/rwku_001 hierarchical communication
+  DONE AU000941 107.6s
+[124/745] RUN AU000944 qwen3_8b RWKU/rwku_001 hierarchical target_memory_comm
+  DONE AU000944 107.5s
+[125/745] RUN AU000946 qwen3_8b RWKU/rwku_023 independent none
+  DONE AU000946 79.6s
+[126/745] RUN AU000951 qwen3_8b RWKU/rwku_023 independent target_context_memory
+  DONE AU000951 73.1s
+[127/745] RUN AU000959 qwen3_8b RWKU/rwku_023 sequential communication
+  DONE AU000959 89.7s
+[128/745] RUN AU000960 qwen3_8b RWKU/rwku_023 sequential target_context_memory
+  DONE AU000960 80.2s
+[129/745] RUN AU000961 qwen3_8b RWKU/rwku_023 sequential target_context_comm
+  DONE AU000961 87.3s
+[130/745] RUN AU000962 qwen3_8b RWKU/rwku_023 sequential target_memory_comm
+  DONE AU000962 86.6s
+[131/745] RUN AU000964 qwen3_8b RWKU/rwku_023 debate none
+  DONE AU000964 328.5s
+[132/745] RUN AU000967 qwen3_8b RWKU/rwku_023 debate target_memory
+  DONE AU000967 306.0s
+[133/745] RUN AU000970 qwen3_8b RWKU/rwku_023 debate target_context_comm
+  DONE AU000970 344.5s
+[134/745] RUN AU000972 qwen3_8b RWKU/rwku_023 debate full_inference
+  DONE AU000972 295.2s
+[135/745] RUN AU000973 qwen3_8b RWKU/rwku_023 scratchpad none
+  DONE AU000973 111.5s
+[136/745] RUN AU000976 qwen3_8b RWKU/rwku_023 scratchpad target_memory
+  DONE AU000976 108.3s
+[137/745] RUN AU000978 qwen3_8b RWKU/rwku_023 scratchpad target_context_memory
+  DONE AU000978 107.0s
+[138/745] RUN AU000980 qwen3_8b RWKU/rwku_023 scratchpad target_memory_comm
+  DONE AU000980 109.3s
+[139/745] RUN AU000983 qwen3_8b RWKU/rwku_023 hierarchical global_context
+  DONE AU000983 70.3s
+[140/745] RUN AU000984 qwen3_8b RWKU/rwku_023 hierarchical target_context
+  DONE AU000984 80.3s
+[141/745] RUN AU000985 qwen3_8b RWKU/rwku_023 hierarchical target_memory
+  DONE AU000985 77.5s
+[142/745] RUN AU000987 qwen3_8b RWKU/rwku_023 hierarchical target_context_memory
+  DONE AU000987 78.3s
+[143/745] RUN AU000992 qwen3_8b RWKU/rwku_045 independent global_context
+  DONE AU000992 85.6s
+[144/745] RUN AU000993 qwen3_8b RWKU/rwku_045 independent target_context
+  DONE AU000993 102.8s
+[145/745] RUN AU000994 qwen3_8b RWKU/rwku_045 independent target_memory
+  DONE AU000994 102.2s
+[146/745] RUN AU000995 qwen3_8b RWKU/rwku_045 independent communication
+  DONE AU000995 108.2s
+[147/745] RUN AU000997 qwen3_8b RWKU/rwku_045 independent target_context_comm
+  DONE AU000997 103.3s
+[148/745] RUN AU000998 qwen3_8b RWKU/rwku_045 independent target_memory_comm
+  DONE AU000998 102.8s
+[149/745] RUN AU000999 qwen3_8b RWKU/rwku_045 independent full_inference
+  DONE AU000999 96.7s
+[150/745] RUN AU001000 qwen3_8b RWKU/rwku_045 sequential none
+  DONE AU001000 156.1s
+[151/745] RUN AU001003 qwen3_8b RWKU/rwku_045 sequential target_memory
+  DONE AU001003 153.3s
+[152/745] RUN AU001005 qwen3_8b RWKU/rwku_045 sequential target_context_memory
+  DONE AU001005 147.7s
+[153/745] RUN AU001010 qwen3_8b RWKU/rwku_045 debate global_context
+  DONE AU001010 415.1s
+[154/745] RUN AU001011 qwen3_8b RWKU/rwku_045 debate target_context
+  DONE AU001011 506.9s
+[155/745] RUN AU001013 qwen3_8b RWKU/rwku_045 debate communication
+  DONE AU001013 501.5s
+[156/745] RUN AU001014 qwen3_8b RWKU/rwku_045 debate target_context_memory
+  DONE AU001014 462.4s
+[157/745] RUN AU001018 qwen3_8b RWKU/rwku_045 scratchpad none
+  DONE AU001018 180.0s
+[158/745] RUN AU001019 qwen3_8b RWKU/rwku_045 scratchpad global_context
+  DONE AU001019 115.2s
+[159/745] RUN AU001020 qwen3_8b RWKU/rwku_045 scratchpad target_context
+  DONE AU001020 171.4s
+[160/745] RUN AU001021 qwen3_8b RWKU/rwku_045 scratchpad target_memory
+  DONE AU001021 168.6s
+[161/745] RUN AU001022 qwen3_8b RWKU/rwku_045 scratchpad communication
+  DONE AU001022 166.2s
+[162/745] RUN AU001023 qwen3_8b RWKU/rwku_045 scratchpad target_context_memory
+  DONE AU001023 163.5s
+[163/745] RUN AU001024 qwen3_8b RWKU/rwku_045 scratchpad target_context_comm
+  DONE AU001024 160.8s
+[164/745] RUN AU001027 qwen3_8b RWKU/rwku_045 hierarchical none
+  DONE AU001027 153.1s
+[165/745] RUN AU001028 qwen3_8b RWKU/rwku_045 hierarchical global_context
+  DONE AU001028 89.1s
+[166/745] RUN AU001033 qwen3_8b RWKU/rwku_045 hierarchical target_context_comm
+  DONE AU001033 136.5s
+[167/745] RUN AU001036 qwen3_8b RWKU/rwku_067 independent none
+  DONE AU001036 183.2s
+[168/745] RUN AU001037 qwen3_8b RWKU/rwku_067 independent global_context
+  DONE AU001037 101.2s
+[169/745] RUN AU001038 qwen3_8b RWKU/rwku_067 independent target_context
+  DONE AU001038 162.4s
+[170/745] RUN AU001039 qwen3_8b RWKU/rwku_067 independent target_memory
+  DONE AU001039 161.6s
+[171/745] RUN AU001040 qwen3_8b RWKU/rwku_067 independent communication
+  DONE AU001040 182.3s
+[172/745] RUN AU001046 qwen3_8b RWKU/rwku_067 sequential global_context
+  DONE AU001046 122.3s
+[173/745] RUN AU001051 qwen3_8b RWKU/rwku_067 sequential target_context_comm
+  DONE AU001051 138.7s
+[174/745] RUN AU001053 qwen3_8b RWKU/rwku_067 sequential full_inference
+  DONE AU001053 134.1s
+[175/745] RUN AU001054 qwen3_8b RWKU/rwku_067 debate none
+  DONE AU001054 534.8s
+[176/745] RUN AU001055 qwen3_8b RWKU/rwku_067 debate global_context
+  DONE AU001055 399.5s
+[177/745] RUN AU001057 qwen3_8b RWKU/rwku_067 debate target_memory
+  DONE AU001057 510.4s
+[178/745] RUN AU001059 qwen3_8b RWKU/rwku_067 debate target_context_memory
+  DONE AU001059 571.8s
+[179/745] RUN AU001060 qwen3_8b RWKU/rwku_067 debate target_context_comm
+  DONE AU001060 531.8s
+[180/745] RUN AU001064 qwen3_8b RWKU/rwku_067 scratchpad global_context
+  DONE AU001064 157.4s
+[181/745] RUN AU001066 qwen3_8b RWKU/rwku_067 scratchpad target_memory
+  DONE AU001066 144.6s
+[182/745] RUN AU001071 qwen3_8b RWKU/rwku_067 scratchpad full_inference
+  DONE AU001071 150.4s
+[183/745] RUN AU001073 qwen3_8b RWKU/rwku_067 hierarchical global_context
+  DONE AU001073 109.6s
+[184/745] RUN AU001074 qwen3_8b RWKU/rwku_067 hierarchical target_context
+  DONE AU001074 152.4s
+[185/745] RUN AU001077 qwen3_8b RWKU/rwku_067 hierarchical target_context_memory
+  DONE AU001077 153.3s
+[186/745] RUN AU001078 qwen3_8b RWKU/rwku_067 hierarchical target_context_comm
+  DONE AU001078 155.0s
+[187/745] RUN AU001079 qwen3_8b RWKU/rwku_067 hierarchical target_memory_comm
+  DONE AU001079 151.9s
+[188/745] RUN AU001080 qwen3_8b RWKU/rwku_067 hierarchical full_inference
+  DONE AU001080 155.6s
+[189/745] RUN AU001082 qwen3_8b RWKU/rwku_089 independent global_context
+  DONE AU001082 90.0s
+[190/745] RUN AU001083 qwen3_8b RWKU/rwku_089 independent target_context
+  DONE AU001083 105.4s
+[191/745] RUN AU001084 qwen3_8b RWKU/rwku_089 independent target_memory
+  DONE AU001084 104.5s
+[192/745] RUN AU001085 qwen3_8b RWKU/rwku_089 independent communication
+  DONE AU001085 111.3s
+[193/745] RUN AU001090 qwen3_8b RWKU/rwku_089 sequential none
+  DONE AU001090 125.1s
+[194/745] RUN AU001091 qwen3_8b RWKU/rwku_089 sequential global_context
+  DONE AU001091 101.1s
+[195/745] RUN AU001092 qwen3_8b RWKU/rwku_089 sequential target_context
+  DONE AU001092 118.0s
+[196/745] RUN AU001093 qwen3_8b RWKU/rwku_089 sequential target_memory
+  DONE AU001093 119.6s
+[197/745] RUN AU001094 qwen3_8b RWKU/rwku_089 sequential communication
+  DONE AU001094 128.3s
+[198/745] RUN AU001095 qwen3_8b RWKU/rwku_089 sequential target_context_memory
+  DONE AU001095 116.9s
+[199/745] RUN AU001097 qwen3_8b RWKU/rwku_089 sequential target_memory_comm
+  DONE AU001097 126.4s
+[200/745] RUN AU001099 qwen3_8b RWKU/rwku_089 debate none
+  DONE AU001099 612.0s
+[201/745] RUN AU001100 qwen3_8b RWKU/rwku_089 debate global_context
+  DONE AU001100 536.8s
+[202/745] RUN AU001104 qwen3_8b RWKU/rwku_089 debate target_context_memory
+  DONE AU001104 561.7s
+[203/745] RUN AU001105 qwen3_8b RWKU/rwku_089 debate target_context_comm
+  DONE AU001105 620.1s
+[204/745] RUN AU001107 qwen3_8b RWKU/rwku_089 debate full_inference
+  DONE AU001107 554.4s
+[205/745] RUN AU001109 qwen3_8b RWKU/rwku_089 scratchpad global_context
+  DONE AU001109 150.1s
+[206/745] RUN AU001111 qwen3_8b RWKU/rwku_089 scratchpad target_memory
+  DONE AU001111 151.9s
+[207/745] RUN AU001112 qwen3_8b RWKU/rwku_089 scratchpad communication
+  DONE AU001112 158.0s
+[208/745] RUN AU001113 qwen3_8b RWKU/rwku_089 scratchpad target_context_memory
+  DONE AU001113 144.4s
+[209/745] RUN AU001114 qwen3_8b RWKU/rwku_089 scratchpad target_context_comm
+  DONE AU001114 149.3s
+[210/745] RUN AU001115 qwen3_8b RWKU/rwku_089 scratchpad target_memory_comm
+  DONE AU001115 149.2s
+[211/745] RUN AU001120 qwen3_8b RWKU/rwku_089 hierarchical target_memory
+  DONE AU001120 121.7s
+[212/745] RUN AU001121 qwen3_8b RWKU/rwku_089 hierarchical communication
+  DONE AU001121 127.8s
+[213/745] RUN AU001125 qwen3_8b RWKU/rwku_089 hierarchical full_inference
+  DONE AU001125 115.7s
+[214/745] RUN AU001126 qwen3_8b RWKU/rwku_112 independent none
+  DONE AU001126 160.1s
+[215/745] RUN AU001127 qwen3_8b RWKU/rwku_112 independent global_context
+  DONE AU001127 99.9s
+[216/745] RUN AU001129 qwen3_8b RWKU/rwku_112 independent target_memory
+  DONE AU001129 139.5s
+[217/745] RUN AU001130 qwen3_8b RWKU/rwku_112 independent communication
+  DONE AU001130 159.5s
+[218/745] RUN AU001132 qwen3_8b RWKU/rwku_112 independent target_context_comm
+  DONE AU001132 144.4s
+[219/745] RUN AU001133 qwen3_8b RWKU/rwku_112 independent target_memory_comm
+  DONE AU001133 140.0s
+[220/745] RUN AU001134 qwen3_8b RWKU/rwku_112 independent full_inference
+  DONE AU001134 138.5s
+[221/745] RUN AU001136 qwen3_8b RWKU/rwku_112 sequential global_context
+  DONE AU001136 97.6s
+[222/745] RUN AU001137 qwen3_8b RWKU/rwku_112 sequential target_context
+  DONE AU001137 137.4s
+[223/745] RUN AU001138 qwen3_8b RWKU/rwku_112 sequential target_memory
+  DONE AU001138 139.3s
+[224/745] RUN AU001139 qwen3_8b RWKU/rwku_112 sequential communication
+  DONE AU001139 141.7s
+[225/745] RUN AU001140 qwen3_8b RWKU/rwku_112 sequential target_context_memory
+  DONE AU001140 127.9s
+[226/745] RUN AU001141 qwen3_8b RWKU/rwku_112 sequential target_context_comm
+  DONE AU001141 138.5s
+[227/745] RUN AU001143 qwen3_8b RWKU/rwku_112 sequential full_inference
+  DONE AU001143 128.1s
+[228/745] RUN AU001146 qwen3_8b RWKU/rwku_112 debate target_context
+  DONE AU001146 598.4s
+[229/745] RUN AU001147 qwen3_8b RWKU/rwku_112 debate target_memory
+  DONE AU001147 593.7s
+[230/745] RUN AU001148 qwen3_8b RWKU/rwku_112 debate communication
+  DONE AU001148 637.3s
+[231/745] RUN AU001149 qwen3_8b RWKU/rwku_112 debate target_context_memory
+  DONE AU001149 522.6s
+[232/745] RUN AU001150 qwen3_8b RWKU/rwku_112 debate target_context_comm
+  DONE AU001150 612.8s
+[233/745] RUN AU001151 qwen3_8b RWKU/rwku_112 debate target_memory_comm
+  DONE AU001151 593.9s
+[234/745] RUN AU001152 qwen3_8b RWKU/rwku_112 debate full_inference
+  DONE AU001152 537.2s
+[235/745] RUN AU001153 qwen3_8b RWKU/rwku_112 scratchpad none
+  DONE AU001153 187.3s
+[236/745] RUN AU001155 qwen3_8b RWKU/rwku_112 scratchpad target_context
+  DONE AU001155 178.0s
+[237/745] RUN AU001156 qwen3_8b RWKU/rwku_112 scratchpad target_memory
+  DONE AU001156 181.9s
+[238/745] RUN AU001158 qwen3_8b RWKU/rwku_112 scratchpad target_context_memory
+  DONE AU001158 125.5s
+[239/745] RUN AU001159 qwen3_8b RWKU/rwku_112 scratchpad target_context_comm
+  DONE AU001159 178.4s
+[240/745] RUN AU001161 qwen3_8b RWKU/rwku_112 scratchpad full_inference
+  DONE AU001161 123.9s
+[241/745] RUN AU001163 qwen3_8b RWKU/rwku_112 hierarchical global_context
+  DONE AU001163 101.0s
+[242/745] RUN AU001164 qwen3_8b RWKU/rwku_112 hierarchical target_context
+  DONE AU001164 132.1s
+[243/745] RUN AU001165 qwen3_8b RWKU/rwku_112 hierarchical target_memory
+  DONE AU001165 125.2s
+[244/745] RUN AU001166 qwen3_8b RWKU/rwku_112 hierarchical communication
+  DONE AU001166 152.7s
+[245/745] RUN AU001168 qwen3_8b RWKU/rwku_112 hierarchical target_context_comm
+  DONE AU001168 131.9s
+[246/745] RUN AU001169 qwen3_8b RWKU/rwku_112 hierarchical target_memory_comm
+  DONE AU001169 125.7s
+[247/745] RUN AU001170 qwen3_8b RWKU/rwku_112 hierarchical full_inference
+  DONE AU001170 124.1s
+[248/745] RUN AU001172 qwen3_8b RWKU/rwku_134 independent global_context
+  DONE AU001172 83.6s
+[249/745] RUN AU001173 qwen3_8b RWKU/rwku_134 independent target_context
+  DONE AU001173 118.0s
+[250/745] RUN AU001174 qwen3_8b RWKU/rwku_134 independent target_memory
+  DONE AU001174 126.5s
+[251/745] RUN AU001175 qwen3_8b RWKU/rwku_134 independent communication
+  DONE AU001175 129.8s
+[252/745] RUN AU001176 qwen3_8b RWKU/rwku_134 independent target_context_memory
+  DONE AU001176 114.9s
+[253/745] RUN AU001178 qwen3_8b RWKU/rwku_134 independent target_memory_comm
+  DONE AU001178 126.7s
+[254/745] RUN AU001179 qwen3_8b RWKU/rwku_134 independent full_inference
+  DONE AU001179 115.2s
+[255/745] RUN AU001180 qwen3_8b RWKU/rwku_134 sequential none
+  DONE AU001180 114.9s
+[256/745] RUN AU001184 qwen3_8b RWKU/rwku_134 sequential communication
+  DONE AU001184 144.0s
+[257/745] RUN AU001189 qwen3_8b RWKU/rwku_134 debate none
+  DONE AU001189 437.6s
+[258/745] RUN AU001191 qwen3_8b RWKU/rwku_134 debate target_context
+  DONE AU001191 504.7s
+[259/745] RUN AU001192 qwen3_8b RWKU/rwku_134 debate target_memory
+  DONE AU001192 465.4s
+[260/745] RUN AU001196 qwen3_8b RWKU/rwku_134 debate target_memory_comm
+  DONE AU001196 463.7s
+[261/745] RUN AU001197 qwen3_8b RWKU/rwku_134 debate full_inference
+  DONE AU001197 563.6s
+[262/745] RUN AU001201 qwen3_8b RWKU/rwku_134 scratchpad target_memory
+  DONE AU001201 139.9s
+[263/745] RUN AU001202 qwen3_8b RWKU/rwku_134 scratchpad communication
+  DONE AU001202 140.8s
+[264/745] RUN AU001203 qwen3_8b RWKU/rwku_134 scratchpad target_context_memory
+  DONE AU001203 132.8s
+[265/745] RUN AU001204 qwen3_8b RWKU/rwku_134 scratchpad target_context_comm
+  DONE AU001204 135.2s
+[266/745] RUN AU001206 qwen3_8b RWKU/rwku_134 scratchpad full_inference
+  DONE AU001206 133.2s
+[267/745] RUN AU001209 qwen3_8b RWKU/rwku_134 hierarchical target_context
+  DONE AU001209 128.4s
+[268/745] RUN AU001210 qwen3_8b RWKU/rwku_134 hierarchical target_memory
+  DONE AU001210 140.3s
+[269/745] RUN AU001211 qwen3_8b RWKU/rwku_134 hierarchical communication
+  DONE AU001211 144.9s
+[270/745] RUN AU001213 qwen3_8b RWKU/rwku_134 hierarchical target_context_comm
+  DONE AU001213 129.5s
+[271/745] RUN AU001215 qwen3_8b RWKU/rwku_134 hierarchical full_inference
+  DONE AU001215 131.7s
+[272/745] RUN AU001216 qwen3_8b RWKU/rwku_156 independent none
+  DONE AU001216 69.3s
+[273/745] RUN AU001218 qwen3_8b RWKU/rwku_156 independent target_context
+  DONE AU001218 72.5s
+[274/745] RUN AU001220 qwen3_8b RWKU/rwku_156 independent communication
+  DONE AU001220 69.4s
+[275/745] RUN AU001222 qwen3_8b RWKU/rwku_156 independent target_context_comm
+  DONE AU001222 72.3s
+[276/745] RUN AU001228 qwen3_8b RWKU/rwku_156 sequential target_memory
+  DONE AU001228 91.1s
+[277/745] RUN AU001229 qwen3_8b RWKU/rwku_156 sequential communication
+  DONE AU001229 123.7s
+[278/745] RUN AU001230 qwen3_8b RWKU/rwku_156 sequential target_context_memory
+  DONE AU001230 87.8s
+[279/745] RUN AU001232 qwen3_8b RWKU/rwku_156 sequential target_memory_comm
+  DONE AU001232 116.2s
+[280/745] RUN AU001234 qwen3_8b RWKU/rwku_156 debate none
+  DONE AU001234 596.8s
+[281/745] RUN AU001235 qwen3_8b RWKU/rwku_156 debate global_context
+  DONE AU001235 619.5s
+[282/745] RUN AU001237 qwen3_8b RWKU/rwku_156 debate target_memory
+  DONE AU001237 553.3s
+[283/745] RUN AU001238 qwen3_8b RWKU/rwku_156 debate communication
+  DONE AU001238 613.3s
+[284/745] RUN AU001240 qwen3_8b RWKU/rwku_156 debate target_context_comm
+  DONE AU001240 656.3s
+[285/745] RUN AU001242 qwen3_8b RWKU/rwku_156 debate full_inference
+  DONE AU001242 583.7s
+[286/745] RUN AU001245 qwen3_8b RWKU/rwku_156 scratchpad target_context
+  DONE AU001245 106.7s
+[287/745] RUN AU001246 qwen3_8b RWKU/rwku_156 scratchpad target_memory
+  DONE AU001246 107.9s
+[288/745] RUN AU001248 qwen3_8b RWKU/rwku_156 scratchpad target_context_memory
+  DONE AU001248 105.6s
+[289/745] RUN AU001249 qwen3_8b RWKU/rwku_156 scratchpad target_context_comm
+  DONE AU001249 119.0s
+[290/745] RUN AU001250 qwen3_8b RWKU/rwku_156 scratchpad target_memory_comm
+  DONE AU001250 107.2s
+[291/745] RUN AU001255 qwen3_8b RWKU/rwku_156 hierarchical target_memory
+  DONE AU001255 91.5s
+[292/745] RUN AU001257 qwen3_8b RWKU/rwku_156 hierarchical target_context_memory
+  DONE AU001257 85.7s
+[293/745] RUN AU001260 qwen3_8b RWKU/rwku_156 hierarchical full_inference
+  DONE AU001260 87.0s
+[294/745] RUN AU001263 qwen3_8b RWKU/rwku_178 independent target_context
+  DONE AU001263 87.0s
+[295/745] RUN AU001264 qwen3_8b RWKU/rwku_178 independent target_memory
+  DONE AU001264 87.1s
+[296/745] RUN AU001265 qwen3_8b RWKU/rwku_178 independent communication
+  DONE AU001265 90.3s
+[297/745] RUN AU001271 qwen3_8b RWKU/rwku_178 sequential global_context
+  DONE AU001271 76.8s
+[298/745] RUN AU001274 qwen3_8b RWKU/rwku_178 sequential communication
+  DONE AU001274 103.2s
+[299/745] RUN AU001276 qwen3_8b RWKU/rwku_178 sequential target_context_comm
+  DONE AU001276 105.0s
+[300/745] RUN AU001279 qwen3_8b RWKU/rwku_178 debate none
+  DONE AU001279 335.2s
+[301/745] RUN AU001280 qwen3_8b RWKU/rwku_178 debate global_context
+  DONE AU001280 310.6s
+[302/745] RUN AU001283 qwen3_8b RWKU/rwku_178 debate communication
+  DONE AU001283 351.6s
+[303/745] RUN AU001287 qwen3_8b RWKU/rwku_178 debate full_inference
+  DONE AU001287 355.6s
+[304/745] RUN AU001288 qwen3_8b RWKU/rwku_178 scratchpad none
+  DONE AU001288 122.0s
+[305/745] RUN AU001292 qwen3_8b RWKU/rwku_178 scratchpad communication
+  DONE AU001292 120.6s
+[306/745] RUN AU001293 qwen3_8b RWKU/rwku_178 scratchpad target_context_memory
+  DONE AU001293 112.7s
+[307/745] RUN AU001294 qwen3_8b RWKU/rwku_178 scratchpad target_context_comm
+  DONE AU001294 116.1s
+[308/745] RUN AU001296 qwen3_8b RWKU/rwku_178 scratchpad full_inference
+  DONE AU001296 117.5s
+[309/745] RUN AU001297 qwen3_8b RWKU/rwku_178 hierarchical none
+  DONE AU001297 102.9s
+[310/745] RUN AU001300 qwen3_8b RWKU/rwku_178 hierarchical target_memory
+  DONE AU001300 94.3s
+[311/745] RUN AU001301 qwen3_8b RWKU/rwku_178 hierarchical communication
+  DONE AU001301 103.4s
+[312/745] RUN AU001302 qwen3_8b RWKU/rwku_178 hierarchical target_context_memory
+  DONE AU001302 91.3s
+[313/745] RUN AU001304 qwen3_8b RWKU/rwku_178 hierarchical target_memory_comm
+  DONE AU001304 94.5s
+[314/745] RUN AU001305 qwen3_8b RWKU/rwku_178 hierarchical full_inference
+  DONE AU001305 89.5s
+[315/745] RUN AU001307 qwen3_8b RWKU/rwku_200 independent global_context
+  DONE AU001307 116.4s
+[316/745] RUN AU001309 qwen3_8b RWKU/rwku_200 independent target_memory
+  DONE AU001309 132.5s
+[317/745] RUN AU001312 qwen3_8b RWKU/rwku_200 independent target_context_comm
+  DONE AU001312 142.0s
+[318/745] RUN AU001313 qwen3_8b RWKU/rwku_200 independent target_memory_comm
+  DONE AU001313 132.3s
+[319/745] RUN AU001314 qwen3_8b RWKU/rwku_200 independent full_inference
+  DONE AU001314 134.4s
+[320/745] RUN AU001316 qwen3_8b RWKU/rwku_200 sequential global_context
+  DONE AU001316 128.6s
+[321/745] RUN AU001317 qwen3_8b RWKU/rwku_200 sequential target_context
+  DONE AU001317 150.2s
+[322/745] RUN AU001319 qwen3_8b RWKU/rwku_200 sequential communication
+  DONE AU001319 145.7s
+[323/745] RUN AU001321 qwen3_8b RWKU/rwku_200 sequential target_context_comm
+  DONE AU001321 142.1s
+[324/745] RUN AU001323 qwen3_8b RWKU/rwku_200 sequential full_inference
+  DONE AU001323 132.8s
+[325/745] RUN AU001325 qwen3_8b RWKU/rwku_200 debate global_context
+  DONE AU001325 492.8s
+[326/745] RUN AU001326 qwen3_8b RWKU/rwku_200 debate target_context
+  DONE AU001326 504.5s
+[327/745] RUN AU001328 qwen3_8b RWKU/rwku_200 debate communication
+  DONE AU001328 570.7s
+[328/745] RUN AU001329 qwen3_8b RWKU/rwku_200 debate target_context_memory
+  DONE AU001329 477.8s
+[329/745] RUN AU001332 qwen3_8b RWKU/rwku_200 debate full_inference
+  DONE AU001332 482.1s
+[330/745] RUN AU001333 qwen3_8b RWKU/rwku_200 scratchpad none
+  DONE AU001333 153.4s
+[331/745] RUN AU001334 qwen3_8b RWKU/rwku_200 scratchpad global_context
+  DONE AU001334 133.3s
+[332/745] RUN AU001335 qwen3_8b RWKU/rwku_200 scratchpad target_context
+  DONE AU001335 147.9s
+[333/745] RUN AU001339 qwen3_8b RWKU/rwku_200 scratchpad target_context_comm
+  DONE AU001339 146.5s
+[334/745] RUN AU001340 qwen3_8b RWKU/rwku_200 scratchpad target_memory_comm
+  DONE AU001340 138.4s
+[335/745] RUN AU001341 qwen3_8b RWKU/rwku_200 scratchpad full_inference
+  DONE AU001341 142.2s
+[336/745] RUN AU001344 qwen3_8b RWKU/rwku_200 hierarchical target_context
+  DONE AU001344 126.7s
+[337/745] RUN AU001345 qwen3_8b RWKU/rwku_200 hierarchical target_memory
+  DONE AU001345 123.0s
+[338/745] RUN AU001347 qwen3_8b RWKU/rwku_200 hierarchical target_context_memory
+  DONE AU001347 115.8s
+[339/745] RUN AU001348 qwen3_8b RWKU/rwku_200 hierarchical target_context_comm
+  DONE AU001348 136.6s
+[340/745] RUN AU001350 qwen3_8b RWKU/rwku_200 hierarchical full_inference
+  DONE AU001350 124.6s
+[341/745] RUN AU002658 qwen3_8b TOFU/tofu_forget01 sequential target_context_memory
+  DONE AU002658 188.1s
+[342/745] RUN AU002659 qwen3_8b TOFU/tofu_forget01 sequential full_inference
+  DONE AU002659 44.9s
+[343/745] RUN AU002660 qwen3_8b TOFU/tofu_forget01 sequential full_inference
+  DONE AU002660 86.5s
+[344/745] RUN AU002661 qwen3_8b TOFU/tofu_forget01 sequential full_inference
+  DONE AU002661 179.8s
+[345/745] RUN AU002664 qwen3_8b TOFU/tofu_forget01 debate target_context_memory
+  DONE AU002664 1119.2s
+[346/745] RUN AU002665 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU002665 142.6s
+[347/745] RUN AU002675 qwen3_8b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU002675 60.6s
+[348/745] RUN AU002677 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU002677 29.1s
+[349/745] RUN AU002680 qwen3_8b TOFU/tofu_forget05 debate target_context_memory
+  DONE AU002680 143.0s
+[350/745] RUN AU002681 qwen3_8b TOFU/tofu_forget05 debate target_context_memory
+  DONE AU002681 198.7s
+[351/745] RUN AU002682 qwen3_8b TOFU/tofu_forget05 debate target_context_memory
+  DONE AU002682 902.6s
+[352/745] RUN AU002686 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU002686 63.4s
+[353/745] RUN AU002687 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU002687 105.1s
+[354/745] RUN AU002688 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU002688 369.5s
+[355/745] RUN AU002693 qwen3_8b TOFU/tofu_forget10 sequential target_context_memory
+  DONE AU002693 76.3s
+[356/745] RUN AU002696 qwen3_8b TOFU/tofu_forget10 sequential full_inference
+  DONE AU002696 73.7s
+[357/745] RUN AU002698 qwen3_8b TOFU/tofu_forget10 debate target_context_memory
+  DONE AU002698 147.1s
+[358/745] RUN AU002699 qwen3_8b TOFU/tofu_forget10 debate target_context_memory
+  DONE AU002699 229.3s
+[359/745] RUN AU002703 qwen3_8b TOFU/tofu_forget10 debate full_inference
+  DONE AU002703 1003.1s
+[360/745] RUN AU002706 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU002706 492.5s
+[361/745] RUN AU002709 qwen3_8b TOFU/tofu_forget10 scratchpad full_inference
+  DONE AU002709 486.2s
+[362/745] RUN AU002710 qwen3_8b MUSE-News/muse_news sequential target_context_memory
+  DONE AU002710 28.7s
+[363/745] RUN AU002714 qwen3_8b MUSE-News/muse_news sequential full_inference
+  DONE AU002714 60.6s
+[364/745] RUN AU002719 qwen3_8b MUSE-News/muse_news debate full_inference
+  DONE AU002719 88.1s
+[365/745] RUN AU002721 qwen3_8b MUSE-News/muse_news debate full_inference
+  DONE AU002721 1064.3s
+[366/745] RUN AU002722 qwen3_8b MUSE-News/muse_news scratchpad target_context_memory
+  DONE AU002722 57.9s
+[367/745] RUN AU002725 qwen3_8b MUSE-News/muse_news scratchpad full_inference
+  DONE AU002725 57.7s
+[368/745] RUN AU002730 qwen3_8b RWKU/rwku_001 sequential target_context_memory
+  DONE AU002730 93.1s
+[369/745] RUN AU002731 qwen3_8b RWKU/rwku_001 sequential full_inference
+  DONE AU002731 20.2s
+[370/745] RUN AU002732 qwen3_8b RWKU/rwku_001 sequential full_inference
+  DONE AU002732 41.6s
+[371/745] RUN AU002734 qwen3_8b RWKU/rwku_001 debate target_context_memory
+  DONE AU002734 84.0s
+[372/745] RUN AU002736 qwen3_8b RWKU/rwku_001 debate target_context_memory
+  DONE AU002736 824.7s
+[373/745] RUN AU002738 qwen3_8b RWKU/rwku_001 debate full_inference
+  DONE AU002738 154.4s
+[374/745] RUN AU002743 qwen3_8b RWKU/rwku_001 scratchpad full_inference
+  DONE AU002743 46.4s
+[375/745] RUN AU002744 qwen3_8b RWKU/rwku_001 scratchpad full_inference
+  DONE AU002744 65.1s
+[376/745] RUN AU002746 qwen3_8b TOFU/tofu_forget01 sequential target_context_memory
+  DONE AU002746 42.7s
+[377/745] RUN AU002748 qwen3_8b TOFU/tofu_forget01 sequential target_context_memory
+  DONE AU002748 366.5s
+[378/745] RUN AU002749 qwen3_8b TOFU/tofu_forget01 sequential full_inference
+  DONE AU002749 42.4s
+[379/745] RUN AU002750 qwen3_8b TOFU/tofu_forget01 sequential full_inference
+  DONE AU002750 81.8s
+[380/745] RUN AU002753 qwen3_8b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU002753 57.5s
+[381/745] RUN AU002758 qwen3_8b TOFU/tofu_forget10 sequential target_context_memory
+  DONE AU002758 38.0s
+[382/745] RUN AU002759 qwen3_8b TOFU/tofu_forget10 sequential target_context_memory
+  DONE AU002759 75.0s
+[383/745] RUN AU002761 qwen3_8b TOFU/tofu_forget10 sequential full_inference
+  DONE AU002761 37.7s
+[384/745] RUN AU002763 qwen3_8b TOFU/tofu_forget10 sequential full_inference
+  DONE AU002763 309.5s
+[385/745] RUN AU002766 qwen3_8b MUSE-News/muse_news sequential target_context_memory
+  DONE AU002766 275.6s
+[386/745] RUN AU002769 qwen3_8b MUSE-News/muse_news sequential full_inference
+  DONE AU002769 275.7s
+[387/745] RUN AU002770 qwen3_8b RWKU/rwku_001 sequential target_context_memory
+  DONE AU002770 20.0s
+[388/745] RUN AU002773 qwen3_8b RWKU/rwku_001 sequential full_inference
+  DONE AU002773 20.0s
+[389/745] RUN AU002774 qwen3_8b RWKU/rwku_001 sequential full_inference
+  DONE AU002774 41.4s
+[390/745] RUN AU002775 qwen3_8b RWKU/rwku_001 sequential full_inference
+  DONE AU002775 197.7s
+[391/745] RUN AU002777 qwen3_8b TOFU/tofu_forget01 sequential target_context_memory
+  DONE AU002777 177.6s
+[392/745] RUN AU002780 qwen3_8b TOFU/tofu_forget01 sequential full_inference
+  DONE AU002780 172.7s
+[393/745] RUN AU002781 qwen3_8b TOFU/tofu_forget01 sequential full_inference
+  DONE AU002781 172.7s
+[394/745] RUN AU002782 qwen3_8b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU002782 123.7s
+[395/745] RUN AU002783 qwen3_8b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU002783 127.0s
+[396/745] RUN AU002784 qwen3_8b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU002784 123.0s
+[397/745] RUN AU002787 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU002787 121.5s
+[398/745] RUN AU002790 qwen3_8b TOFU/tofu_forget10 sequential target_context_memory
+  DONE AU002790 155.6s
+[399/745] RUN AU002794 qwen3_8b MUSE-News/muse_news sequential target_context_memory
+  DONE AU002794 144.6s
+[400/745] RUN AU002796 qwen3_8b MUSE-News/muse_news sequential target_context_memory
+  DONE AU002796 131.6s
+[401/745] RUN AU002797 qwen3_8b MUSE-News/muse_news sequential full_inference
+  DONE AU002797 144.9s
+[402/745] RUN AU002799 qwen3_8b MUSE-News/muse_news sequential full_inference
+  DONE AU002799 131.9s
+[403/745] RUN AU002800 qwen3_8b RWKU/rwku_001 sequential target_context_memory
+  DONE AU002800 98.6s
+[404/745] RUN AU002801 qwen3_8b RWKU/rwku_001 sequential target_context_memory
+  DONE AU002801 93.8s
+[405/745] RUN AU002803 qwen3_8b RWKU/rwku_001 sequential full_inference
+  DONE AU002803 98.2s
+[406/745] RUN AU002806 qwen3_8b TOFU/tofu_forget01 sequential target_context_memory
+  DONE AU002806 166.0s
+[407/745] RUN AU002814 qwen3_8b TOFU/tofu_forget01 debate target_context_memory
+  DONE AU002814 544.9s
+[408/745] RUN AU002816 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU002816 487.7s
+[409/745] RUN AU002818 qwen3_8b TOFU/tofu_forget01 scratchpad target_context_memory
+  DONE AU002818 220.3s
+[410/745] RUN AU002822 qwen3_8b TOFU/tofu_forget01 scratchpad full_inference
+  DONE AU002822 220.7s
+[411/745] RUN AU002823 qwen3_8b TOFU/tofu_forget01 scratchpad full_inference
+  DONE AU002823 285.1s
+[412/745] RUN AU002825 qwen3_8b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU002825 113.4s
+[413/745] RUN AU002826 qwen3_8b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU002826 114.5s
+[414/745] RUN AU002827 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU002827 109.8s
+[415/745] RUN AU002828 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU002828 114.5s
+[416/745] RUN AU002829 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU002829 118.6s
+[417/745] RUN AU002831 qwen3_8b TOFU/tofu_forget05 debate target_context_memory
+  DONE AU002831 359.5s
+[418/745] RUN AU002833 qwen3_8b TOFU/tofu_forget05 debate full_inference
+  DONE AU002833 362.3s
+[419/745] RUN AU002836 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU002836 192.6s
+[420/745] RUN AU002837 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU002837 178.0s
+[421/745] RUN AU002842 qwen3_8b TOFU/tofu_forget10 sequential target_context_memory
+  DONE AU002842 144.2s
+[422/745] RUN AU002846 qwen3_8b TOFU/tofu_forget10 sequential full_inference
+  DONE AU002846 139.7s
+[423/745] RUN AU002847 qwen3_8b TOFU/tofu_forget10 sequential full_inference
+  DONE AU002847 133.8s
+[424/745] RUN AU002848 qwen3_8b TOFU/tofu_forget10 debate target_context_memory
+  DONE AU002848 417.9s
+[425/745] RUN AU002852 qwen3_8b TOFU/tofu_forget10 debate full_inference
+  DONE AU002852 528.3s
+[426/745] RUN AU002853 qwen3_8b TOFU/tofu_forget10 debate full_inference
+  DONE AU002853 462.8s
+[427/745] RUN AU002856 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU002856 182.4s
+[428/745] RUN AU002860 qwen3_8b MUSE-News/muse_news sequential target_context_memory
+  DONE AU002860 120.2s
+[429/745] RUN AU002862 qwen3_8b MUSE-News/muse_news sequential target_context_memory
+  DONE AU002862 119.9s
+[430/745] RUN AU002863 qwen3_8b MUSE-News/muse_news sequential full_inference
+  DONE AU002863 120.3s
+[431/745] RUN AU002866 qwen3_8b MUSE-News/muse_news debate target_context_memory
+  DONE AU002866 456.3s
+[432/745] RUN AU002867 qwen3_8b MUSE-News/muse_news debate target_context_memory
+  DONE AU002867 440.6s
+[433/745] RUN AU002871 qwen3_8b MUSE-News/muse_news debate full_inference
+  DONE AU002871 437.9s
+[434/745] RUN AU002874 qwen3_8b MUSE-News/muse_news scratchpad target_context_memory
+  DONE AU002874 150.9s
+[435/745] RUN AU002879 qwen3_8b RWKU/rwku_001 sequential target_context_memory
+  DONE AU002879 68.5s
+[436/745] RUN AU002881 qwen3_8b RWKU/rwku_001 sequential full_inference
+  DONE AU002881 66.1s
+[437/745] RUN AU002884 qwen3_8b RWKU/rwku_001 debate target_context_memory
+  DONE AU002884 289.2s
+[438/745] RUN AU002885 qwen3_8b RWKU/rwku_001 debate target_context_memory
+  DONE AU002885 256.7s
+[439/745] RUN AU002887 qwen3_8b RWKU/rwku_001 debate full_inference
+  DONE AU002887 277.8s
+[440/745] RUN AU002899 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU002899 154.8s
+[441/745] RUN AU002900 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU002900 337.7s
+[442/745] RUN AU002901 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU002901 885.1s
+[443/745] RUN AU002903 qwen3_8b TOFU/tofu_forget05 debate target_context_memory
+  DONE AU002903 276.2s
+[444/745] RUN AU002906 qwen3_8b TOFU/tofu_forget05 debate full_inference
+  DONE AU002906 276.8s
+[445/745] RUN AU002908 qwen3_8b TOFU/tofu_forget10 debate target_context_memory
+  DONE AU002908 137.8s
+[446/745] RUN AU002909 qwen3_8b TOFU/tofu_forget10 debate target_context_memory
+  DONE AU002909 305.9s
+[447/745] RUN AU002910 qwen3_8b TOFU/tofu_forget10 debate target_context_memory
+  DONE AU002910 795.2s
+[448/745] RUN AU002911 qwen3_8b TOFU/tofu_forget10 debate full_inference
+  DONE AU002911 138.1s
+[449/745] RUN AU002912 qwen3_8b TOFU/tofu_forget10 debate full_inference
+  DONE AU002912 310.6s
+[450/745] RUN AU002915 qwen3_8b MUSE-News/muse_news debate target_context_memory
+  DONE AU002915 317.2s
+[451/745] RUN AU002917 qwen3_8b MUSE-News/muse_news debate full_inference
+  DONE AU002917 136.2s
+[452/745] RUN AU002920 qwen3_8b RWKU/rwku_001 debate target_context_memory
+  DONE AU002920 99.1s
+[453/745] RUN AU002921 qwen3_8b RWKU/rwku_001 debate target_context_memory
+  DONE AU002921 234.6s
+[454/745] RUN AU002925 qwen3_8b RWKU/rwku_001 debate full_inference
+  DONE AU002925 610.7s
+[455/745] RUN AU002926 qwen3_8b TOFU/tofu_forget01 sequential target_context_comm
+  DONE AU002926 187.2s
+[456/745] RUN AU002928 qwen3_8b TOFU/tofu_forget01 sequential target_context_comm
+  DONE AU002928 190.2s
+[457/745] RUN AU002936 qwen3_8b TOFU/tofu_forget01 scratchpad target_context_comm
+  DONE AU002936 290.8s
+[458/745] RUN AU002937 qwen3_8b TOFU/tofu_forget01 scratchpad target_context_comm
+  DONE AU002937 295.4s
+[459/745] RUN AU002938 qwen3_8b TOFU/tofu_forget05 sequential target_context_comm
+  DONE AU002938 136.8s
+[460/745] RUN AU002940 qwen3_8b TOFU/tofu_forget05 sequential target_context_comm
+  DONE AU002940 139.6s
+[461/745] RUN AU002941 qwen3_8b TOFU/tofu_forget05 sequential target_context_comm
+  DONE AU002941 138.2s
+[462/745] RUN AU002942 qwen3_8b TOFU/tofu_forget05 debate target_context_comm
+  DONE AU002942 454.0s
+[463/745] RUN AU002945 qwen3_8b TOFU/tofu_forget05 debate target_context_comm
+  DONE AU002945 461.9s
+[464/745] RUN AU002946 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_comm
+  DONE AU002946 190.0s
+[465/745] RUN AU002949 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_comm
+  DONE AU002949 188.1s
+[466/745] RUN AU002950 qwen3_8b TOFU/tofu_forget10 sequential target_context_comm
+  DONE AU002950 153.1s
+[467/745] RUN AU002953 qwen3_8b TOFU/tofu_forget10 sequential target_context_comm
+  DONE AU002953 154.7s
+[468/745] RUN AU002954 qwen3_8b TOFU/tofu_forget10 debate target_context_comm
+  DONE AU002954 479.6s
+[469/745] RUN AU002955 qwen3_8b TOFU/tofu_forget10 debate target_context_comm
+  DONE AU002955 480.1s
+[470/745] RUN AU002957 qwen3_8b TOFU/tofu_forget10 debate target_context_comm
+  DONE AU002957 463.7s
+[471/745] RUN AU002959 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_comm
+  DONE AU002959 246.5s
+[472/745] RUN AU002961 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_comm
+  DONE AU002961 252.5s
+[473/745] RUN AU002962 qwen3_8b MUSE-News/muse_news sequential target_context_comm
+  DONE AU002962 137.9s
+[474/745] RUN AU002963 qwen3_8b MUSE-News/muse_news sequential target_context_comm
+  DONE AU002963 138.1s
+[475/745] RUN AU002966 qwen3_8b MUSE-News/muse_news debate target_context_comm
+  DONE AU002966 501.8s
+[476/745] RUN AU002968 qwen3_8b MUSE-News/muse_news debate target_context_comm
+  DONE AU002968 501.5s
+[477/745] RUN AU002969 qwen3_8b MUSE-News/muse_news debate target_context_comm
+  DONE AU002969 496.3s
+[478/745] RUN AU002975 qwen3_8b RWKU/rwku_001 sequential target_context_comm
+  DONE AU002975 99.9s
+[479/745] RUN AU002976 qwen3_8b RWKU/rwku_001 sequential target_context_comm
+  DONE AU002976 99.7s
+[480/745] RUN AU002977 qwen3_8b RWKU/rwku_001 sequential target_context_comm
+  DONE AU002977 99.7s
+[481/745] RUN AU002978 qwen3_8b RWKU/rwku_001 debate target_context_comm
+  DONE AU002978 383.3s
+[482/745] RUN AU002980 qwen3_8b RWKU/rwku_001 debate target_context_comm
+  DONE AU002980 383.4s
+[483/745] RUN AU002983 qwen3_8b RWKU/rwku_001 scratchpad target_context_comm
+  DONE AU002983 130.3s
+[484/745] RUN AU002984 qwen3_8b RWKU/rwku_001 scratchpad target_context_comm
+  DONE AU002984 130.8s
+[485/745] RUN AU003188 qwen3_8b TOFU/tofu_forget01 independent target_context_memory
+  DONE AU003188 158.4s
+[486/745] RUN AU003190 qwen3_8b TOFU/tofu_forget01 independent target_context_memory
+  DONE AU003190 154.0s
+[487/745] RUN AU003193 qwen3_8b TOFU/tofu_forget01 independent target_context_memory
+  DONE AU003193 167.4s
+[488/745] RUN AU003195 qwen3_8b TOFU/tofu_forget01 independent target_context_memory
+  DONE AU003195 164.3s
+[489/745] RUN AU003197 qwen3_8b TOFU/tofu_forget01 independent full_inference
+  DONE AU003197 169.4s
+[490/745] RUN AU003201 qwen3_8b TOFU/tofu_forget01 independent full_inference
+  DONE AU003201 167.1s
+[491/745] RUN AU003204 qwen3_8b TOFU/tofu_forget01 independent full_inference
+  DONE AU003204 166.1s
+[492/745] RUN AU003205 qwen3_8b TOFU/tofu_forget01 independent full_inference
+  DONE AU003205 165.5s
+[493/745] RUN AU003206 qwen3_8b TOFU/tofu_forget01 sequential target_context_memory
+  DONE AU003206 189.8s
+[494/745] RUN AU003207 qwen3_8b TOFU/tofu_forget01 sequential target_context_memory
+  DONE AU003207 201.3s
+[495/745] RUN AU003209 qwen3_8b TOFU/tofu_forget01 sequential target_context_memory
+  DONE AU003209 222.6s
+[496/745] RUN AU003211 qwen3_8b TOFU/tofu_forget01 sequential target_context_memory
+  DONE AU003211 197.5s
+[497/745] RUN AU003213 qwen3_8b TOFU/tofu_forget01 sequential target_context_memory
+  DONE AU003213 203.5s
+[498/745] RUN AU003219 qwen3_8b TOFU/tofu_forget01 sequential full_inference
+  DONE AU003219 196.6s
+[499/745] RUN AU003220 qwen3_8b TOFU/tofu_forget01 sequential full_inference
+  DONE AU003220 196.3s
+[500/745] RUN AU003224 qwen3_8b TOFU/tofu_forget01 sequential full_inference
+  DONE AU003224 185.8s
+[501/745] RUN AU003227 qwen3_8b TOFU/tofu_forget01 debate target_context_memory
+  DONE AU003227 560.4s
+[502/745] RUN AU003228 qwen3_8b TOFU/tofu_forget01 debate target_context_memory
+  DONE AU003228 545.7s
+[503/745] RUN AU003229 qwen3_8b TOFU/tofu_forget01 debate target_context_memory
+  DONE AU003229 559.2s
+[504/745] RUN AU003230 qwen3_8b TOFU/tofu_forget01 debate target_context_memory
+  DONE AU003230 537.0s
+[505/745] RUN AU003231 qwen3_8b TOFU/tofu_forget01 debate target_context_memory
+  DONE AU003231 564.9s
+[506/745] RUN AU003232 qwen3_8b TOFU/tofu_forget01 debate target_context_memory
+  DONE AU003232 545.1s
+[507/745] RUN AU003237 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU003237 523.5s
+[508/745] RUN AU003238 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU003238 519.4s
+[509/745] RUN AU003239 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU003239 537.6s
+[510/745] RUN AU003240 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU003240 512.1s
+[511/745] RUN AU003241 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU003241 547.4s
+[512/745] RUN AU003242 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU003242 541.0s
+[513/745] RUN AU003243 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU003243 512.4s
+[514/745] RUN AU003244 qwen3_8b TOFU/tofu_forget01 debate full_inference
+  DONE AU003244 540.4s
+[515/745] RUN AU003246 qwen3_8b TOFU/tofu_forget01 scratchpad target_context_memory
+  DONE AU003246 277.7s
+[516/745] RUN AU003250 qwen3_8b TOFU/tofu_forget01 scratchpad target_context_memory
+  DONE AU003250 287.8s
+[517/745] RUN AU003253 qwen3_8b TOFU/tofu_forget01 scratchpad target_context_memory
+  DONE AU003253 272.7s
+[518/745] RUN AU003257 qwen3_8b TOFU/tofu_forget01 scratchpad full_inference
+  DONE AU003257 288.2s
+[519/745] RUN AU003259 qwen3_8b TOFU/tofu_forget01 scratchpad full_inference
+  DONE AU003259 287.1s
+[520/745] RUN AU003260 qwen3_8b TOFU/tofu_forget01 scratchpad full_inference
+  DONE AU003260 279.5s
+[521/745] RUN AU003261 qwen3_8b TOFU/tofu_forget01 scratchpad full_inference
+  DONE AU003261 278.0s
+[522/745] RUN AU003262 qwen3_8b TOFU/tofu_forget01 scratchpad full_inference
+  DONE AU003262 276.1s
+[523/745] RUN AU003263 qwen3_8b TOFU/tofu_forget01 scratchpad full_inference
+  DONE AU003263 258.5s
+[524/745] RUN AU003264 qwen3_8b TOFU/tofu_forget01 scratchpad full_inference
+  DONE AU003264 295.6s
+[525/745] RUN AU003265 qwen3_8b TOFU/tofu_forget01 scratchpad full_inference
+  DONE AU003265 287.1s
+[526/745] RUN AU003267 qwen3_8b TOFU/tofu_forget01 hierarchical target_context_memory
+  DONE AU003267 161.1s
+[527/745] RUN AU003269 qwen3_8b TOFU/tofu_forget01 hierarchical target_context_memory
+  DONE AU003269 162.0s
+[528/745] RUN AU003270 qwen3_8b TOFU/tofu_forget01 hierarchical target_context_memory
+  DONE AU003270 163.0s
+[529/745] RUN AU003274 qwen3_8b TOFU/tofu_forget01 hierarchical target_context_memory
+  DONE AU003274 164.9s
+[530/745] RUN AU003275 qwen3_8b TOFU/tofu_forget01 hierarchical target_context_memory
+  DONE AU003275 160.3s
+[531/745] RUN AU003276 qwen3_8b TOFU/tofu_forget01 hierarchical full_inference
+  DONE AU003276 163.2s
+[532/745] RUN AU003278 qwen3_8b TOFU/tofu_forget01 hierarchical full_inference
+  DONE AU003278 161.9s
+[533/745] RUN AU003279 qwen3_8b TOFU/tofu_forget01 hierarchical full_inference
+  DONE AU003279 161.7s
+[534/745] RUN AU003280 qwen3_8b TOFU/tofu_forget01 hierarchical full_inference
+  DONE AU003280 163.4s
+[535/745] RUN AU003284 qwen3_8b TOFU/tofu_forget01 hierarchical full_inference
+  DONE AU003284 165.5s
+[536/745] RUN AU003285 qwen3_8b TOFU/tofu_forget01 hierarchical full_inference
+  DONE AU003285 162.7s
+[537/745] RUN AU003287 qwen3_8b TOFU/tofu_forget05 independent target_context_memory
+  DONE AU003287 110.1s
+[538/745] RUN AU003290 qwen3_8b TOFU/tofu_forget05 independent target_context_memory
+  DONE AU003290 109.9s
+[539/745] RUN AU003291 qwen3_8b TOFU/tofu_forget05 independent target_context_memory
+  DONE AU003291 106.5s
+[540/745] RUN AU003292 qwen3_8b TOFU/tofu_forget05 independent target_context_memory
+  DONE AU003292 108.7s
+[541/745] RUN AU003295 qwen3_8b TOFU/tofu_forget05 independent target_context_memory
+  DONE AU003295 106.6s
+[542/745] RUN AU003296 qwen3_8b TOFU/tofu_forget05 independent full_inference
+  DONE AU003296 111.6s
+[543/745] RUN AU003297 qwen3_8b TOFU/tofu_forget05 independent full_inference
+  DONE AU003297 110.3s
+[544/745] RUN AU003300 qwen3_8b TOFU/tofu_forget05 independent full_inference
+  DONE AU003300 109.6s
+[545/745] RUN AU003301 qwen3_8b TOFU/tofu_forget05 independent full_inference
+  DONE AU003301 106.3s
+[546/745] RUN AU003302 qwen3_8b TOFU/tofu_forget05 independent full_inference
+  DONE AU003302 108.3s
+[547/745] RUN AU003305 qwen3_8b TOFU/tofu_forget05 independent full_inference
+  DONE AU003305 107.1s
+[548/745] RUN AU003306 qwen3_8b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU003306 128.0s
+[549/745] RUN AU003311 qwen3_8b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU003311 137.8s
+[550/745] RUN AU003313 qwen3_8b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU003313 130.2s
+[551/745] RUN AU003314 qwen3_8b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU003314 133.6s
+[552/745] RUN AU003315 qwen3_8b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU003315 129.0s
+[553/745] RUN AU003316 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU003316 120.9s
+[554/745] RUN AU003317 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU003317 120.9s
+[555/745] RUN AU003318 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU003318 123.9s
+[556/745] RUN AU003319 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU003319 115.0s
+[557/745] RUN AU003320 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU003320 131.1s
+[558/745] RUN AU003323 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU003323 128.2s
+[559/745] RUN AU003324 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU003324 126.5s
+[560/745] RUN AU003325 qwen3_8b TOFU/tofu_forget05 sequential full_inference
+  DONE AU003325 121.9s
+[561/745] RUN AU003328 qwen3_8b TOFU/tofu_forget05 debate target_context_memory
+  DONE AU003328 429.5s
+[562/745] RUN AU003329 qwen3_8b TOFU/tofu_forget05 debate target_context_memory
+  DONE AU003329 442.1s
+[563/745] RUN AU003333 qwen3_8b TOFU/tofu_forget05 debate target_context_memory
+  DONE AU003333 447.6s
+[564/745] RUN AU003334 qwen3_8b TOFU/tofu_forget05 debate target_context_memory
+  DONE AU003334 458.4s
+[565/745] RUN AU003335 qwen3_8b TOFU/tofu_forget05 debate target_context_memory
+  DONE AU003335 420.4s
+[566/745] RUN AU003336 qwen3_8b TOFU/tofu_forget05 debate full_inference
+  DONE AU003336 455.1s
+[567/745] RUN AU003341 qwen3_8b TOFU/tofu_forget05 debate full_inference
+  DONE AU003341 430.0s
+[568/745] RUN AU003342 qwen3_8b TOFU/tofu_forget05 debate full_inference
+  DONE AU003342 449.7s
+[569/745] RUN AU003348 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU003348 192.9s
+[570/745] RUN AU003349 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU003349 190.8s
+[571/745] RUN AU003350 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU003350 189.8s
+[572/745] RUN AU003351 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU003351 187.5s
+[573/745] RUN AU003352 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU003352 205.0s
+[574/745] RUN AU003353 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU003353 189.7s
+[575/745] RUN AU003354 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU003354 186.7s
+[576/745] RUN AU003355 qwen3_8b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU003355 174.6s
+[577/745] RUN AU003356 qwen3_8b TOFU/tofu_forget05 scratchpad full_inference
+  DONE AU003356 184.9s
+[578/745] RUN AU003362 qwen3_8b TOFU/tofu_forget05 scratchpad full_inference
+  DONE AU003362 188.6s
+[579/745] RUN AU003363 qwen3_8b TOFU/tofu_forget05 scratchpad full_inference
+  DONE AU003363 198.0s
+[580/745] RUN AU003364 qwen3_8b TOFU/tofu_forget05 scratchpad full_inference
+  DONE AU003364 177.7s
+[581/745] RUN AU003368 qwen3_8b TOFU/tofu_forget05 hierarchical target_context_memory
+  DONE AU003368 109.9s
+[582/745] RUN AU003372 qwen3_8b TOFU/tofu_forget05 hierarchical target_context_memory
+  DONE AU003372 113.9s
+[583/745] RUN AU003375 qwen3_8b TOFU/tofu_forget05 hierarchical target_context_memory
+  DONE AU003375 112.1s
+[584/745] RUN AU003376 qwen3_8b TOFU/tofu_forget05 hierarchical full_inference
+  DONE AU003376 113.9s
+[585/745] RUN AU003379 qwen3_8b TOFU/tofu_forget05 hierarchical full_inference
+  DONE AU003379 112.0s
+[586/745] RUN AU003380 qwen3_8b TOFU/tofu_forget05 hierarchical full_inference
+  DONE AU003380 110.8s
+[587/745] RUN AU003382 qwen3_8b TOFU/tofu_forget05 hierarchical full_inference
+  DONE AU003382 113.6s
+[588/745] RUN AU003383 qwen3_8b TOFU/tofu_forget05 hierarchical full_inference
+  DONE AU003383 113.3s
+[589/745] RUN AU003387 qwen3_8b TOFU/tofu_forget10 independent target_context_memory
+  DONE AU003387 139.4s
+[590/745] RUN AU003388 qwen3_8b TOFU/tofu_forget10 independent target_context_memory
+  DONE AU003388 141.0s
+[591/745] RUN AU003390 qwen3_8b TOFU/tofu_forget10 independent target_context_memory
+  DONE AU003390 138.5s
+[592/745] RUN AU003392 qwen3_8b TOFU/tofu_forget10 independent target_context_memory
+  DONE AU003392 137.2s
+[593/745] RUN AU003393 qwen3_8b TOFU/tofu_forget10 independent target_context_memory
+  DONE AU003393 140.3s
+[594/745] RUN AU003394 qwen3_8b TOFU/tofu_forget10 independent target_context_memory
+  DONE AU003394 139.5s
+[595/745] RUN AU003395 qwen3_8b TOFU/tofu_forget10 independent target_context_memory
+  DONE AU003395 136.1s
+[596/745] RUN AU003396 qwen3_8b TOFU/tofu_forget10 independent full_inference
+  DONE AU003396 139.8s
+[597/745] RUN AU003397 qwen3_8b TOFU/tofu_forget10 independent full_inference
+  DONE AU003397 139.8s
+[598/745] RUN AU003401 qwen3_8b TOFU/tofu_forget10 independent full_inference
+  DONE AU003401 139.9s
+[599/745] RUN AU003407 qwen3_8b TOFU/tofu_forget10 sequential target_context_memory
+  DONE AU003407 159.0s
+[600/745] RUN AU003409 qwen3_8b TOFU/tofu_forget10 sequential target_context_memory
+  DONE AU003409 158.6s
+[601/745] RUN AU003411 qwen3_8b TOFU/tofu_forget10 sequential target_context_memory
+  DONE AU003411 156.6s
+[602/745] RUN AU003412 qwen3_8b TOFU/tofu_forget10 sequential target_context_memory
+  DONE AU003412 158.9s
+[603/745] RUN AU003414 qwen3_8b TOFU/tofu_forget10 sequential target_context_memory
+  DONE AU003414 156.7s
+[604/745] RUN AU003415 qwen3_8b TOFU/tofu_forget10 sequential target_context_memory
+  DONE AU003415 154.2s
+[605/745] RUN AU003416 qwen3_8b TOFU/tofu_forget10 sequential full_inference
+  DONE AU003416 154.9s
+[606/745] RUN AU003417 qwen3_8b TOFU/tofu_forget10 sequential full_inference
+  DONE AU003417 155.0s
+[607/745] RUN AU003419 qwen3_8b TOFU/tofu_forget10 sequential full_inference
+  DONE AU003419 156.1s
+[608/745] RUN AU003420 qwen3_8b TOFU/tofu_forget10 sequential full_inference
+  DONE AU003420 153.0s
+[609/745] RUN AU003421 qwen3_8b TOFU/tofu_forget10 sequential full_inference
+  DONE AU003421 154.5s
+[610/745] RUN AU003423 qwen3_8b TOFU/tofu_forget10 sequential full_inference
+  DONE AU003423 155.7s
+[611/745] RUN AU003426 qwen3_8b TOFU/tofu_forget10 debate target_context_memory
+  DONE AU003426 485.8s
+[612/745] RUN AU003428 qwen3_8b TOFU/tofu_forget10 debate target_context_memory
+  DONE AU003428 474.0s
+[613/745] RUN AU003429 qwen3_8b TOFU/tofu_forget10 debate target_context_memory
+  DONE AU003429 477.7s
+[614/745] RUN AU003430 qwen3_8b TOFU/tofu_forget10 debate target_context_memory
+  DONE AU003430 474.4s
+[615/745] RUN AU003435 qwen3_8b TOFU/tofu_forget10 debate target_context_memory
+  DONE AU003435 461.7s
+[616/745] RUN AU003436 qwen3_8b TOFU/tofu_forget10 debate full_inference
+  DONE AU003436 515.5s
+[617/745] RUN AU003437 qwen3_8b TOFU/tofu_forget10 debate full_inference
+  DONE AU003437 487.7s
+[618/745] RUN AU003441 qwen3_8b TOFU/tofu_forget10 debate full_inference
+  DONE AU003441 523.5s
+[619/745] RUN AU003445 qwen3_8b TOFU/tofu_forget10 debate full_inference
+  DONE AU003445 463.1s
+[620/745] RUN AU003447 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU003447 250.9s
+[621/745] RUN AU003448 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU003448 241.4s
+[622/745] RUN AU003449 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU003449 249.1s
+[623/745] RUN AU003450 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU003450 261.3s
+[624/745] RUN AU003451 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU003451 256.9s
+[625/745] RUN AU003452 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU003452 252.9s
+[626/745] RUN AU003453 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU003453 240.6s
+[627/745] RUN AU003454 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU003454 263.4s
+[628/745] RUN AU003455 qwen3_8b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU003455 267.3s
+[629/745] RUN AU003461 qwen3_8b TOFU/tofu_forget10 scratchpad full_inference
+  DONE AU003461 255.9s
+[630/745] RUN AU003463 qwen3_8b TOFU/tofu_forget10 scratchpad full_inference
+  DONE AU003463 238.3s
+[631/745] RUN AU003464 qwen3_8b TOFU/tofu_forget10 scratchpad full_inference
+  DONE AU003464 250.2s
+[632/745] RUN AU003468 qwen3_8b TOFU/tofu_forget10 hierarchical target_context_memory
+  DONE AU003468 148.8s
+[633/745] RUN AU003470 qwen3_8b TOFU/tofu_forget10 hierarchical target_context_memory
+  DONE AU003470 150.8s
+[634/745] RUN AU003473 qwen3_8b TOFU/tofu_forget10 hierarchical target_context_memory
+  DONE AU003473 151.8s
+[635/745] RUN AU003474 qwen3_8b TOFU/tofu_forget10 hierarchical target_context_memory
+  DONE AU003474 153.5s
+[636/745] RUN AU003475 qwen3_8b TOFU/tofu_forget10 hierarchical target_context_memory
+  DONE AU003475 152.3s
+[637/745] RUN AU003478 qwen3_8b TOFU/tofu_forget10 hierarchical full_inference
+  DONE AU003478 149.3s
+[638/745] RUN AU003479 qwen3_8b TOFU/tofu_forget10 hierarchical full_inference
+  DONE AU003479 150.7s
+[639/745] RUN AU003480 qwen3_8b TOFU/tofu_forget10 hierarchical full_inference
+  DONE AU003480 150.7s
+[640/745] RUN AU003481 qwen3_8b TOFU/tofu_forget10 hierarchical full_inference
+  DONE AU003481 150.9s
+[641/745] RUN AU003482 qwen3_8b TOFU/tofu_forget10 hierarchical full_inference
+  DONE AU003482 150.6s
+[642/745] RUN AU003483 qwen3_8b TOFU/tofu_forget10 hierarchical full_inference
+  DONE AU003483 151.9s
+[643/745] RUN AU003484 qwen3_8b TOFU/tofu_forget10 hierarchical full_inference
+  DONE AU003484 154.2s
+[644/745] RUN AU003485 qwen3_8b TOFU/tofu_forget10 hierarchical full_inference
+  DONE AU003485 152.6s
+[645/745] RUN AU003490 qwen3_8b MUSE-News/muse_news independent target_context_memory
+  DONE AU003490 148.2s
+[646/745] RUN AU003491 qwen3_8b MUSE-News/muse_news independent target_context_memory
+  DONE AU003491 147.5s
+[647/745] RUN AU003493 qwen3_8b MUSE-News/muse_news independent target_context_memory
+  DONE AU003493 146.8s
+[648/745] RUN AU003494 qwen3_8b MUSE-News/muse_news independent target_context_memory
+  DONE AU003494 146.9s
+[649/745] RUN AU003495 qwen3_8b MUSE-News/muse_news independent target_context_memory
+  DONE AU003495 144.9s
+[650/745] RUN AU003498 qwen3_8b MUSE-News/muse_news independent full_inference
+  DONE AU003498 149.1s
+[651/745] RUN AU003501 qwen3_8b MUSE-News/muse_news independent full_inference
+  DONE AU003501 145.1s
+[652/745] RUN AU003502 qwen3_8b MUSE-News/muse_news independent full_inference
+  DONE AU003502 145.4s
+[653/745] RUN AU003503 qwen3_8b MUSE-News/muse_news independent full_inference
+  DONE AU003503 149.0s
+[654/745] RUN AU003504 qwen3_8b MUSE-News/muse_news independent full_inference
+  DONE AU003504 145.6s
+[655/745] RUN AU003506 qwen3_8b MUSE-News/muse_news sequential target_context_memory
+  DONE AU003506 141.1s
+[656/745] RUN AU003510 qwen3_8b MUSE-News/muse_news sequential target_context_memory
+  DONE AU003510 140.5s
+[657/745] RUN AU003511 qwen3_8b MUSE-News/muse_news sequential target_context_memory
+  DONE AU003511 145.6s
+[658/745] RUN AU003513 qwen3_8b MUSE-News/muse_news sequential target_context_memory
+  DONE AU003513 139.7s
+[659/745] RUN AU003514 qwen3_8b MUSE-News/muse_news sequential target_context_memory
+  DONE AU003514 141.3s
+[660/745] RUN AU003516 qwen3_8b MUSE-News/muse_news sequential full_inference
+  DONE AU003516 142.8s
+[661/745] RUN AU003517 qwen3_8b MUSE-News/muse_news sequential full_inference
+  DONE AU003517 143.8s
+[662/745] RUN AU003518 qwen3_8b MUSE-News/muse_news sequential full_inference
+  DONE AU003518 141.5s
+[663/745] RUN AU003522 qwen3_8b MUSE-News/muse_news sequential full_inference
+  DONE AU003522 140.3s
+[664/745] RUN AU003523 qwen3_8b MUSE-News/muse_news sequential full_inference
+  DONE AU003523 143.0s
+[665/745] RUN AU003525 qwen3_8b MUSE-News/muse_news sequential full_inference
+  DONE AU003525 141.2s
+[666/745] RUN AU003526 qwen3_8b MUSE-News/muse_news debate target_context_memory
+  DONE AU003526 525.5s
+[667/745] RUN AU003527 qwen3_8b MUSE-News/muse_news debate target_context_memory
+  DONE AU003527 498.9s
+[668/745] RUN AU003528 qwen3_8b MUSE-News/muse_news debate target_context_memory
+  DONE AU003528 506.2s
+[669/745] RUN AU003529 qwen3_8b MUSE-News/muse_news debate target_context_memory
+  DONE AU003529 520.2s
+[670/745] RUN AU003532 qwen3_8b MUSE-News/muse_news debate target_context_memory
+  DONE AU003532 508.2s
+[671/745] RUN AU003533 qwen3_8b MUSE-News/muse_news debate target_context_memory
+  DONE AU003533 517.4s
+[672/745] RUN AU003538 qwen3_8b MUSE-News/muse_news debate full_inference
+  DONE AU003538 526.7s
+[673/745] RUN AU003539 qwen3_8b MUSE-News/muse_news debate full_inference
+  DONE AU003539 544.9s
+[674/745] RUN AU003542 qwen3_8b MUSE-News/muse_news debate full_inference
+  DONE AU003542 514.9s
+[675/745] RUN AU003544 qwen3_8b MUSE-News/muse_news debate full_inference
+  DONE AU003544 511.7s
+[676/745] RUN AU003545 qwen3_8b MUSE-News/muse_news debate full_inference
+  DONE AU003545 524.6s
+[677/745] RUN AU003551 qwen3_8b MUSE-News/muse_news scratchpad target_context_memory
+  DONE AU003551 179.0s
+[678/745] RUN AU003552 qwen3_8b MUSE-News/muse_news scratchpad target_context_memory
+  DONE AU003552 174.8s
+[679/745] RUN AU003554 qwen3_8b MUSE-News/muse_news scratchpad target_context_memory
+  DONE AU003554 176.7s
+[680/745] RUN AU003555 qwen3_8b MUSE-News/muse_news scratchpad target_context_memory
+  DONE AU003555 167.6s
+[681/745] RUN AU003556 qwen3_8b MUSE-News/muse_news scratchpad full_inference
+  DONE AU003556 167.6s
+[682/745] RUN AU003558 qwen3_8b MUSE-News/muse_news scratchpad full_inference
+  DONE AU003558 166.9s
+[683/745] RUN AU003559 qwen3_8b MUSE-News/muse_news scratchpad full_inference
+  DONE AU003559 167.0s
+[684/745] RUN AU003561 qwen3_8b MUSE-News/muse_news scratchpad full_inference
+  DONE AU003561 171.6s
+[685/745] RUN AU003562 qwen3_8b MUSE-News/muse_news scratchpad full_inference
+  DONE AU003562 168.4s
+[686/745] RUN AU003563 qwen3_8b MUSE-News/muse_news scratchpad full_inference
+  DONE AU003563 165.8s
+[687/745] RUN AU003570 qwen3_8b MUSE-News/muse_news hierarchical target_context_memory
+  DONE AU003570 141.2s
+[688/745] RUN AU003573 qwen3_8b MUSE-News/muse_news hierarchical target_context_memory
+  DONE AU003573 141.0s
+[689/745] RUN AU003575 qwen3_8b MUSE-News/muse_news hierarchical target_context_memory
+  DONE AU003575 139.5s
+[690/745] RUN AU003578 qwen3_8b MUSE-News/muse_news hierarchical full_inference
+  DONE AU003578 140.0s
+[691/745] RUN AU003580 qwen3_8b MUSE-News/muse_news hierarchical full_inference
+  DONE AU003580 141.4s
+[692/745] RUN AU003585 qwen3_8b MUSE-News/muse_news hierarchical full_inference
+  DONE AU003585 137.7s
+[693/745] RUN AU003586 qwen3_8b RWKU/rwku_001 independent target_context_memory
+  DONE AU003586 86.9s
+[694/745] RUN AU003587 qwen3_8b RWKU/rwku_001 independent target_context_memory
+  DONE AU003587 86.6s
+[695/745] RUN AU003588 qwen3_8b RWKU/rwku_001 independent target_context_memory
+  DONE AU003588 83.8s
+[696/745] RUN AU003591 qwen3_8b RWKU/rwku_001 independent target_context_memory
+  DONE AU003591 82.5s
+[697/745] RUN AU003594 qwen3_8b RWKU/rwku_001 independent target_context_memory
+  DONE AU003594 86.8s
+[698/745] RUN AU003595 qwen3_8b RWKU/rwku_001 independent target_context_memory
+  DONE AU003595 83.6s
+[699/745] RUN AU003597 qwen3_8b RWKU/rwku_001 independent full_inference
+  DONE AU003597 85.8s
+[700/745] RUN AU003598 qwen3_8b RWKU/rwku_001 independent full_inference
+  DONE AU003598 83.9s
+[701/745] RUN AU003599 qwen3_8b RWKU/rwku_001 independent full_inference
+  DONE AU003599 85.9s
+[702/745] RUN AU003602 qwen3_8b RWKU/rwku_001 independent full_inference
+  DONE AU003602 86.1s
+[703/745] RUN AU003603 qwen3_8b RWKU/rwku_001 independent full_inference
+  DONE AU003603 82.3s
+[704/745] RUN AU003604 qwen3_8b RWKU/rwku_001 independent full_inference
+  DONE AU003604 86.2s
+[705/745] RUN AU003606 qwen3_8b RWKU/rwku_001 sequential target_context_memory
+  DONE AU003606 96.7s
+[706/745] RUN AU003607 qwen3_8b RWKU/rwku_001 sequential target_context_memory
+  DONE AU003607 98.1s
+[707/745] RUN AU003608 qwen3_8b RWKU/rwku_001 sequential target_context_memory
+  DONE AU003608 98.6s
+[708/745] RUN AU003609 qwen3_8b RWKU/rwku_001 sequential target_context_memory
+  DONE AU003609 97.2s
+[709/745] RUN AU003610 qwen3_8b RWKU/rwku_001 sequential target_context_memory
+  DONE AU003610 96.4s
+[710/745] RUN AU003613 qwen3_8b RWKU/rwku_001 sequential target_context_memory
+  DONE AU003613 96.9s
+[711/745] RUN AU003615 qwen3_8b RWKU/rwku_001 sequential target_context_memory
+  DONE AU003615 98.6s
+[712/745] RUN AU003616 qwen3_8b RWKU/rwku_001 sequential full_inference
+  DONE AU003616 97.4s
+[713/745] RUN AU003618 qwen3_8b RWKU/rwku_001 sequential full_inference
+  DONE AU003618 97.5s
+[714/745] RUN AU003621 qwen3_8b RWKU/rwku_001 sequential full_inference
+  DONE AU003621 99.5s
+[715/745] RUN AU003625 qwen3_8b RWKU/rwku_001 sequential full_inference
+  DONE AU003625 96.9s
+[716/745] RUN AU003628 qwen3_8b RWKU/rwku_001 debate target_context_memory
+  DONE AU003628 353.2s
+[717/745] RUN AU003629 qwen3_8b RWKU/rwku_001 debate target_context_memory
+  DONE AU003629 357.9s
+[718/745] RUN AU003632 qwen3_8b RWKU/rwku_001 debate target_context_memory
+  DONE AU003632 368.0s
+[719/745] RUN AU003633 qwen3_8b RWKU/rwku_001 debate target_context_memory
+  DONE AU003633 346.8s
+[720/745] RUN AU003636 qwen3_8b RWKU/rwku_001 debate full_inference
+  DONE AU003636 360.2s
+[721/745] RUN AU003642 qwen3_8b RWKU/rwku_001 debate full_inference
+  DONE AU003642 375.1s
+[722/745] RUN AU003643 qwen3_8b RWKU/rwku_001 debate full_inference
+  DONE AU003643 355.7s
+[723/745] RUN AU003645 qwen3_8b RWKU/rwku_001 debate full_inference
+  DONE AU003645 374.8s
+[724/745] RUN AU003652 qwen3_8b RWKU/rwku_001 scratchpad target_context_memory
+  DONE AU003652 123.3s
+[725/745] RUN AU003663 qwen3_8b RWKU/rwku_001 scratchpad full_inference
+  DONE AU003663 116.1s
+[726/745] RUN AU003664 qwen3_8b RWKU/rwku_001 scratchpad full_inference
+  DONE AU003664 116.1s
+[727/745] RUN AU003667 qwen3_8b RWKU/rwku_001 hierarchical target_context_memory
+  DONE AU003667 108.3s
+[728/745] RUN AU003668 qwen3_8b RWKU/rwku_001 hierarchical target_context_memory
+  DONE AU003668 105.1s
+[729/745] RUN AU003669 qwen3_8b RWKU/rwku_001 hierarchical target_context_memory
+  DONE AU003669 109.4s
+[730/745] RUN AU003670 qwen3_8b RWKU/rwku_001 hierarchical target_context_memory
+  DONE AU003670 108.4s
+[731/745] RUN AU003671 qwen3_8b RWKU/rwku_001 hierarchical target_context_memory
+  DONE AU003671 105.1s
+[732/745] RUN AU003672 qwen3_8b RWKU/rwku_001 hierarchical target_context_memory
+  DONE AU003672 105.3s
+[733/745] RUN AU003673 qwen3_8b RWKU/rwku_001 hierarchical target_context_memory
+  DONE AU003673 105.0s
+[734/745] RUN AU003678 qwen3_8b RWKU/rwku_001 hierarchical full_inference
+  DONE AU003678 103.9s
+[735/745] RUN AU003679 qwen3_8b RWKU/rwku_001 hierarchical full_inference
+  DONE AU003679 108.4s
+[736/745] RUN AU003680 qwen3_8b RWKU/rwku_001 hierarchical full_inference
+  DONE AU003680 108.3s
+[737/745] RUN AU003681 qwen3_8b RWKU/rwku_001 hierarchical full_inference
+  DONE AU003681 104.8s
+[738/745] RUN AU003683 qwen3_8b RWKU/rwku_001 hierarchical full_inference
+  DONE AU003683 104.5s
+[739/745] RUN AU003685 qwen3_8b RWKU/rwku_001 hierarchical full_inference
+  DONE AU003685 109.3s
+[740/745] RUN AU003690 qwen3_8b WMDP/wmdp_bio debate target_context_memory
+  DONE AU003690 293.7s
+[741/745] RUN AU003691 qwen3_8b WMDP/wmdp_bio debate full_inference
+  DONE AU003691 292.8s
+[742/745] RUN AU003694 qwen3_8b WMDP/wmdp_bio scratchpad full_inference
+  DONE AU003694 50.3s
+[743/745] RUN AU003696 qwen3_8b WMDP/wmdp_cyber independent target_context_memory
+  DONE AU003696 96.2s
+[744/745] RUN AU003697 qwen3_8b WMDP/wmdp_cyber independent full_inference
+  DONE AU003697 91.4s
+[745/745] RUN AU003703 qwen3_8b WMDP/wmdp_cyber scratchpad full_inference
+  DONE AU003703 97.5s
+
+=== LOAD qwen3_8b (745 conditions) ===
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights:  19%|█▉        | 76/399 [00:00<00:00, 741.22it/s]
+Loading weights:  38%|███▊      | 151/399 [00:00<00:00, 581.69it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 1450.46it/s]
+[1/745] SKIP AU000676 already complete
+[2/745] SKIP AU000679 already complete
+[3/745] SKIP AU000681 already complete
+[4/745] SKIP AU000682 already complete
+[5/745] SKIP AU000683 already complete
+[6/745] SKIP AU000684 already complete
+[7/745] SKIP AU000692 already complete
+[8/745] SKIP AU000693 already complete
+[9/745] SKIP AU000696 already complete
+[10/745] SKIP AU000700 already complete
+[11/745] SKIP AU000702 already complete
+[12/745] SKIP AU000705 already complete
+[13/745] SKIP AU000707 already complete
+[14/745] SKIP AU000709 already complete
+[15/745] SKIP AU000710 already complete
+[16/745] SKIP AU000711 already complete
+[17/745] SKIP AU000712 already complete
+[18/745] SKIP AU000715 already complete
+[19/745] SKIP AU000716 already complete
+[20/745] SKIP AU000724 already complete
+[21/745] SKIP AU000725 already complete
+[22/745] SKIP AU000726 already complete
+[23/745] SKIP AU000727 already complete
+[24/745] SKIP AU000729 already complete
+[25/745] SKIP AU000730 already complete
+[26/745] SKIP AU000731 already complete
+[27/745] SKIP AU000733 already complete
+[28/745] SKIP AU000734 already complete
+[29/745] SKIP AU000737 already complete
+[30/745] SKIP AU000739 already complete
+[31/745] SKIP AU000740 already complete
+[32/745] SKIP AU000741 already complete
+[33/745] SKIP AU000745 already complete
+[34/745] SKIP AU000747 already complete
+[35/745] SKIP AU000749 already complete
+[36/745] SKIP AU000750 already complete
+[37/745] SKIP AU000751 already complete
+[38/745] SKIP AU000752 already complete
+[39/745] SKIP AU000754 already complete
+[40/745] SKIP AU000755 already complete
+[41/745] SKIP AU000756 already complete
+[42/745] SKIP AU000757 already complete
+[43/745] SKIP AU000763 already complete
+[44/745] SKIP AU000766 already complete
+[45/745] SKIP AU000769 already complete
+[46/745] SKIP AU000770 already complete
+[47/745] SKIP AU000775 already complete
+[48/745] SKIP AU000777 already complete
+[49/745] SKIP AU000778 already complete
+[50/745] SKIP AU000779 already complete
+[51/745] SKIP AU000791 already complete
+[52/745] SKIP AU000793 already complete
+[53/745] SKIP AU000794 already complete
+[54/745] SKIP AU000795 already complete
+[55/745] SKIP AU000796 already complete
+[56/745] SKIP AU000798 already complete
+[57/745] SKIP AU000801 already complete
+[58/745] SKIP AU000802 already complete
+[59/745] SKIP AU000803 already complete
+[60/745] SKIP AU000804 already complete
+[61/745] SKIP AU000806 already complete
+[62/745] SKIP AU000808 already complete
+[63/745] SKIP AU000809 already complete
+[64/745] SKIP AU000810 already complete
+[65/745] SKIP AU000813 already complete
+[66/745] SKIP AU000816 already complete
+[67/745] SKIP AU000818 already complete
+[68/745] SKIP AU000820 already complete
+[69/745] SKIP AU000821 already complete
+[70/745] SKIP AU000822 already complete
+[71/745] SKIP AU000831 already complete
+[72/745] SKIP AU000834 already complete
+[73/745] SKIP AU000837 already complete
+[74/745] SKIP AU000838 already complete
+[75/745] SKIP AU000839 already complete
+[76/745] SKIP AU000841 already complete
+[77/745] SKIP AU000842 already complete
+[78/745] SKIP AU000843 already complete
+[79/745] SKIP AU000844 already complete
+[80/745] SKIP AU000846 already complete
+[81/745] SKIP AU000847 already complete
+[82/745] SKIP AU000850 already complete
+[83/745] SKIP AU000852 already complete
+[84/745] SKIP AU000854 already complete
+[85/745] SKIP AU000855 already complete
+[86/745] SKIP AU000859 already complete
+[87/745] SKIP AU000867 already complete
+[88/745] SKIP AU000869 already complete
+[89/745] SKIP AU000874 already complete
+[90/745] SKIP AU000876 already complete
+[91/745] SKIP AU000877 already complete
+[92/745] SKIP AU000878 already complete
+[93/745] SKIP AU000879 already complete
+[94/745] SKIP AU000884 already complete
+[95/745] SKIP AU000885 already complete
+[96/745] SKIP AU000886 already complete
+[97/745] SKIP AU000889 already complete
+[98/745] SKIP AU000890 already complete
+[99/745] SKIP AU000893 already complete
+[100/745] SKIP AU000895 already complete
+[101/745] SKIP AU000897 already complete
+[102/745] SKIP AU000898 already complete
+[103/745] SKIP AU000901 already complete
+[104/745] SKIP AU000902 already complete
+[105/745] SKIP AU000906 already complete
+[106/745] SKIP AU000908 already complete
+[107/745] SKIP AU000911 already complete
+[108/745] SKIP AU000914 already complete
+[109/745] SKIP AU000916 already complete
+[110/745] SKIP AU000918 already complete
+[111/745] SKIP AU000919 already complete
+[112/745] SKIP AU000920 already complete
+[113/745] SKIP AU000921 already complete
+[114/745] SKIP AU000926 already complete
+[115/745] SKIP AU000927 already complete
+[116/745] SKIP AU000928 already complete
+[117/745] SKIP AU000930 already complete
+[118/745] SKIP AU000931 already complete
+[119/745] SKIP AU000933 already complete
+[120/745] SKIP AU000936 already complete
+[121/745] SKIP AU000937 already complete
+[122/745] SKIP AU000939 already complete
+[123/745] SKIP AU000941 already complete
+[124/745] SKIP AU000944 already complete
+[125/745] SKIP AU000946 already complete
+[126/745] SKIP AU000951 already complete
+[127/745] SKIP AU000959 already complete
+[128/745] SKIP AU000960 already complete
+[129/745] SKIP AU000961 already complete
+[130/745] SKIP AU000962 already complete
+[131/745] SKIP AU000964 already complete
+[132/745] SKIP AU000967 already complete
+[133/745] SKIP AU000970 already complete
+[134/745] SKIP AU000972 already complete
+[135/745] SKIP AU000973 already complete
+[136/745] SKIP AU000976 already complete
+[137/745] SKIP AU000978 already complete
+[138/745] SKIP AU000980 already complete
+[139/745] SKIP AU000983 already complete
+[140/745] SKIP AU000984 already complete
+[141/745] SKIP AU000985 already complete
+[142/745] SKIP AU000987 already complete
+[143/745] SKIP AU000992 already complete
+[144/745] SKIP AU000993 already complete
+[145/745] SKIP AU000994 already complete
+[146/745] SKIP AU000995 already complete
+[147/745] SKIP AU000997 already complete
+[148/745] SKIP AU000998 already complete
+[149/745] SKIP AU000999 already complete
+[150/745] SKIP AU001000 already complete
+[151/745] SKIP AU001003 already complete
+[152/745] SKIP AU001005 already complete
+[153/745] SKIP AU001010 already complete
+[154/745] SKIP AU001011 already complete
+[155/745] SKIP AU001013 already complete
+[156/745] SKIP AU001014 already complete
+[157/745] SKIP AU001018 already complete
+[158/745] SKIP AU001019 already complete
+[159/745] SKIP AU001020 already complete
+[160/745] SKIP AU001021 already complete
+[161/745] SKIP AU001022 already complete
+[162/745] SKIP AU001023 already complete
+[163/745] SKIP AU001024 already complete
+[164/745] SKIP AU001027 already complete
+[165/745] SKIP AU001028 already complete
+[166/745] SKIP AU001033 already complete
+[167/745] SKIP AU001036 already complete
+[168/745] SKIP AU001037 already complete
+[169/745] SKIP AU001038 already complete
+[170/745] SKIP AU001039 already complete
+[171/745] SKIP AU001040 already complete
+[172/745] SKIP AU001046 already complete
+[173/745] SKIP AU001051 already complete
+[174/745] SKIP AU001053 already complete
+[175/745] SKIP AU001054 already complete
+[176/745] SKIP AU001055 already complete
+[177/745] SKIP AU001057 already complete
+[178/745] SKIP AU001059 already complete
+[179/745] SKIP AU001060 already complete
+[180/745] SKIP AU001064 already complete
+[181/745] SKIP AU001066 already complete
+[182/745] SKIP AU001071 already complete
+[183/745] SKIP AU001073 already complete
+[184/745] SKIP AU001074 already complete
+[185/745] SKIP AU001077 already complete
+[186/745] SKIP AU001078 already complete
+[187/745] SKIP AU001079 already complete
+[188/745] SKIP AU001080 already complete
+[189/745] SKIP AU001082 already complete
+[190/745] SKIP AU001083 already complete
+[191/745] SKIP AU001084 already complete
+[192/745] SKIP AU001085 already complete
+[193/745] SKIP AU001090 already complete
+[194/745] SKIP AU001091 already complete
+[195/745] SKIP AU001092 already complete
+[196/745] SKIP AU001093 already complete
+[197/745] SKIP AU001094 already complete
+[198/745] SKIP AU001095 already complete
+[199/745] SKIP AU001097 already complete
+[200/745] SKIP AU001099 already complete
+[201/745] SKIP AU001100 already complete
+[202/745] SKIP AU001104 already complete
+[203/745] SKIP AU001105 already complete
+[204/745] SKIP AU001107 already complete
+[205/745] SKIP AU001109 already complete
+[206/745] SKIP AU001111 already complete
+[207/745] SKIP AU001112 already complete
+[208/745] SKIP AU001113 already complete
+[209/745] SKIP AU001114 already complete
+[210/745] SKIP AU001115 already complete
+[211/745] SKIP AU001120 already complete
+[212/745] SKIP AU001121 already complete
+[213/745] SKIP AU001125 already complete
+[214/745] SKIP AU001126 already complete
+[215/745] SKIP AU001127 already complete
+[216/745] SKIP AU001129 already complete
+[217/745] SKIP AU001130 already complete
+[218/745] SKIP AU001132 already complete
+[219/745] SKIP AU001133 already complete
+[220/745] SKIP AU001134 already complete
+[221/745] SKIP AU001136 already complete
+[222/745] SKIP AU001137 already complete
+[223/745] SKIP AU001138 already complete
+[224/745] SKIP AU001139 already complete
+[225/745] SKIP AU001140 already complete
+[226/745] SKIP AU001141 already complete
+[227/745] SKIP AU001143 already complete
+[228/745] SKIP AU001146 already complete
+[229/745] SKIP AU001147 already complete
+[230/745] SKIP AU001148 already complete
+[231/745] SKIP AU001149 already complete
+[232/745] SKIP AU001150 already complete
+[233/745] SKIP AU001151 already complete
+[234/745] SKIP AU001152 already complete
+[235/745] SKIP AU001153 already complete
+[236/745] SKIP AU001155 already complete
+[237/745] SKIP AU001156 already complete
+[238/745] SKIP AU001158 already complete
+[239/745] SKIP AU001159 already complete
+[240/745] SKIP AU001161 already complete
+[241/745] SKIP AU001163 already complete
+[242/745] SKIP AU001164 already complete
+[243/745] SKIP AU001165 already complete
+[244/745] SKIP AU001166 already complete
+[245/745] SKIP AU001168 already complete
+[246/745] SKIP AU001169 already complete
+[247/745] SKIP AU001170 already complete
+[248/745] SKIP AU001172 already complete
+[249/745] SKIP AU001173 already complete
+[250/745] SKIP AU001174 already complete
+[251/745] SKIP AU001175 already complete
+[252/745] SKIP AU001176 already complete
+[253/745] SKIP AU001178 already complete
+[254/745] SKIP AU001179 already complete
+[255/745] SKIP AU001180 already complete
+[256/745] SKIP AU001184 already complete
+[257/745] SKIP AU001189 already complete
+[258/745] SKIP AU001191 already complete
+[259/745] SKIP AU001192 already complete
+[260/745] SKIP AU001196 already complete
+[261/745] SKIP AU001197 already complete
+[262/745] SKIP AU001201 already complete
+[263/745] SKIP AU001202 already complete
+[264/745] SKIP AU001203 already complete
+[265/745] SKIP AU001204 already complete
+[266/745] SKIP AU001206 already complete
+[267/745] SKIP AU001209 already complete
+[268/745] SKIP AU001210 already complete
+[269/745] SKIP AU001211 already complete
+[270/745] SKIP AU001213 already complete
+[271/745] SKIP AU001215 already complete
+[272/745] SKIP AU001216 already complete
+[273/745] SKIP AU001218 already complete
+[274/745] SKIP AU001220 already complete
+[275/745] SKIP AU001222 already complete
+[276/745] SKIP AU001228 already complete
+[277/745] SKIP AU001229 already complete
+[278/745] SKIP AU001230 already complete
+[279/745] SKIP AU001232 already complete
+[280/745] SKIP AU001234 already complete
+[281/745] SKIP AU001235 already complete
+[282/745] SKIP AU001237 already complete
+[283/745] SKIP AU001238 already complete
+[284/745] SKIP AU001240 already complete
+[285/745] SKIP AU001242 already complete
+[286/745] SKIP AU001245 already complete
+[287/745] SKIP AU001246 already complete
+[288/745] SKIP AU001248 already complete
+[289/745] SKIP AU001249 already complete
+[290/745] SKIP AU001250 already complete
+[291/745] SKIP AU001255 already complete
+[292/745] SKIP AU001257 already complete
+[293/745] SKIP AU001260 already complete
+[294/745] SKIP AU001263 already complete
+[295/745] SKIP AU001264 already complete
+[296/745] SKIP AU001265 already complete
+[297/745] SKIP AU001271 already complete
+[298/745] SKIP AU001274 already complete
+[299/745] SKIP AU001276 already complete
+[300/745] SKIP AU001279 already complete
+[301/745] SKIP AU001280 already complete
+[302/745] SKIP AU001283 already complete
+[303/745] SKIP AU001287 already complete
+[304/745] SKIP AU001288 already complete
+[305/745] SKIP AU001292 already complete
+[306/745] SKIP AU001293 already complete
+[307/745] SKIP AU001294 already complete
+[308/745] SKIP AU001296 already complete
+[309/745] SKIP AU001297 already complete
+[310/745] SKIP AU001300 already complete
+[311/745] SKIP AU001301 already complete
+[312/745] SKIP AU001302 already complete
+[313/745] SKIP AU001304 already complete
+[314/745] SKIP AU001305 already complete
+[315/745] SKIP AU001307 already complete
+[316/745] SKIP AU001309 already complete
+[317/745] SKIP AU001312 already complete
+[318/745] SKIP AU001313 already complete
+[319/745] SKIP AU001314 already complete
+[320/745] SKIP AU001316 already complete
+[321/745] SKIP AU001317 already complete
+[322/745] SKIP AU001319 already complete
+[323/745] SKIP AU001321 already complete
+[324/745] SKIP AU001323 already complete
+[325/745] SKIP AU001325 already complete
+[326/745] SKIP AU001326 already complete
+[327/745] SKIP AU001328 already complete
+[328/745] SKIP AU001329 already complete
+[329/745] SKIP AU001332 already complete
+[330/745] SKIP AU001333 already complete
+[331/745] SKIP AU001334 already complete
+[332/745] SKIP AU001335 already complete
+[333/745] SKIP AU001339 already complete
+[334/745] SKIP AU001340 already complete
+[335/745] SKIP AU001341 already complete
+[336/745] SKIP AU001344 already complete
+[337/745] SKIP AU001345 already complete
+[338/745] SKIP AU001347 already complete
+[339/745] SKIP AU001348 already complete
+[340/745] SKIP AU001350 already complete
+[341/745] SKIP AU002658 already complete
+[342/745] SKIP AU002659 already complete
+[343/745] SKIP AU002660 already complete
+[344/745] SKIP AU002661 already complete
+[345/745] SKIP AU002664 already complete
+[346/745] SKIP AU002665 already complete
+[347/745] SKIP AU002675 already complete
+[348/745] SKIP AU002677 already complete
+[349/745] SKIP AU002680 already complete
+[350/745] SKIP AU002681 already complete
+[351/745] SKIP AU002682 already complete
+[352/745] SKIP AU002686 already complete
+[353/745] SKIP AU002687 already complete
+[354/745] SKIP AU002688 already complete
+[355/745] SKIP AU002693 already complete
+[356/745] SKIP AU002696 already complete
+[357/745] SKIP AU002698 already complete
+[358/745] SKIP AU002699 already complete
+[359/745] SKIP AU002703 already complete
+[360/745] SKIP AU002706 already complete
+[361/745] SKIP AU002709 already complete
+[362/745] SKIP AU002710 already complete
+[363/745] SKIP AU002714 already complete
+[364/745] SKIP AU002719 already complete
+[365/745] SKIP AU002721 already complete
+[366/745] SKIP AU002722 already complete
+[367/745] SKIP AU002725 already complete
+[368/745] SKIP AU002730 already complete
+[369/745] SKIP AU002731 already complete
+[370/745] SKIP AU002732 already complete
+[371/745] SKIP AU002734 already complete
+[372/745] SKIP AU002736 already complete
+[373/745] SKIP AU002738 already complete
+[374/745] SKIP AU002743 already complete
+[375/745] SKIP AU002744 already complete
+[376/745] SKIP AU002746 already complete
+[377/745] SKIP AU002748 already complete
+[378/745] SKIP AU002749 already complete
+[379/745] SKIP AU002750 already complete
+[380/745] SKIP AU002753 already complete
+[381/745] SKIP AU002758 already complete
+[382/745] SKIP AU002759 already complete
+[383/745] SKIP AU002761 already complete
+[384/745] SKIP AU002763 already complete
+[385/745] SKIP AU002766 already complete
+[386/745] SKIP AU002769 already complete
+[387/745] SKIP AU002770 already complete
+[388/745] SKIP AU002773 already complete
+[389/745] SKIP AU002774 already complete
+[390/745] SKIP AU002775 already complete
+[391/745] SKIP AU002777 already complete
+[392/745] SKIP AU002780 already complete
+[393/745] SKIP AU002781 already complete
+[394/745] SKIP AU002782 already complete
+[395/745] SKIP AU002783 already complete
+[396/745] SKIP AU002784 already complete
+[397/745] SKIP AU002787 already complete
+[398/745] SKIP AU002790 already complete
+[399/745] SKIP AU002794 already complete
+[400/745] SKIP AU002796 already complete
+[401/745] SKIP AU002797 already complete
+[402/745] SKIP AU002799 already complete
+[403/745] SKIP AU002800 already complete
+[404/745] SKIP AU002801 already complete
+[405/745] SKIP AU002803 already complete
+[406/745] SKIP AU002806 already complete
+[407/745] SKIP AU002814 already complete
+[408/745] SKIP AU002816 already complete
+[409/745] SKIP AU002818 already complete
+[410/745] SKIP AU002822 already complete
+[411/745] SKIP AU002823 already complete
+[412/745] SKIP AU002825 already complete
+[413/745] SKIP AU002826 already complete
+[414/745] SKIP AU002827 already complete
+[415/745] SKIP AU002828 already complete
+[416/745] SKIP AU002829 already complete
+[417/745] SKIP AU002831 already complete
+[418/745] SKIP AU002833 already complete
+[419/745] SKIP AU002836 already complete
+[420/745] SKIP AU002837 already complete
+[421/745] SKIP AU002842 already complete
+[422/745] SKIP AU002846 already complete
+[423/745] SKIP AU002847 already complete
+[424/745] SKIP AU002848 already complete
+[425/745] SKIP AU002852 already complete
+[426/745] SKIP AU002853 already complete
+[427/745] SKIP AU002856 already complete
+[428/745] SKIP AU002860 already complete
+[429/745] SKIP AU002862 already complete
+[430/745] SKIP AU002863 already complete
+[431/745] SKIP AU002866 already complete
+[432/745] SKIP AU002867 already complete
+[433/745] SKIP AU002871 already complete
+[434/745] SKIP AU002874 already complete
+[435/745] SKIP AU002879 already complete
+[436/745] SKIP AU002881 already complete
+[437/745] SKIP AU002884 already complete
+[438/745] SKIP AU002885 already complete
+[439/745] SKIP AU002887 already complete
+[440/745] SKIP AU002899 already complete
+[441/745] SKIP AU002900 already complete
+[442/745] SKIP AU002901 already complete
+[443/745] SKIP AU002903 already complete
+[444/745] SKIP AU002906 already complete
+[445/745] SKIP AU002908 already complete
+[446/745] SKIP AU002909 already complete
+[447/745] SKIP AU002910 already complete
+[448/745] SKIP AU002911 already complete
+[449/745] SKIP AU002912 already complete
+[450/745] SKIP AU002915 already complete
+[451/745] SKIP AU002917 already complete
+[452/745] SKIP AU002920 already complete
+[453/745] SKIP AU002921 already complete
+[454/745] SKIP AU002925 already complete
+[455/745] SKIP AU002926 already complete
+[456/745] SKIP AU002928 already complete
+[457/745] SKIP AU002936 already complete
+[458/745] SKIP AU002937 already complete
+[459/745] SKIP AU002938 already complete
+[460/745] SKIP AU002940 already complete
+[461/745] SKIP AU002941 already complete
+[462/745] SKIP AU002942 already complete
+[463/745] SKIP AU002945 already complete
+[464/745] SKIP AU002946 already complete
+[465/745] SKIP AU002949 already complete
+[466/745] SKIP AU002950 already complete
+[467/745] SKIP AU002953 already complete
+[468/745] SKIP AU002954 already complete
+[469/745] SKIP AU002955 already complete
+[470/745] SKIP AU002957 already complete
+[471/745] SKIP AU002959 already complete
+[472/745] SKIP AU002961 already complete
+[473/745] SKIP AU002962 already complete
+[474/745] SKIP AU002963 already complete
+[475/745] SKIP AU002966 already complete
+[476/745] SKIP AU002968 already complete
+[477/745] SKIP AU002969 already complete
+[478/745] SKIP AU002975 already complete
+[479/745] SKIP AU002976 already complete
+[480/745] SKIP AU002977 already complete
+[481/745] SKIP AU002978 already complete
+[482/745] SKIP AU002980 already complete
+[483/745] SKIP AU002983 already complete
+[484/745] SKIP AU002984 already complete
+[485/745] SKIP AU003188 already complete
+[486/745] SKIP AU003190 already complete
+[487/745] SKIP AU003193 already complete
+[488/745] SKIP AU003195 already complete
+[489/745] SKIP AU003197 already complete
+[490/745] SKIP AU003201 already complete
+[491/745] SKIP AU003204 already complete
+[492/745] SKIP AU003205 already complete
+[493/745] SKIP AU003206 already complete
+[494/745] SKIP AU003207 already complete
+[495/745] SKIP AU003209 already complete
+[496/745] SKIP AU003211 already complete
+[497/745] SKIP AU003213 already complete
+[498/745] SKIP AU003219 already complete
+[499/745] SKIP AU003220 already complete
+[500/745] SKIP AU003224 already complete
+[501/745] SKIP AU003227 already complete
+[502/745] SKIP AU003228 already complete
+[503/745] SKIP AU003229 already complete
+[504/745] SKIP AU003230 already complete
+[505/745] SKIP AU003231 already complete
+[506/745] SKIP AU003232 already complete
+[507/745] SKIP AU003237 already complete
+[508/745] SKIP AU003238 already complete
+[509/745] SKIP AU003239 already complete
+[510/745] SKIP AU003240 already complete
+[511/745] SKIP AU003241 already complete
+[512/745] SKIP AU003242 already complete
+[513/745] SKIP AU003243 already complete
+[514/745] SKIP AU003244 already complete
+[515/745] SKIP AU003246 already complete
+[516/745] SKIP AU003250 already complete
+[517/745] SKIP AU003253 already complete
+[518/745] SKIP AU003257 already complete
+[519/745] SKIP AU003259 already complete
+[520/745] SKIP AU003260 already complete
+[521/745] SKIP AU003261 already complete
+[522/745] SKIP AU003262 already complete
+[523/745] SKIP AU003263 already complete
+[524/745] SKIP AU003264 already complete
+[525/745] SKIP AU003265 already complete
+[526/745] SKIP AU003267 already complete
+[527/745] SKIP AU003269 already complete
+[528/745] SKIP AU003270 already complete
+[529/745] SKIP AU003274 already complete
+[530/745] SKIP AU003275 already complete
+[531/745] SKIP AU003276 already complete
+[532/745] SKIP AU003278 already complete
+[533/745] SKIP AU003279 already complete
+[534/745] SKIP AU003280 already complete
+[535/745] SKIP AU003284 already complete
+[536/745] SKIP AU003285 already complete
+[537/745] SKIP AU003287 already complete
+[538/745] SKIP AU003290 already complete
+[539/745] SKIP AU003291 already complete
+[540/745] SKIP AU003292 already complete
+[541/745] SKIP AU003295 already complete
+[542/745] SKIP AU003296 already complete
+[543/745] SKIP AU003297 already complete
+[544/745] SKIP AU003300 already complete
+[545/745] SKIP AU003301 already complete
+[546/745] SKIP AU003302 already complete
+[547/745] SKIP AU003305 already complete
+[548/745] SKIP AU003306 already complete
+[549/745] SKIP AU003311 already complete
+[550/745] SKIP AU003313 already complete
+[551/745] SKIP AU003314 already complete
+[552/745] SKIP AU003315 already complete
+[553/745] SKIP AU003316 already complete
+[554/745] SKIP AU003317 already complete
+[555/745] SKIP AU003318 already complete
+[556/745] SKIP AU003319 already complete
+[557/745] SKIP AU003320 already complete
+[558/745] SKIP AU003323 already complete
+[559/745] SKIP AU003324 already complete
+[560/745] SKIP AU003325 already complete
+[561/745] SKIP AU003328 already complete
+[562/745] SKIP AU003329 already complete
+[563/745] SKIP AU003333 already complete
+[564/745] SKIP AU003334 already complete
+[565/745] SKIP AU003335 already complete
+[566/745] SKIP AU003336 already complete
+[567/745] SKIP AU003341 already complete
+[568/745] SKIP AU003342 already complete
+[569/745] SKIP AU003348 already complete
+[570/745] SKIP AU003349 already complete
+[571/745] SKIP AU003350 already complete
+[572/745] SKIP AU003351 already complete
+[573/745] SKIP AU003352 already complete
+[574/745] SKIP AU003353 already complete
+[575/745] SKIP AU003354 already complete
+[576/745] SKIP AU003355 already complete
+[577/745] SKIP AU003356 already complete
+[578/745] SKIP AU003362 already complete
+[579/745] SKIP AU003363 already complete
+[580/745] SKIP AU003364 already complete
+[581/745] SKIP AU003368 already complete
+[582/745] SKIP AU003372 already complete
+[583/745] SKIP AU003375 already complete
+[584/745] SKIP AU003376 already complete
+[585/745] SKIP AU003379 already complete
+[586/745] SKIP AU003380 already complete
+[587/745] SKIP AU003382 already complete
+[588/745] SKIP AU003383 already complete
+[589/745] SKIP AU003387 already complete
+[590/745] SKIP AU003388 already complete
+[591/745] SKIP AU003390 already complete
+[592/745] SKIP AU003392 already complete
+[593/745] SKIP AU003393 already complete
+[594/745] SKIP AU003394 already complete
+[595/745] SKIP AU003395 already complete
+[596/745] SKIP AU003396 already complete
+[597/745] SKIP AU003397 already complete
+[598/745] SKIP AU003401 already complete
+[599/745] SKIP AU003407 already complete
+[600/745] SKIP AU003409 already complete
+[601/745] SKIP AU003411 already complete
+[602/745] SKIP AU003412 already complete
+[603/745] SKIP AU003414 already complete
+[604/745] SKIP AU003415 already complete
+[605/745] SKIP AU003416 already complete
+[606/745] SKIP AU003417 already complete
+[607/745] SKIP AU003419 already complete
+[608/745] SKIP AU003420 already complete
+[609/745] SKIP AU003421 already complete
+[610/745] SKIP AU003423 already complete
+[611/745] SKIP AU003426 already complete
+[612/745] SKIP AU003428 already complete
+[613/745] SKIP AU003429 already complete
+[614/745] SKIP AU003430 already complete
+[615/745] SKIP AU003435 already complete
+[616/745] SKIP AU003436 already complete
+[617/745] SKIP AU003437 already complete
+[618/745] SKIP AU003441 already complete
+[619/745] SKIP AU003445 already complete
+[620/745] SKIP AU003447 already complete
+[621/745] SKIP AU003448 already complete
+[622/745] SKIP AU003449 already complete
+[623/745] SKIP AU003450 already complete
+[624/745] SKIP AU003451 already complete
+[625/745] SKIP AU003452 already complete
+[626/745] SKIP AU003453 already complete
+[627/745] SKIP AU003454 already complete
+[628/745] SKIP AU003455 already complete
+[629/745] SKIP AU003461 already complete
+[630/745] SKIP AU003463 already complete
+[631/745] SKIP AU003464 already complete
+[632/745] SKIP AU003468 already complete
+[633/745] SKIP AU003470 already complete
+[634/745] SKIP AU003473 already complete
+[635/745] SKIP AU003474 already complete
+[636/745] SKIP AU003475 already complete
+[637/745] SKIP AU003478 already complete
+[638/745] SKIP AU003479 already complete
+[639/745] SKIP AU003480 already complete
+[640/745] SKIP AU003481 already complete
+[641/745] SKIP AU003482 already complete
+[642/745] SKIP AU003483 already complete
+[643/745] SKIP AU003484 already complete
+[644/745] SKIP AU003485 already complete
+[645/745] SKIP AU003490 already complete
+[646/745] SKIP AU003491 already complete
+[647/745] SKIP AU003493 already complete
+[648/745] SKIP AU003494 already complete
+[649/745] SKIP AU003495 already complete
+[650/745] SKIP AU003498 already complete
+[651/745] SKIP AU003501 already complete
+[652/745] SKIP AU003502 already complete
+[653/745] SKIP AU003503 already complete
+[654/745] SKIP AU003504 already complete
+[655/745] SKIP AU003506 already complete
+[656/745] SKIP AU003510 already complete
+[657/745] SKIP AU003511 already complete
+[658/745] SKIP AU003513 already complete
+[659/745] SKIP AU003514 already complete
+[660/745] SKIP AU003516 already complete
+[661/745] SKIP AU003517 already complete
+[662/745] SKIP AU003518 already complete
+[663/745] SKIP AU003522 already complete
+[664/745] SKIP AU003523 already complete
+[665/745] SKIP AU003525 already complete
+[666/745] SKIP AU003526 already complete
+[667/745] SKIP AU003527 already complete
+[668/745] SKIP AU003528 already complete
+[669/745] SKIP AU003529 already complete
+[670/745] SKIP AU003532 already complete
+[671/745] SKIP AU003533 already complete
+[672/745] SKIP AU003538 already complete
+[673/745] SKIP AU003539 already complete
+[674/745] SKIP AU003542 already complete
+[675/745] SKIP AU003544 already complete
+[676/745] SKIP AU003545 already complete
+[677/745] SKIP AU003551 already complete
+[678/745] SKIP AU003552 already complete
+[679/745] SKIP AU003554 already complete
+[680/745] SKIP AU003555 already complete
+[681/745] SKIP AU003556 already complete
+[682/745] SKIP AU003558 already complete
+[683/745] SKIP AU003559 already complete
+[684/745] SKIP AU003561 already complete
+[685/745] SKIP AU003562 already complete
+[686/745] SKIP AU003563 already complete
+[687/745] SKIP AU003570 already complete
+[688/745] SKIP AU003573 already complete
+[689/745] SKIP AU003575 already complete
+[690/745] SKIP AU003578 already complete
+[691/745] SKIP AU003580 already complete
+[692/745] SKIP AU003585 already complete
+[693/745] SKIP AU003586 already complete
+[694/745] SKIP AU003587 already complete
+[695/745] SKIP AU003588 already complete
+[696/745] SKIP AU003591 already complete
+[697/745] SKIP AU003594 already complete
+[698/745] SKIP AU003595 already complete
+[699/745] SKIP AU003597 already complete
+[700/745] SKIP AU003598 already complete
+[701/745] SKIP AU003599 already complete
+[702/745] SKIP AU003602 already complete
+[703/745] SKIP AU003603 already complete
+[704/745] SKIP AU003604 already complete
+[705/745] SKIP AU003606 already complete
+[706/745] SKIP AU003607 already complete
+[707/745] SKIP AU003608 already complete
+[708/745] SKIP AU003609 already complete
+[709/745] SKIP AU003610 already complete
+[710/745] SKIP AU003613 already complete
+[711/745] SKIP AU003615 already complete
+[712/745] SKIP AU003616 already complete
+[713/745] SKIP AU003618 already complete
+[714/745] SKIP AU003621 already complete
+[715/745] SKIP AU003625 already complete
+[716/745] SKIP AU003628 already complete
+[717/745] SKIP AU003629 already complete
+[718/745] SKIP AU003632 already complete
+[719/745] SKIP AU003633 already complete
+[720/745] SKIP AU003636 already complete
+[721/745] SKIP AU003642 already complete
+[722/745] SKIP AU003643 already complete
+[723/745] SKIP AU003645 already complete
+[724/745] SKIP AU003652 already complete
+[725/745] SKIP AU003663 already complete
+[726/745] SKIP AU003664 already complete
+[727/745] SKIP AU003667 already complete
+[728/745] SKIP AU003668 already complete
+[729/745] SKIP AU003669 already complete
+[730/745] SKIP AU003670 already complete
+[731/745] SKIP AU003671 already complete
+[732/745] SKIP AU003672 already complete
+[733/745] SKIP AU003673 already complete
+[734/745] SKIP AU003678 already complete
+[735/745] SKIP AU003679 already complete
+[736/745] SKIP AU003680 already complete
+[737/745] SKIP AU003681 already complete
+[738/745] SKIP AU003683 already complete
+[739/745] SKIP AU003685 already complete
+[740/745] SKIP AU003690 already complete
+[741/745] SKIP AU003691 already complete
+[742/745] SKIP AU003694 already complete
+[743/745] SKIP AU003696 already complete
+[744/745] SKIP AU003697 already complete
+[745/745] SKIP AU003703 already complete

@@ -1,0 +1,22 @@
+========================================================================================
+MODEL       : Qwen2.5-Coder-14B-Instruct
+PATH        : /home/tahiti/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-Instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671
+torch       : 2.5.1+cu121
+transformers: 5.10.0.dev0
+CUDA        : True
+GPU         : NVIDIA A100-PCIE-40GB
+GPU free    : 31.75 / 39.38 GiB
+
+[1/4] tokenizer
+[2/4] model
+Loading weights:   0%|          | 0/579 [00:00<?, ?it/s]Loading weights:   2%|▏         | 11/579 [00:00<00:05, 105.47it/s]Loading weights:   6%|▌         | 33/579 [00:00<00:03, 161.55it/s]Loading weights:   9%|▊         | 50/579 [00:00<00:03, 156.05it/s]Loading weights:  11%|█▏        | 66/579 [00:00<00:03, 157.13it/s]Loading weights:  16%|█▌        | 93/579 [00:00<00:02, 185.34it/s]Loading weights:  20%|██        | 116/579 [00:00<00:02, 197.70it/s]Loading weights:  25%|██▍       | 144/579 [00:00<00:02, 216.34it/s]Loading weights:  29%|██▊       | 166/579 [00:00<00:02, 183.71it/s]Loading weights:  33%|███▎      | 192/579 [00:01<00:01, 203.90it/s]Loading weights:  37%|███▋      | 215/579 [00:01<00:01, 187.82it/s]Loading weights:  41%|████      | 235/579 [00:01<00:01, 185.91it/s]Loading weights:  44%|████▍     | 255/579 [00:01<00:01, 168.90it/s]Loading weights:  47%|████▋     | 273/579 [00:01<00:03, 97.24it/s] Loading weights:  50%|████▉     | 287/579 [00:02<00:03, 81.86it/s]Loading weights:  54%|█████▍    | 312/579 [00:02<00:02, 105.57it/s]Loading weights:  57%|█████▋    | 329/579 [00:02<00:02, 114.63it/s]Loading weights:  62%|██████▏   | 361/579 [00:02<00:01, 152.86it/s]Loading weights:  66%|██████▌   | 380/579 [00:02<00:01, 124.05it/s]Loading weights: 100%|██████████| 579/579 [00:02<00:00, 216.46it/s]
+      allocated=27.65 GiB
+[3/4] prompt
+[4/4] generate
+
+OUTPUT:
+LOCAL MODEL SMOKE TEST PASSED
+
+TIME        : 224.8 s
+PEAK GPU    : 27.67 GiB
+RESULT      : PASS

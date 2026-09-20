@@ -1,0 +1,30 @@
+
+=== LOAD qwen3_4b (10 conditions) ===
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4117.37it/s]
+[1/10] RUN PREFLIGHT01 qwen3_4b RWKU/rwku_001 debate target_context_memory
+  DONE PREFLIGHT01 51.6s
+[2/10] RUN PREFLIGHT02 qwen3_4b RWKU/rwku_001 debate full_inference
+  DONE PREFLIGHT02 51.3s
+[3/10] RUN PREFLIGHT03 qwen3_4b RWKU/rwku_001 scratchpad target_context_memory
+  DONE PREFLIGHT03 8.6s
+[4/10] RUN PREFLIGHT04 qwen3_4b RWKU/rwku_001 scratchpad full_inference
+  DONE PREFLIGHT04 8.5s
+[5/10] RUN PREFLIGHT05 qwen3_4b RWKU/rwku_001 hierarchical target_context_memory
+  DONE PREFLIGHT05 8.1s
+[6/10] RUN PREFLIGHT06 qwen3_4b RWKU/rwku_001 hierarchical full_inference
+  DONE PREFLIGHT06 8.6s
+[7/10] RUN PREFLIGHT07 qwen3_4b MUSE-News/muse_news sequential target_context_memory
+  DONE PREFLIGHT07 9.7s
+[8/10] RUN PREFLIGHT08 qwen3_4b MUSE-News/muse_news sequential full_inference
+  DONE PREFLIGHT08 9.3s
+[9/10] RUN PREFLIGHT09 qwen3_4b MUSE-Books/muse_books sequential target_context_memory
+  FAIL PREFLIGHT09: RuntimeError: MUSE-Books: no knowmem forget QA records found in /home/tahiti/AgentUnlearn/data/MUSE-Books
+[10/10] RUN PREFLIGHT10 qwen3_4b MUSE-Books/muse_books sequential full_inference
+  FAIL PREFLIGHT10: RuntimeError: MUSE-Books: no knowmem forget QA records found in /home/tahiti/AgentUnlearn/data/MUSE-Books
+
+=== LOAD qwen3_8b (2 conditions) ===
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:  10%|█         | 41/399 [00:00<00:00, 394.50it/s]Loading weights:  20%|██        | 81/399 [00:00<00:00, 364.62it/s]Loading weights:  30%|██▉       | 118/399 [00:00<00:00, 317.65it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 1062.51it/s]
+[1/2] RUN PREFLIGHT11 qwen3_8b WMDP/wmdp_bio scratchpad target_context_memory
+  FAIL PREFLIGHT11: RuntimeError: WMDP subset 'bio' not found under /home/tahiti/AgentUnlearn/data/WMDP
+[2/2] RUN PREFLIGHT12 qwen3_8b WMDP/wmdp_bio scratchpad full_inference
+  FAIL PREFLIGHT12: RuntimeError: WMDP subset 'bio' not found under /home/tahiti/AgentUnlearn/data/WMDP

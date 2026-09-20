@@ -1,0 +1,6 @@
+topology_id,n_agents
+independent,4
+sequential,4
+debate,4
+scratchpad,4
+hierarchical,4

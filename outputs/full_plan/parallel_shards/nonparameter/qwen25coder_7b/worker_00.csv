@@ -1,0 +1,68 @@
+run_id,block,model_id,benchmark,unit_id,target_id,target_name,topology,intervention,n_agents,chain_length,target_agent_position,debate_rounds,peer_evidence,comm_threshold,temperature,seed,parameter_method,status
+AU002386,coder_scale,qwen25coder_7b,TOFU,tofu_forget01,forget01,forget01,independent,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002387,coder_scale,qwen25coder_7b,TOFU,tofu_forget01,forget01,forget01,independent,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002388,coder_scale,qwen25coder_7b,TOFU,tofu_forget01,forget01,forget01,independent,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002389,coder_scale,qwen25coder_7b,TOFU,tofu_forget01,forget01,forget01,debate,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002390,coder_scale,qwen25coder_7b,TOFU,tofu_forget01,forget01,forget01,debate,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002394,coder_scale,qwen25coder_7b,TOFU,tofu_forget01,forget01,forget01,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002395,coder_scale,qwen25coder_7b,TOFU,tofu_forget05,forget05,forget05,independent,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002399,coder_scale,qwen25coder_7b,TOFU,tofu_forget05,forget05,forget05,debate,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002401,coder_scale,qwen25coder_7b,TOFU,tofu_forget05,forget05,forget05,scratchpad,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002402,coder_scale,qwen25coder_7b,TOFU,tofu_forget05,forget05,forget05,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002403,coder_scale,qwen25coder_7b,TOFU,tofu_forget05,forget05,forget05,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002404,coder_scale,qwen25coder_7b,TOFU,tofu_forget10,forget10,forget10,independent,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002405,coder_scale,qwen25coder_7b,TOFU,tofu_forget10,forget10,forget10,independent,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002406,coder_scale,qwen25coder_7b,TOFU,tofu_forget10,forget10,forget10,independent,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002407,coder_scale,qwen25coder_7b,TOFU,tofu_forget10,forget10,forget10,debate,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002410,coder_scale,qwen25coder_7b,TOFU,tofu_forget10,forget10,forget10,scratchpad,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002412,coder_scale,qwen25coder_7b,TOFU,tofu_forget10,forget10,forget10,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002413,coder_scale,qwen25coder_7b,MUSE-News,muse_news,news,MUSE News,independent,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002417,coder_scale,qwen25coder_7b,MUSE-News,muse_news,news,MUSE News,debate,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002418,coder_scale,qwen25coder_7b,MUSE-News,muse_news,news,MUSE News,debate,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002421,coder_scale,qwen25coder_7b,MUSE-News,muse_news,news,MUSE News,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002422,coder_scale,qwen25coder_7b,MUSE-Books,muse_books,books,MUSE Books,independent,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002423,coder_scale,qwen25coder_7b,MUSE-Books,muse_books,books,MUSE Books,independent,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002424,coder_scale,qwen25coder_7b,MUSE-Books,muse_books,books,MUSE Books,independent,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002427,coder_scale,qwen25coder_7b,MUSE-Books,muse_books,books,MUSE Books,debate,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002428,coder_scale,qwen25coder_7b,MUSE-Books,muse_books,books,MUSE Books,scratchpad,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002429,coder_scale,qwen25coder_7b,MUSE-Books,muse_books,books,MUSE Books,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002432,coder_scale,qwen25coder_7b,RWKU,rwku_001,1,Stephen King,independent,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002433,coder_scale,qwen25coder_7b,RWKU,rwku_001,1,Stephen King,independent,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002434,coder_scale,qwen25coder_7b,RWKU,rwku_001,1,Stephen King,debate,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002436,coder_scale,qwen25coder_7b,RWKU,rwku_001,1,Stephen King,debate,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002437,coder_scale,qwen25coder_7b,RWKU,rwku_001,1,Stephen King,scratchpad,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002438,coder_scale,qwen25coder_7b,RWKU,rwku_001,1,Stephen King,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002443,coder_scale,qwen25coder_7b,RWKU,rwku_023,23,Evel Knievel,debate,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002449,coder_scale,qwen25coder_7b,RWKU,rwku_045,45,Bruce Springsteen,independent,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002450,coder_scale,qwen25coder_7b,RWKU,rwku_045,45,Bruce Springsteen,independent,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002452,coder_scale,qwen25coder_7b,RWKU,rwku_045,45,Bruce Springsteen,debate,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002453,coder_scale,qwen25coder_7b,RWKU,rwku_045,45,Bruce Springsteen,debate,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002455,coder_scale,qwen25coder_7b,RWKU,rwku_045,45,Bruce Springsteen,scratchpad,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002459,coder_scale,qwen25coder_7b,RWKU,rwku_067,67,Hugh Laurie,independent,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002460,coder_scale,qwen25coder_7b,RWKU,rwku_067,67,Hugh Laurie,independent,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002461,coder_scale,qwen25coder_7b,RWKU,rwku_067,67,Hugh Laurie,debate,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002463,coder_scale,qwen25coder_7b,RWKU,rwku_067,67,Hugh Laurie,debate,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002471,coder_scale,qwen25coder_7b,RWKU,rwku_089,89,Samuel L. Jackson,debate,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002473,coder_scale,qwen25coder_7b,RWKU,rwku_089,89,Samuel L. Jackson,scratchpad,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002474,coder_scale,qwen25coder_7b,RWKU,rwku_089,89,Samuel L. Jackson,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002475,coder_scale,qwen25coder_7b,RWKU,rwku_089,89,Samuel L. Jackson,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002477,coder_scale,qwen25coder_7b,RWKU,rwku_112,112,John Ritter,independent,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002479,coder_scale,qwen25coder_7b,RWKU,rwku_112,112,John Ritter,debate,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002480,coder_scale,qwen25coder_7b,RWKU,rwku_112,112,John Ritter,debate,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002481,coder_scale,qwen25coder_7b,RWKU,rwku_112,112,John Ritter,debate,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002482,coder_scale,qwen25coder_7b,RWKU,rwku_112,112,John Ritter,scratchpad,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002483,coder_scale,qwen25coder_7b,RWKU,rwku_112,112,John Ritter,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002484,coder_scale,qwen25coder_7b,RWKU,rwku_112,112,John Ritter,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002489,coder_scale,qwen25coder_7b,RWKU,rwku_134,134,Donald Sutherland,debate,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002490,coder_scale,qwen25coder_7b,RWKU,rwku_134,134,Donald Sutherland,debate,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002494,coder_scale,qwen25coder_7b,RWKU,rwku_156,156,Aristotle,independent,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002495,coder_scale,qwen25coder_7b,RWKU,rwku_156,156,Aristotle,independent,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002496,coder_scale,qwen25coder_7b,RWKU,rwku_156,156,Aristotle,independent,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002498,coder_scale,qwen25coder_7b,RWKU,rwku_156,156,Aristotle,debate,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002501,coder_scale,qwen25coder_7b,RWKU,rwku_156,156,Aristotle,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002507,coder_scale,qwen25coder_7b,RWKU,rwku_178,178,Alec Baldwin,debate,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002508,coder_scale,qwen25coder_7b,RWKU,rwku_178,178,Alec Baldwin,debate,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002510,coder_scale,qwen25coder_7b,RWKU,rwku_178,178,Alec Baldwin,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002511,coder_scale,qwen25coder_7b,RWKU,rwku_178,178,Alec Baldwin,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002515,coder_scale,qwen25coder_7b,RWKU,rwku_200,200,Michael J. Fox,debate,none,4,4,2,2,1.0,0.5,0.0,42,none,pending
+AU002516,coder_scale,qwen25coder_7b,RWKU,rwku_200,200,Michael J. Fox,debate,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending

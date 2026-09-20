@@ -1,0 +1,2 @@
+run_id,block,model_id,benchmark,unit_id,topology,intervention,parameter_method,drr_target,irr_target,retention_target,drr_system,irr_system,retention_system,n_scored_probes
+SMOKE001,smoke,qwen3_4b,TOFU,tofu_forget01,sequential,target_context_comm,none,0.0,1.0,0.0,0.0,1.0,0.0,3

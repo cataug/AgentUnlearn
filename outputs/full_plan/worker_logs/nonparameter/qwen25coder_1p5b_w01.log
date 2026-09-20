@@ -1,0 +1,193 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/usr/lib/python3/dist-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/usr/lib/python3/dist-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/usr/lib/python3/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 50, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.10 from "/usr/bin/python3.10"
+  * The NumPy version is: "1.26.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/scripts/run_manifest.py", line 15, in <module>
+    from agentunlearn.engine import ExperimentEngine
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/engine.py", line 8, in <module>
+    from agentunlearn.datasets import get_adapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/__init__.py", line 5, in <module>
+    from agentunlearn.datasets.muse import MUSEAdapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/muse.py", line 6, in <module>
+    from agentunlearn.datasets.base import (
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/base.py", line 8, in <module>
+    from agentunlearn.io import answer_list, first_text, recursive_dict_records
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/io.py", line 13, in <module>
+    import numpy as np
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/usr/lib/python3/dist-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/usr/lib/python3/dist-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/usr/lib/python3/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 50, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.10 from "/usr/bin/python3.10"
+  * The NumPy version is: "1.26.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/scripts/run_manifest.py", line 15, in <module>
+    from agentunlearn.engine import ExperimentEngine
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/engine.py", line 8, in <module>
+    from agentunlearn.datasets import get_adapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/__init__.py", line 5, in <module>
+    from agentunlearn.datasets.muse import MUSEAdapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/muse.py", line 6, in <module>
+    from agentunlearn.datasets.base import (
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/base.py", line 8, in <module>
+    from agentunlearn.io import answer_list, first_text, recursive_dict_records
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/io.py", line 13, in <module>
+    import numpy as np
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+
+=== LOAD qwen25coder_1p5b (32 conditions) ===
+
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+Loading weights:  34%|███▍      | 116/338 [00:00<00:00, 1159.61it/s]
+Loading weights:  70%|██████▉   | 236/338 [00:00<00:00, 1172.37it/s]
+Loading weights: 100%|██████████| 338/338 [00:00<00:00, 1608.39it/s]
+[1/32] RUN AU002251 qwen25coder_1p5b TOFU/tofu_forget01 independent none
+  DONE AU002251 121.8s
+[2/32] RUN AU002271 qwen25coder_1p5b TOFU/tofu_forget10 independent full_inference
+  DONE AU002271 105.5s
+[3/32] RUN AU002280 qwen25coder_1p5b MUSE-News/muse_news independent full_inference
+  DONE AU002280 105.6s
+[4/32] RUN AU002282 qwen25coder_1p5b MUSE-News/muse_news debate target_context_memory
+  DONE AU002282 310.1s
+[5/32] RUN AU002288 qwen25coder_1p5b MUSE-Books/muse_books independent target_context_memory
+  DONE AU002288 109.3s
+[6/32] RUN AU002291 qwen25coder_1p5b MUSE-Books/muse_books debate target_context_memory
+  DONE AU002291 458.1s
+[7/32] RUN AU002297 qwen25coder_1p5b RWKU/rwku_001 independent target_context_memory
+  DONE AU002297 63.2s
+[8/32] RUN AU002302 qwen25coder_1p5b RWKU/rwku_001 scratchpad none
+  DONE AU002302 69.3s
+[9/32] RUN AU002306 qwen25coder_1p5b RWKU/rwku_023 independent target_context_memory
+  DONE AU002306 34.7s
+[10/32] RUN AU002309 qwen25coder_1p5b RWKU/rwku_023 debate target_context_memory
+  DONE AU002309 476.8s
+[11/32] RUN AU002310 qwen25coder_1p5b RWKU/rwku_023 debate full_inference
+  DONE AU002310 477.9s
+[12/32] RUN AU002311 qwen25coder_1p5b RWKU/rwku_023 scratchpad none
+  DONE AU002311 67.3s
+[13/32] RUN AU002315 qwen25coder_1p5b RWKU/rwku_045 independent target_context_memory
+  DONE AU002315 88.8s
+[14/32] RUN AU002321 qwen25coder_1p5b RWKU/rwku_045 scratchpad target_context_memory
+  DONE AU002321 126.2s
+[15/32] RUN AU002322 qwen25coder_1p5b RWKU/rwku_045 scratchpad full_inference
+  DONE AU002322 132.1s
+[16/32] RUN AU002323 qwen25coder_1p5b RWKU/rwku_067 independent none
+  DONE AU002323 88.3s
+[17/32] RUN AU002324 qwen25coder_1p5b RWKU/rwku_067 independent target_context_memory
+  DONE AU002324 77.7s
+[18/32] RUN AU002325 qwen25coder_1p5b RWKU/rwku_067 independent full_inference
+  DONE AU002325 84.7s
+[19/32] RUN AU002331 qwen25coder_1p5b RWKU/rwku_067 scratchpad full_inference
+  DONE AU002331 116.0s
+[20/32] RUN AU002333 qwen25coder_1p5b RWKU/rwku_089 independent target_context_memory
+  DONE AU002333 84.0s
+[21/32] RUN AU002335 qwen25coder_1p5b RWKU/rwku_089 debate none
+  DONE AU002335 582.9s
+[22/32] RUN AU002345 qwen25coder_1p5b RWKU/rwku_112 debate target_context_memory
+  DONE AU002345 541.0s
+[23/32] RUN AU002349 qwen25coder_1p5b RWKU/rwku_112 scratchpad full_inference
+  DONE AU002349 92.5s
+[24/32] RUN AU002351 qwen25coder_1p5b RWKU/rwku_134 independent target_context_memory
+  DONE AU002351 48.8s
+[25/32] RUN AU002352 qwen25coder_1p5b RWKU/rwku_134 independent full_inference
+  DONE AU002352 48.5s
+[26/32] RUN AU002353 qwen25coder_1p5b RWKU/rwku_134 debate none
+  DONE AU002353 349.0s
+[27/32] RUN AU002354 qwen25coder_1p5b RWKU/rwku_134 debate target_context_memory
+  DONE AU002354 470.5s
+[28/32] RUN AU002358 qwen25coder_1p5b RWKU/rwku_134 scratchpad full_inference
+  DONE AU002358 81.5s
+[29/32] RUN AU002359 qwen25coder_1p5b RWKU/rwku_156 independent none
+  DONE AU002359 68.9s
+[30/32] RUN AU002361 qwen25coder_1p5b RWKU/rwku_156 independent full_inference
+  DONE AU002361 54.4s
+[31/32] RUN AU002363 qwen25coder_1p5b RWKU/rwku_156 debate target_context_memory
+  DONE AU002363 445.1s
+[32/32] RUN AU002377 qwen25coder_1p5b RWKU/rwku_200 independent none
+  DONE AU002377 69.4s

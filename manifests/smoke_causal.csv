@@ -1,0 +1,7 @@
+run_id,block,model_id,benchmark,unit_id,target_id,target_name,topology,intervention,n_agents,chain_length,target_agent_position,debate_rounds,peer_evidence,comm_threshold,temperature,seed,parameter_method,status
+CSMOKE01,causal_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,independent,none,2,2,2,0,1.0,0.7,0.0,42,none,pending
+CSMOKE02,causal_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,independent,target_context_memory,2,2,2,0,1.0,0.7,0.0,42,none,pending
+CSMOKE03,causal_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,independent,full_inference,2,2,2,0,1.0,0.7,0.0,42,none,pending
+CSMOKE04,causal_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,sequential,none,2,2,2,0,1.0,0.7,0.0,42,none,pending
+CSMOKE05,causal_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,sequential,target_context_memory,2,2,2,0,1.0,0.7,0.0,42,none,pending
+CSMOKE06,causal_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,sequential,full_inference,2,2,2,0,1.0,0.7,0.0,42,none,pending

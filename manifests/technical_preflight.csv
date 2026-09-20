@@ -1,0 +1,13 @@
+run_id,block,model_id,benchmark,unit_id,target_id,target_name,topology,intervention,n_agents,chain_length,target_agent_position,debate_rounds,peer_evidence,comm_threshold,temperature,seed,parameter_method,status
+PREFLIGHT01,technical_preflight,qwen3_4b,RWKU,rwku_001,1,Stephen King,debate,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT02,technical_preflight,qwen3_4b,RWKU,rwku_001,1,Stephen King,debate,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT03,technical_preflight,qwen3_4b,RWKU,rwku_001,1,Stephen King,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT04,technical_preflight,qwen3_4b,RWKU,rwku_001,1,Stephen King,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT05,technical_preflight,qwen3_4b,RWKU,rwku_001,1,Stephen King,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT06,technical_preflight,qwen3_4b,RWKU,rwku_001,1,Stephen King,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT07,technical_preflight,qwen3_4b,MUSE-News,muse_news,news,MUSE News,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT08,technical_preflight,qwen3_4b,MUSE-News,muse_news,news,MUSE News,sequential,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT09,technical_preflight,qwen3_4b,MUSE-Books,muse_books,books,MUSE Books,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT10,technical_preflight,qwen3_4b,MUSE-Books,muse_books,books,MUSE Books,sequential,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT11,technical_preflight,qwen3_8b,WMDP,wmdp_bio,bio,WMDP bio,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT12,technical_preflight,qwen3_8b,WMDP,wmdp_bio,bio,WMDP bio,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending

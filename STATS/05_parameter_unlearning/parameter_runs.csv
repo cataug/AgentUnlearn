@@ -1,0 +1,201 @@
+run_id,block,model_id,benchmark,unit_id,topology,intervention,parameter_method,drr_target,irr_target,retention_target,drr_system,irr_system,retention_system,n_scored_probes,target_id,target_name,n_agents,chain_length,target_agent_position,debate_rounds,peer_evidence,comm_threshold,temperature,seed,status,raw_complete
+AU002986,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,independent,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002987,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,independent,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002988,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,sequential,parameter_only,gradient_ascent,1.0,0.8,1.0,1.0,0.6,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002989,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,sequential,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,0.6,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002990,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,debate,parameter_only,gradient_ascent,1.0,0.4,0.6,1.0,0.4,0.6,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002991,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,debate,parameter_plus_comm,gradient_ascent,1.0,0.6,0.6,1.0,0.4,0.6,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002992,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,scratchpad,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002993,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,scratchpad,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002994,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,hierarchical,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002995,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,hierarchical,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002996,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,independent,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002997,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,independent,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002998,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,sequential,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,0.6,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU002999,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,sequential,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,0.4,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003000,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,debate,parameter_only,lora_grad_diff,1.0,0.4,0.4,1.0,0.4,0.4,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003001,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,debate,parameter_plus_comm,lora_grad_diff,1.0,0.4,0.4,1.0,0.4,0.4,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003002,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,scratchpad,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003003,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,scratchpad,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003004,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,hierarchical,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,0.8,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003005,parameter_unlearning,qwen3_4b,TOFU,tofu_forget01,hierarchical,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,0.8,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003006,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,independent,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003007,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,independent,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003008,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,sequential,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003009,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,sequential,parameter_plus_comm,gradient_ascent,0.4,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003010,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,debate,parameter_only,gradient_ascent,1.0,1.0,0.8,1.0,1.0,0.6,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003011,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,debate,parameter_plus_comm,gradient_ascent,0.8,0.8,0.8,1.0,1.0,0.6,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003012,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,scratchpad,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003013,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,scratchpad,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003014,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,hierarchical,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003015,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,hierarchical,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003016,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,independent,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003017,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,independent,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003018,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,sequential,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003019,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,sequential,parameter_plus_comm,lora_grad_diff,0.4,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003020,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,debate,parameter_only,lora_grad_diff,0.8,1.0,1.0,0.8,1.0,0.8,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003021,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,debate,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,0.8,1.0,0.8,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003022,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,scratchpad,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003023,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,scratchpad,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003024,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,hierarchical,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003025,parameter_unlearning,qwen3_4b,TOFU,tofu_forget05,hierarchical,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003026,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,independent,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003027,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,independent,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003028,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,sequential,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003029,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,sequential,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003030,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,debate,parameter_only,gradient_ascent,1.0,1.0,0.2,1.0,1.0,0.2,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003031,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,debate,parameter_plus_comm,gradient_ascent,1.0,1.0,0.2,1.0,1.0,0.2,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003032,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,scratchpad,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003033,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,scratchpad,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003034,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,hierarchical,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003035,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,hierarchical,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003036,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,independent,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003037,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,independent,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003038,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,sequential,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003039,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,sequential,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003040,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,debate,parameter_only,lora_grad_diff,1.0,1.0,0.2,1.0,1.0,0.2,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003041,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,debate,parameter_plus_comm,lora_grad_diff,1.0,1.0,0.2,1.0,1.0,0.2,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003042,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,scratchpad,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003043,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,scratchpad,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003044,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,hierarchical,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003045,parameter_unlearning,qwen3_4b,TOFU,tofu_forget10,hierarchical,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003046,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,independent,parameter_only,gradient_ascent,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003047,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,independent,parameter_plus_comm,gradient_ascent,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003048,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,sequential,parameter_only,gradient_ascent,0.0,,0.0,0.0,,0.2,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003049,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,sequential,parameter_plus_comm,gradient_ascent,0.0,,0.0,0.0,,0.2,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003050,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,debate,parameter_only,gradient_ascent,0.0,,0.2,0.0,,0.2,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003051,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,debate,parameter_plus_comm,gradient_ascent,0.0,,0.2,0.0,,0.2,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003052,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,scratchpad,parameter_only,gradient_ascent,0.0,,0.0,0.0,,0.8,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003053,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,scratchpad,parameter_plus_comm,gradient_ascent,0.0,,0.0,0.0,,0.8,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003054,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,hierarchical,parameter_only,gradient_ascent,0.0,,0.0,0.0,,0.2,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003055,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,hierarchical,parameter_plus_comm,gradient_ascent,0.0,,0.0,0.0,,0.2,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003056,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,independent,parameter_only,lora_grad_diff,0.0,,0.4,0.0,,0.4,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003057,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,independent,parameter_plus_comm,lora_grad_diff,0.0,,0.4,0.0,,0.4,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003058,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,sequential,parameter_only,lora_grad_diff,0.0,,0.4,0.0,,0.4,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003059,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,sequential,parameter_plus_comm,lora_grad_diff,0.0,,0.4,0.0,,0.4,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003060,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,debate,parameter_only,lora_grad_diff,0.0,,0.6,0.0,,0.6,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003061,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,debate,parameter_plus_comm,lora_grad_diff,0.0,,0.6,0.0,,0.6,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003062,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,scratchpad,parameter_only,lora_grad_diff,0.0,,0.4,0.0,,0.8,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003063,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,scratchpad,parameter_plus_comm,lora_grad_diff,0.0,,0.4,0.0,,0.8,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003064,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,hierarchical,parameter_only,lora_grad_diff,0.0,,0.4,0.0,,0.4,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003065,parameter_unlearning,qwen3_4b,MUSE-News,muse_news,hierarchical,parameter_plus_comm,lora_grad_diff,0.0,,0.4,0.0,,0.4,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003066,parameter_unlearning,qwen3_4b,RWKU,rwku_001,independent,parameter_only,gradient_ascent,0.2,0.0,0.4,0.2,0.0,0.4,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003067,parameter_unlearning,qwen3_4b,RWKU,rwku_001,independent,parameter_plus_comm,gradient_ascent,0.2,0.0,0.4,0.2,0.0,0.4,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003068,parameter_unlearning,qwen3_4b,RWKU,rwku_001,sequential,parameter_only,gradient_ascent,0.2,0.0,0.2,0.2,0.0,0.2,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003069,parameter_unlearning,qwen3_4b,RWKU,rwku_001,sequential,parameter_plus_comm,gradient_ascent,0.2,0.0,0.2,0.2,0.0,0.2,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003070,parameter_unlearning,qwen3_4b,RWKU,rwku_001,debate,parameter_only,gradient_ascent,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003071,parameter_unlearning,qwen3_4b,RWKU,rwku_001,debate,parameter_plus_comm,gradient_ascent,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003072,parameter_unlearning,qwen3_4b,RWKU,rwku_001,scratchpad,parameter_only,gradient_ascent,0.6,0.0,0.2,0.8,0.0,0.2,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003073,parameter_unlearning,qwen3_4b,RWKU,rwku_001,scratchpad,parameter_plus_comm,gradient_ascent,0.8,0.0,0.2,0.6,0.0,0.2,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003074,parameter_unlearning,qwen3_4b,RWKU,rwku_001,hierarchical,parameter_only,gradient_ascent,0.2,0.0,0.0,0.2,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003075,parameter_unlearning,qwen3_4b,RWKU,rwku_001,hierarchical,parameter_plus_comm,gradient_ascent,0.2,0.0,0.0,0.2,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003076,parameter_unlearning,qwen3_4b,RWKU,rwku_001,independent,parameter_only,lora_grad_diff,0.0,0.0,0.4,0.0,0.0,0.4,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003077,parameter_unlearning,qwen3_4b,RWKU,rwku_001,independent,parameter_plus_comm,lora_grad_diff,0.0,0.0,0.4,0.0,0.0,0.4,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003078,parameter_unlearning,qwen3_4b,RWKU,rwku_001,sequential,parameter_only,lora_grad_diff,0.2,0.0,0.2,0.2,0.0,0.2,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003079,parameter_unlearning,qwen3_4b,RWKU,rwku_001,sequential,parameter_plus_comm,lora_grad_diff,0.0,0.0,0.2,0.2,0.0,0.2,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003080,parameter_unlearning,qwen3_4b,RWKU,rwku_001,debate,parameter_only,lora_grad_diff,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003081,parameter_unlearning,qwen3_4b,RWKU,rwku_001,debate,parameter_plus_comm,lora_grad_diff,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003082,parameter_unlearning,qwen3_4b,RWKU,rwku_001,scratchpad,parameter_only,lora_grad_diff,0.8,0.0,0.2,0.8,0.0,0.2,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003083,parameter_unlearning,qwen3_4b,RWKU,rwku_001,scratchpad,parameter_plus_comm,lora_grad_diff,0.2,0.0,0.2,1.0,0.0,0.2,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003084,parameter_unlearning,qwen3_4b,RWKU,rwku_001,hierarchical,parameter_only,lora_grad_diff,0.0,0.0,0.0,0.2,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003085,parameter_unlearning,qwen3_4b,RWKU,rwku_001,hierarchical,parameter_plus_comm,lora_grad_diff,0.0,0.0,0.0,0.2,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003086,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,independent,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003087,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,independent,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003088,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,sequential,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003089,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,sequential,parameter_plus_comm,gradient_ascent,1.0,0.8,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003090,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,debate,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003091,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,debate,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003092,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,scratchpad,parameter_only,gradient_ascent,1.0,0.8,0.8,1.0,0.8,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003093,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,scratchpad,parameter_plus_comm,gradient_ascent,1.0,0.8,0.8,1.0,0.8,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003094,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,hierarchical,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003095,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,hierarchical,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003096,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,independent,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003097,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,independent,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003098,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,sequential,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003099,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,sequential,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003100,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,debate,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003101,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,debate,parameter_plus_comm,lora_grad_diff,1.0,0.8,1.0,1.0,0.8,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003102,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,scratchpad,parameter_only,lora_grad_diff,1.0,0.8,0.8,1.0,0.8,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003103,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,scratchpad,parameter_plus_comm,lora_grad_diff,1.0,1.0,0.8,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003104,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,hierarchical,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003105,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,hierarchical,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget01,forget01,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003106,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,independent,parameter_only,gradient_ascent,0.8,1.0,1.0,0.8,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003107,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,independent,parameter_plus_comm,gradient_ascent,0.8,1.0,1.0,0.8,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003108,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,sequential,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003109,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,sequential,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003110,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,debate,parameter_only,gradient_ascent,1.0,0.6,1.0,1.0,0.4,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003111,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,debate,parameter_plus_comm,gradient_ascent,0.8,1.0,1.0,1.0,0.4,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003112,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,scratchpad,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003113,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,scratchpad,parameter_plus_comm,gradient_ascent,0.8,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003114,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,hierarchical,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003115,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,hierarchical,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003116,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,independent,parameter_only,lora_grad_diff,0.8,1.0,1.0,0.8,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003117,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,independent,parameter_plus_comm,lora_grad_diff,0.8,1.0,1.0,0.8,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003118,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,sequential,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003119,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,sequential,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003120,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,debate,parameter_only,lora_grad_diff,1.0,0.4,1.0,1.0,0.4,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003121,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,debate,parameter_plus_comm,lora_grad_diff,0.8,1.0,1.0,1.0,0.4,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003122,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,scratchpad,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003123,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,scratchpad,parameter_plus_comm,lora_grad_diff,0.8,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003124,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,hierarchical,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003125,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,hierarchical,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget05,forget05,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003126,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,independent,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003127,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,independent,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003128,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,sequential,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003129,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,sequential,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003130,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,debate,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003131,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,debate,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003132,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,scratchpad,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003133,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,scratchpad,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003134,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,hierarchical,parameter_only,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003135,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,hierarchical,parameter_plus_comm,gradient_ascent,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003136,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,independent,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003137,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,independent,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003138,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,sequential,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003139,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,sequential,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003140,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,debate,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003141,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,debate,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003142,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,scratchpad,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003143,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,scratchpad,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003144,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,hierarchical,parameter_only,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003145,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,hierarchical,parameter_plus_comm,lora_grad_diff,1.0,1.0,1.0,1.0,1.0,1.0,15,forget10,forget10,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003146,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,independent,parameter_only,gradient_ascent,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003147,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,independent,parameter_plus_comm,gradient_ascent,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003148,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,sequential,parameter_only,gradient_ascent,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003149,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,sequential,parameter_plus_comm,gradient_ascent,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003150,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,debate,parameter_only,gradient_ascent,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003151,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,debate,parameter_plus_comm,gradient_ascent,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003152,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,scratchpad,parameter_only,gradient_ascent,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003153,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,scratchpad,parameter_plus_comm,gradient_ascent,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003154,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,hierarchical,parameter_only,gradient_ascent,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003155,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,hierarchical,parameter_plus_comm,gradient_ascent,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003156,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,independent,parameter_only,lora_grad_diff,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003157,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,independent,parameter_plus_comm,lora_grad_diff,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003158,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,sequential,parameter_only,lora_grad_diff,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003159,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,sequential,parameter_plus_comm,lora_grad_diff,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003160,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,debate,parameter_only,lora_grad_diff,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003161,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,debate,parameter_plus_comm,lora_grad_diff,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003162,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,scratchpad,parameter_only,lora_grad_diff,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003163,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,scratchpad,parameter_plus_comm,lora_grad_diff,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003164,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,hierarchical,parameter_only,lora_grad_diff,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003165,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,hierarchical,parameter_plus_comm,lora_grad_diff,0.0,,0.0,0.0,,0.0,10,news,MUSE News,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003166,parameter_unlearning,qwen3_8b,RWKU,rwku_001,independent,parameter_only,gradient_ascent,1.0,0.0,0.0,1.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003167,parameter_unlearning,qwen3_8b,RWKU,rwku_001,independent,parameter_plus_comm,gradient_ascent,1.0,0.0,0.0,1.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003168,parameter_unlearning,qwen3_8b,RWKU,rwku_001,sequential,parameter_only,gradient_ascent,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003169,parameter_unlearning,qwen3_8b,RWKU,rwku_001,sequential,parameter_plus_comm,gradient_ascent,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003170,parameter_unlearning,qwen3_8b,RWKU,rwku_001,debate,parameter_only,gradient_ascent,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003171,parameter_unlearning,qwen3_8b,RWKU,rwku_001,debate,parameter_plus_comm,gradient_ascent,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003172,parameter_unlearning,qwen3_8b,RWKU,rwku_001,scratchpad,parameter_only,gradient_ascent,0.4,0.0,0.0,0.2,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003173,parameter_unlearning,qwen3_8b,RWKU,rwku_001,scratchpad,parameter_plus_comm,gradient_ascent,0.4,0.0,0.0,0.2,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003174,parameter_unlearning,qwen3_8b,RWKU,rwku_001,hierarchical,parameter_only,gradient_ascent,0.2,0.0,0.0,0.4,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003175,parameter_unlearning,qwen3_8b,RWKU,rwku_001,hierarchical,parameter_plus_comm,gradient_ascent,0.2,0.0,0.0,0.4,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003176,parameter_unlearning,qwen3_8b,RWKU,rwku_001,independent,parameter_only,lora_grad_diff,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003177,parameter_unlearning,qwen3_8b,RWKU,rwku_001,independent,parameter_plus_comm,lora_grad_diff,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003178,parameter_unlearning,qwen3_8b,RWKU,rwku_001,sequential,parameter_only,lora_grad_diff,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003179,parameter_unlearning,qwen3_8b,RWKU,rwku_001,sequential,parameter_plus_comm,lora_grad_diff,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003180,parameter_unlearning,qwen3_8b,RWKU,rwku_001,debate,parameter_only,lora_grad_diff,0.0,0.0,0.0,0.6,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003181,parameter_unlearning,qwen3_8b,RWKU,rwku_001,debate,parameter_plus_comm,lora_grad_diff,0.0,0.0,0.0,0.6,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003182,parameter_unlearning,qwen3_8b,RWKU,rwku_001,scratchpad,parameter_only,lora_grad_diff,0.0,0.0,0.0,0.0,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003183,parameter_unlearning,qwen3_8b,RWKU,rwku_001,scratchpad,parameter_plus_comm,lora_grad_diff,0.0,0.0,0.0,0.2,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003184,parameter_unlearning,qwen3_8b,RWKU,rwku_001,hierarchical,parameter_only,lora_grad_diff,0.0,0.0,0.0,0.2,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True
+AU003185,parameter_unlearning,qwen3_8b,RWKU,rwku_001,hierarchical,parameter_plus_comm,lora_grad_diff,0.0,0.0,0.0,0.2,0.0,0.0,15,1,Stephen King,4,4,2,2,1.0,0.5,0.0,42,pending,True

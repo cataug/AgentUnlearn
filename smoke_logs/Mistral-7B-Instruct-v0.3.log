@@ -1,0 +1,22 @@
+========================================================================================
+MODEL       : Mistral-7B-Instruct-v0.3
+PATH        : /home/tahiti/TimeBound/models/mistralai__Mistral-7B-Instruct-v0.3
+torch       : 2.5.1+cu121
+transformers: 5.10.0.dev0
+CUDA        : True
+GPU         : NVIDIA A100-PCIE-40GB
+GPU free    : 31.75 / 39.38 GiB
+
+[1/4] tokenizer
+[2/4] model
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 36/291 [00:00<00:00, 357.57it/s]Loading weights:  25%|██▍       | 72/291 [00:00<00:00, 256.94it/s]Loading weights:  34%|███▍      | 100/291 [00:00<00:01, 179.04it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 574.73it/s]
+      allocated=13.50 GiB
+[3/4] prompt
+[4/4] generate
+
+OUTPUT:
+LOCAL MODEL SMOKE TEST PASSED
+
+TIME        : 121.8 s
+PEAK GPU    : 13.51 GiB
+RESULT      : PASS

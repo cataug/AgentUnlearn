@@ -1,0 +1,501 @@
+run_id,block,model_id,benchmark,unit_id,target_id,target_name,topology,intervention,n_agents,chain_length,target_agent_position,debate_rounds,peer_evidence,comm_threshold,temperature,seed,parameter_method,drr_target,irr_target,retention_target,drr_system,irr_system,retention_system,n_scored_probes
+AU003186,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003187,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003188,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003189,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,0.2,0.0,1.0,0.0,0.0,1.0,15
+AU003190,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,0.2,0.0,1.0,0.0,0.0,1.0,15
+AU003191,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003192,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,0.2,0.0,1.0,0.0,0.0,1.0,15
+AU003193,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,0.2,0.0,1.0,0.0,0.0,1.0,15
+AU003194,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,0.2,0.0,1.0,0.0,0.0,1.0,15
+AU003195,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,0.2,0.0,1.0,0.0,0.0,1.0,15
+AU003196,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003197,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003198,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003199,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.2,0.0,1.0,0.0,0.0,1.0,15
+AU003200,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.2,0.0,1.0,0.0,0.0,1.0,15
+AU003201,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003202,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.2,0.0,1.0,0.0,0.0,1.0,15
+AU003203,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.2,0.0,1.0,0.0,0.0,1.0,15
+AU003204,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.2,0.0,1.0,0.0,0.0,1.0,15
+AU003205,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.2,0.0,1.0,0.0,0.0,1.0,15
+AU003206,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003207,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003208,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003209,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003210,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003211,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003212,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003213,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003214,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003215,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003216,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003217,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,0.2,1.0,1.0,1.0,1.0,15
+AU003218,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003219,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003220,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.0,0.2,1.0,1.0,1.0,1.0,15
+AU003221,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003222,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003223,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003224,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.0,0.4,1.0,1.0,1.0,1.0,15
+AU003225,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003226,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,0.4,1.0,1.0,0.6,1.0,15
+AU003227,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,0.4,1.0,1.0,0.4,1.0,15
+AU003228,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,0.6,1.0,1.0,0.8,1.0,15
+AU003229,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,0.4,1.0,1.0,0.4,1.0,15
+AU003230,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,1.0,1.0,1.0,0.8,1.0,15
+AU003231,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,0.4,1.0,1.0,0.8,1.0,15
+AU003232,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,0.6,1.0,1.0,0.4,1.0,15
+AU003233,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,0.6,1.0,1.0,1.0,1.0,15
+AU003234,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,0.4,1.0,1.0,0.6,1.0,15
+AU003235,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003236,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.2,0.0,1.0,1.0,0.6,1.0,15
+AU003237,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,0.0,1.0,1.0,0.4,1.0,15
+AU003238,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.4,0.0,1.0,1.0,0.6,1.0,15
+AU003239,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.0,0.0,1.0,1.0,0.4,1.0,15
+AU003240,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.4,0.4,1.0,1.0,0.8,1.0,15
+AU003241,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.4,0.2,1.0,1.0,1.0,1.0,15
+AU003242,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.8,0.2,1.0,1.0,0.6,1.0,15
+AU003243,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.4,0.0,1.0,1.0,1.0,1.0,15
+AU003244,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.4,0.2,1.0,1.0,0.4,1.0,15
+AU003245,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,debate,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.4,0.4,1.0,1.0,1.0,1.0,15
+AU003246,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,0.8,1.0,1.0,1.0,1.0,15
+AU003247,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,0.8,1.0,1.0,1.0,1.0,15
+AU003248,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,0.8,1.0,1.0,1.0,1.0,15
+AU003249,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,0.8,1.0,1.0,0.8,1.0,15
+AU003250,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,0.8,1.0,1.0,0.8,1.0,15
+AU003251,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003252,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003253,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,0.8,1.0,1.0,0.8,1.0,15
+AU003254,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,0.8,1.0,1.0,0.8,1.0,15
+AU003255,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,1.0,0.4,1.0,15
+AU003256,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.4,0.0,1.0,1.0,0.8,1.0,15
+AU003257,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003258,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.2,0.2,1.0,1.0,1.0,1.0,15
+AU003259,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.8,0.2,1.0,1.0,0.8,1.0,15
+AU003260,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.0,0.2,1.0,1.0,1.0,1.0,15
+AU003261,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.4,0.0,1.0,1.0,1.0,1.0,15
+AU003262,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.4,0.4,1.0,1.0,1.0,1.0,15
+AU003263,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.6,0.0,1.0,1.0,0.8,1.0,15
+AU003264,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.6,0.0,1.0,1.0,0.8,1.0,15
+AU003265,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,0.0,1.0,1.0,0.8,1.0,15
+AU003266,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003267,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003268,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003269,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,0.2,0.0,1.0,1.0,1.0,1.0,15
+AU003270,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003271,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,0.2,0.0,1.0,1.0,1.0,1.0,15
+AU003272,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003273,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,0.2,0.2,1.0,1.0,1.0,1.0,15
+AU003274,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,0.2,0.0,1.0,1.0,1.0,1.0,15
+AU003275,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003276,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003277,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003278,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003279,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.2,0.0,1.0,1.0,1.0,1.0,15
+AU003280,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003281,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.2,0.0,1.0,1.0,1.0,1.0,15
+AU003282,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003283,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.2,0.2,1.0,1.0,1.0,1.0,15
+AU003284,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.2,0.0,1.0,1.0,1.0,1.0,15
+AU003285,stochastic_robustness,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003286,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,0.6,1.0,1.0,0.0,1.0,1.0,15
+AU003287,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,0.0,1.0,1.0,15
+AU003288,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,0.6,1.0,1.0,0.2,0.8,1.0,15
+AU003289,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,0.8,1.0,1.0,0.2,1.0,1.0,15
+AU003290,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,0.8,1.0,1.0,0.2,1.0,1.0,15
+AU003291,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,0.8,1.0,1.0,0.0,1.0,1.0,15
+AU003292,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,0.0,0.8,1.0,15
+AU003293,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,0.8,1.0,1.0,0.0,0.8,1.0,15
+AU003294,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,0.8,1.0,1.0,0.2,1.0,1.0,15
+AU003295,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,0.0,1.0,1.0,15
+AU003296,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.6,1.0,1.0,0.0,1.0,1.0,15
+AU003297,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,0.0,1.0,1.0,15
+AU003298,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.6,1.0,1.0,0.2,0.8,1.0,15
+AU003299,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.8,1.0,1.0,0.2,1.0,1.0,15
+AU003300,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.8,1.0,1.0,0.2,1.0,1.0,15
+AU003301,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.8,1.0,1.0,0.0,1.0,1.0,15
+AU003302,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,0.0,0.8,1.0,15
+AU003303,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.8,1.0,1.0,0.0,0.8,1.0,15
+AU003304,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.8,1.0,1.0,0.2,1.0,1.0,15
+AU003305,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,0.0,1.0,1.0,15
+AU003306,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003307,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003308,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,0.6,1.0,1.0,0.8,1.0,1.0,15
+AU003309,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003310,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003311,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003312,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003313,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,0.8,1.0,1.0,0.8,1.0,1.0,15
+AU003314,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003315,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003316,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.6,1.0,1.0,1.0,1.0,1.0,15
+AU003317,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003318,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.4,1.0,1.0,1.0,1.0,1.0,15
+AU003319,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.6,1.0,1.0,0.8,1.0,1.0,15
+AU003320,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.6,1.0,1.0,1.0,1.0,1.0,15
+AU003321,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.6,1.0,1.0,1.0,1.0,1.0,15
+AU003322,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003323,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.6,1.0,1.0,1.0,1.0,1.0,15
+AU003324,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.6,1.0,1.0,0.8,1.0,1.0,15
+AU003325,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003326,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003327,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003328,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003329,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,1.0,1.0,1.0,0.8,1.0,15
+AU003330,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003331,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003332,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003333,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,1.0,1.0,0.6,1.0,1.0,15
+AU003334,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003335,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,0.6,1.0,1.0,15
+AU003336,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.6,1.0,1.0,1.0,1.0,1.0,15
+AU003337,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003338,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.2,1.0,1.0,0.6,1.0,1.0,15
+AU003339,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,1.0,1.0,1.0,1.0,0.8,1.0,15
+AU003340,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003341,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003342,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.8,1.0,1.0,0.8,1.0,1.0,15
+AU003343,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.4,1.0,1.0,0.6,1.0,1.0,15
+AU003344,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.8,1.0,1.0,1.0,0.8,1.0,15
+AU003345,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.8,1.0,1.0,0.4,1.0,1.0,15
+AU003346,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,1.0,1.0,0.6,1.0,1.0,15
+AU003347,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,0.6,1.0,1.0,15
+AU003348,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,1.0,1.0,0.8,1.0,1.0,15
+AU003349,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,1.0,1.0,0.8,1.0,1.0,15
+AU003350,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,1.0,1.0,0.8,1.0,1.0,15
+AU003351,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,0.8,1.0,1.0,0.8,1.0,1.0,15
+AU003352,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003353,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,1.0,1.0,0.6,1.0,1.0,15
+AU003354,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003355,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,0.8,1.0,1.0,15
+AU003356,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.6,1.0,1.0,0.6,1.0,1.0,15
+AU003357,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003358,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.8,1.0,0.8,0.8,1.0,1.0,15
+AU003359,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.8,1.0,1.0,0.6,1.0,1.0,15
+AU003360,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.8,0.8,1.0,1.0,1.0,1.0,15
+AU003361,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,1.0,0.8,1.0,1.0,1.0,1.0,15
+AU003362,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.8,0.8,1.0,1.0,1.0,1.0,15
+AU003363,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.8,1.0,0.8,0.8,1.0,1.0,15
+AU003364,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.6,1.0,1.0,0.8,0.8,1.0,15
+AU003365,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.6,0.8,1.0,1.0,1.0,1.0,15
+AU003366,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,0.4,0.8,1.0,1.0,1.0,1.0,15
+AU003367,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,0.4,0.8,1.0,1.0,1.0,1.0,15
+AU003368,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,0.4,1.0,1.0,1.0,1.0,1.0,15
+AU003369,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,0.2,1.0,1.0,1.0,1.0,1.0,15
+AU003370,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,0.2,1.0,1.0,1.0,1.0,1.0,15
+AU003371,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,0.6,0.8,1.0,1.0,1.0,1.0,15
+AU003372,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003373,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,0.6,1.0,1.0,1.0,1.0,1.0,15
+AU003374,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,0.4,1.0,1.0,1.0,1.0,1.0,15
+AU003375,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003376,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.4,0.8,1.0,1.0,1.0,1.0,15
+AU003377,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.4,0.8,1.0,1.0,1.0,1.0,15
+AU003378,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.4,1.0,1.0,1.0,1.0,1.0,15
+AU003379,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.2,1.0,1.0,1.0,1.0,1.0,15
+AU003380,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.2,1.0,1.0,1.0,1.0,1.0,15
+AU003381,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.6,0.8,1.0,1.0,1.0,1.0,15
+AU003382,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003383,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.6,1.0,1.0,1.0,1.0,1.0,15
+AU003384,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.4,1.0,1.0,1.0,1.0,1.0,15
+AU003385,stochastic_robustness,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.8,1.0,1.0,1.0,1.0,1.0,15
+AU003386,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003387,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003388,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003389,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003390,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003391,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003392,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003393,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003394,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,0.0,0.2,1.0,0.0,0.0,1.0,15
+AU003395,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003396,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003397,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003398,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003399,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003400,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003401,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003402,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003403,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003404,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.0,0.2,1.0,0.0,0.0,1.0,15
+AU003405,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,0.0,1.0,0.0,0.0,1.0,15
+AU003406,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003407,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003408,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003409,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003410,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003411,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003412,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003413,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003414,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003415,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003416,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003417,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003418,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003419,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003420,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003421,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003422,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003423,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003424,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003425,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003426,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003427,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003428,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003429,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003430,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,0.8,1.0,1.0,1.0,1.0,15
+AU003431,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003432,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003433,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003434,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003435,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003436,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003437,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003438,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003439,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003440,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.0,0.8,1.0,1.0,1.0,1.0,15
+AU003441,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003442,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.0,1.0,1.0,0.8,1.0,1.0,15
+AU003443,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.2,1.0,1.0,1.0,1.0,1.0,15
+AU003444,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.2,1.0,1.0,1.0,1.0,1.0,15
+AU003445,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003446,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003447,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003448,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003449,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003450,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003451,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003452,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003453,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003454,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003455,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003456,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003457,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003458,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003459,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.2,1.0,1.0,1.0,1.0,1.0,15
+AU003460,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.2,1.0,1.0,1.0,1.0,1.0,15
+AU003461,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003462,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003463,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.2,1.0,1.0,1.0,1.0,1.0,15
+AU003464,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.2,1.0,1.0,1.0,1.0,1.0,15
+AU003465,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,1.0,1.0,1.0,1.0,1.0,15
+AU003466,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003467,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003468,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003469,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003470,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003471,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003472,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003473,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003474,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003475,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003476,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003477,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003478,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003479,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003480,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003481,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003482,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003483,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003484,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003485,stochastic_robustness,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,0.0,1.0,1.0,1.0,1.0,15
+AU003486,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,0.0,,0.0,0.0,,1.0,10
+AU003487,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,0.0,,0.0,0.0,,1.0,10
+AU003488,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,0.0,,0.0,0.0,,1.0,10
+AU003489,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,0.0,,0.0,0.0,,1.0,10
+AU003490,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,0.0,,0.0,0.0,,1.0,10
+AU003491,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,0.0,,0.0,0.0,,1.0,10
+AU003492,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,0.0,,0.0,0.0,,1.0,10
+AU003493,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,0.0,,0.0,0.0,,1.0,10
+AU003494,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,0.0,,0.0,0.0,,1.0,10
+AU003495,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,0.0,,0.0,0.0,,1.0,10
+AU003496,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.0,,0.0,0.0,,1.0,10
+AU003497,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,,0.0,0.0,,1.0,10
+AU003498,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.0,,0.0,0.0,,1.0,10
+AU003499,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.0,,0.0,0.0,,1.0,10
+AU003500,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.0,,0.0,0.0,,1.0,10
+AU003501,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.0,,0.0,0.0,,1.0,10
+AU003502,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.0,,0.0,0.0,,1.0,10
+AU003503,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.0,,0.0,0.0,,1.0,10
+AU003504,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.0,,0.0,0.0,,1.0,10
+AU003505,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,,0.0,0.0,,1.0,10
+AU003506,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,,0.0,1.0,,1.0,10
+AU003507,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,,0.0,1.0,,1.0,10
+AU003508,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,,0.0,1.0,,1.0,10
+AU003509,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,,0.0,1.0,,1.0,10
+AU003510,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,,0.0,1.0,,1.0,10
+AU003511,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,,0.0,1.0,,1.0,10
+AU003512,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,,0.0,1.0,,1.0,10
+AU003513,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,,0.0,1.0,,1.0,10
+AU003514,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,,0.0,1.0,,1.0,10
+AU003515,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,,0.0,1.0,,1.0,10
+AU003516,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.8,,0.0,1.0,,1.0,10
+AU003517,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,,0.0,1.0,,1.0,10
+AU003518,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.0,,0.0,1.0,,1.0,10
+AU003519,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.0,,0.0,1.0,,1.0,10
+AU003520,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.0,,0.0,1.0,,1.0,10
+AU003521,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,1.0,,0.0,1.0,,1.0,10
+AU003522,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.0,,0.0,1.0,,1.0,10
+AU003523,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.2,,0.0,1.0,,1.0,10
+AU003524,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.0,,0.0,1.0,,1.0,10
+AU003525,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,,0.0,1.0,,1.0,10
+AU003526,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,,0.2,1.0,,0.4,10
+AU003527,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,,0.4,1.0,,0.4,10
+AU003528,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,,0.4,1.0,,0.4,10
+AU003529,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,,0.6,1.0,,0.4,10
+AU003530,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,,0.4,1.0,,0.4,10
+AU003531,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,,0.4,1.0,,0.2,10
+AU003532,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,,0.6,1.0,,0.4,10
+AU003533,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,,0.6,1.0,,0.6,10
+AU003534,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,,0.8,1.0,,0.4,10
+AU003535,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,,0.4,1.0,,0.2,10
+AU003536,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.0,,0.2,1.0,,0.4,10
+AU003537,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,,0.4,1.0,,0.4,10
+AU003538,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.0,,0.6,1.0,,0.4,10
+AU003539,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.0,,0.4,1.0,,0.4,10
+AU003540,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.0,,0.4,1.0,,0.4,10
+AU003541,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.0,,0.2,1.0,,0.2,10
+AU003542,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.0,,0.6,1.0,,0.4,10
+AU003543,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.0,,0.4,1.0,,0.6,10
+AU003544,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.0,,0.4,1.0,,0.4,10
+AU003545,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,,0.4,1.0,,0.2,10
+AU003546,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,,0.4,1.0,,1.0,10
+AU003547,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,,0.4,1.0,,1.0,10
+AU003548,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,,0.4,1.0,,1.0,10
+AU003549,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,,0.4,1.0,,1.0,10
+AU003550,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,,0.4,1.0,,1.0,10
+AU003551,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,,0.2,1.0,,1.0,10
+AU003552,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,,0.4,1.0,,1.0,10
+AU003553,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,,0.4,1.0,,1.0,10
+AU003554,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,,0.2,1.0,,1.0,10
+AU003555,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,,0.4,1.0,,1.0,10
+AU003556,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.6,,0.4,1.0,,1.0,10
+AU003557,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.6,,0.4,1.0,,1.0,10
+AU003558,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,1.0,,0.4,1.0,,1.0,10
+AU003559,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,1.0,,0.4,1.0,,1.0,10
+AU003560,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.6,,0.4,1.0,,1.0,10
+AU003561,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,1.0,,0.2,1.0,,1.0,10
+AU003562,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.0,,0.4,1.0,,1.0,10
+AU003563,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,1.0,,0.4,1.0,,1.0,10
+AU003564,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,1.0,,0.2,1.0,,1.0,10
+AU003565,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,,0.4,1.0,,1.0,10
+AU003566,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,0.0,,0.0,1.0,,1.0,10
+AU003567,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,0.0,,0.0,1.0,,1.0,10
+AU003568,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,0.0,,0.0,1.0,,1.0,10
+AU003569,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,0.0,,0.0,1.0,,0.6,10
+AU003570,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,0.0,,0.0,1.0,,1.0,10
+AU003571,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,0.0,,0.0,1.0,,1.0,10
+AU003572,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,0.0,,0.0,1.0,,0.8,10
+AU003573,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,0.0,,0.0,1.0,,1.0,10
+AU003574,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,0.0,,0.0,1.0,,0.4,10
+AU003575,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,0.0,,0.0,1.0,,1.0,10
+AU003576,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.0,,0.0,1.0,,1.0,10
+AU003577,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.0,,0.0,1.0,,1.0,10
+AU003578,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.0,,0.0,1.0,,1.0,10
+AU003579,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.0,,0.0,1.0,,0.6,10
+AU003580,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.0,,0.0,1.0,,1.0,10
+AU003581,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.0,,0.0,1.0,,1.0,10
+AU003582,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.0,,0.0,1.0,,0.8,10
+AU003583,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,0.0,,0.0,1.0,,1.0,10
+AU003584,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.0,,0.0,1.0,,0.4,10
+AU003585,stochastic_robustness,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.0,,0.0,1.0,,1.0,10
+AU003586,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,0.8,0.0,1.0,0.8,0.0,1.0,15
+AU003587,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,0.8,0.0,1.0,1.0,0.0,1.0,15
+AU003588,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,0.0,1.0,1.0,0.0,1.0,15
+AU003589,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,0.8,0.0,1.0,1.0,0.0,1.0,15
+AU003590,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,0.8,0.0,1.0,0.8,0.0,1.0,15
+AU003591,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,0.8,0.0,1.0,0.8,0.0,1.0,15
+AU003592,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,0.8,0.0,1.0,1.0,0.0,1.0,15
+AU003593,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,0.0,1.0,1.0,0.0,1.0,15
+AU003594,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,0.8,0.0,1.0,1.0,0.0,1.0,15
+AU003595,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,0.0,1.0,1.0,0.0,1.0,15
+AU003596,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.8,0.0,1.0,0.8,0.0,1.0,15
+AU003597,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,0.8,0.0,1.0,1.0,0.0,1.0,15
+AU003598,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,1.0,0.0,1.0,1.0,0.0,1.0,15
+AU003599,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.8,0.0,1.0,1.0,0.0,1.0,15
+AU003600,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.8,0.0,1.0,0.8,0.0,1.0,15
+AU003601,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.8,0.0,1.0,0.8,0.0,1.0,15
+AU003602,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.8,0.0,1.0,1.0,0.0,1.0,15
+AU003603,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,1.0,0.0,1.0,1.0,0.0,1.0,15
+AU003604,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,0.8,0.0,1.0,1.0,0.0,1.0,15
+AU003605,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,1.0,0.0,1.0,1.0,0.0,1.0,15
+AU003606,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003607,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003608,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003609,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003610,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003611,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003612,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003613,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003614,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003615,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003616,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003617,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003618,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003619,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003620,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003621,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003622,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003623,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003624,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003625,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003626,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,0.6,0.6,0.6,0.8,0.8,15
+AU003627,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,0.6,0.6,1.0,1.0,0.4,15
+AU003628,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,0.8,0.6,0.8,0.6,1.0,1.0,15
+AU003629,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,0.8,0.8,0.8,0.8,0.8,0.8,15
+AU003630,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,0.6,1.0,0.6,0.8,1.0,15
+AU003631,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,0.6,0.8,0.8,1.0,15
+AU003632,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,0.8,0.4,0.8,0.8,0.6,15
+AU003633,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,0.8,1.0,1.0,0.8,0.8,15
+AU003634,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,0.8,0.6,0.6,0.6,1.0,15
+AU003635,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,0.8,0.6,1.0,0.8,0.8,1.0,15
+AU003636,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.8,0.6,0.4,0.6,0.8,0.8,15
+AU003637,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,1.0,0.6,0.6,1.0,1.0,0.4,15
+AU003638,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,0.8,0.6,0.8,0.6,1.0,1.0,15
+AU003639,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,0.8,0.8,0.6,0.8,0.8,0.8,15
+AU003640,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.8,0.6,0.6,0.6,0.8,1.0,15
+AU003641,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.8,1.0,0.4,0.8,0.8,1.0,15
+AU003642,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,1.0,0.8,0.4,0.8,0.8,0.6,15
+AU003643,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,1.0,0.8,0.8,1.0,0.8,0.8,15
+AU003644,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,1.0,0.8,0.4,0.6,0.6,1.0,15
+AU003645,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,1.0,0.6,0.8,0.8,0.8,1.0,15
+AU003646,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003647,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003648,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003649,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003650,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003651,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003652,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003653,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003654,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003655,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003656,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003657,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003658,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003659,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003660,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003661,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003662,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003663,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003664,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003665,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,1.0,1.0,1.0,1.0,1.0,1.0,15
+AU003666,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,42,none,0.8,0.0,1.0,0.8,1.0,1.0,15
+AU003667,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,43,none,1.0,0.0,1.0,0.8,1.0,1.0,15
+AU003668,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,44,none,1.0,0.0,1.0,0.8,1.0,1.0,15
+AU003669,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,45,none,1.0,0.0,1.0,0.8,1.0,1.0,15
+AU003670,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.3,46,none,0.8,0.0,1.0,0.8,1.0,1.0,15
+AU003671,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,42,none,0.8,0.0,1.0,1.0,1.0,1.0,15
+AU003672,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,43,none,0.8,0.0,1.0,1.0,1.0,1.0,15
+AU003673,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,44,none,1.0,0.0,1.0,0.8,1.0,1.0,15
+AU003674,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,45,none,1.0,0.0,1.0,0.8,1.0,1.0,15
+AU003675,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,target_context_memory,4,4,2,2,1.0,0.5,0.7,46,none,0.8,0.0,1.0,1.0,1.0,1.0,15
+AU003676,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,42,none,0.8,0.0,1.0,0.8,1.0,1.0,15
+AU003677,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,43,none,1.0,0.0,1.0,0.8,1.0,1.0,15
+AU003678,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,44,none,1.0,0.0,1.0,0.8,1.0,1.0,15
+AU003679,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,45,none,1.0,0.0,1.0,0.8,1.0,1.0,15
+AU003680,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.3,46,none,0.8,0.0,1.0,0.8,1.0,1.0,15
+AU003681,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,42,none,0.8,0.0,1.0,1.0,1.0,1.0,15
+AU003682,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,43,none,0.8,0.0,1.0,1.0,1.0,1.0,15
+AU003683,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,44,none,1.0,0.0,1.0,0.8,1.0,1.0,15
+AU003684,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,45,none,1.0,0.0,1.0,0.8,1.0,1.0,15
+AU003685,stochastic_robustness,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,full_inference,4,4,2,2,1.0,0.5,0.7,46,none,0.8,0.0,1.0,1.0,1.0,1.0,15

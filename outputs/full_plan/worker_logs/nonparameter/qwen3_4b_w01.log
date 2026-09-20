@@ -1,0 +1,556 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/usr/lib/python3/dist-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/usr/lib/python3/dist-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/usr/lib/python3/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 50, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.10 from "/usr/bin/python3.10"
+  * The NumPy version is: "1.26.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/scripts/run_manifest.py", line 15, in <module>
+    from agentunlearn.engine import ExperimentEngine
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/engine.py", line 8, in <module>
+    from agentunlearn.datasets import get_adapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/__init__.py", line 5, in <module>
+    from agentunlearn.datasets.muse import MUSEAdapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/muse.py", line 6, in <module>
+    from agentunlearn.datasets.base import (
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/base.py", line 8, in <module>
+    from agentunlearn.io import answer_list, first_text, recursive_dict_records
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/io.py", line 13, in <module>
+    import numpy as np
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/usr/lib/python3/dist-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/usr/lib/python3/dist-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/usr/lib/python3/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 50, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.10 from "/usr/bin/python3.10"
+  * The NumPy version is: "1.26.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/scripts/run_manifest.py", line 15, in <module>
+    from agentunlearn.engine import ExperimentEngine
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/engine.py", line 8, in <module>
+    from agentunlearn.datasets import get_adapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/__init__.py", line 5, in <module>
+    from agentunlearn.datasets.muse import MUSEAdapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/muse.py", line 6, in <module>
+    from agentunlearn.datasets.base import (
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/base.py", line 8, in <module>
+    from agentunlearn.io import answer_list, first_text, recursive_dict_records
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/io.py", line 13, in <module>
+    import numpy as np
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+
+=== LOAD qwen3_4b (214 conditions) ===
+
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+Loading weights:  94%|█████████▍| 375/398 [00:00<00:00, 3749.56it/s]
+Loading weights: 100%|██████████| 398/398 [00:00<00:00, 3913.31it/s]
+[1/214] RUN AU000005 qwen3_4b TOFU/tofu_forget01 independent communication
+  DONE AU000005 177.0s
+[2/214] RUN AU000007 qwen3_4b TOFU/tofu_forget01 independent target_context_comm
+  DONE AU000007 181.7s
+[3/214] RUN AU000014 qwen3_4b TOFU/tofu_forget01 sequential communication
+  DONE AU000014 200.0s
+[4/214] RUN AU000015 qwen3_4b TOFU/tofu_forget01 sequential target_context_memory
+  DONE AU000015 202.9s
+[5/214] RUN AU000020 qwen3_4b TOFU/tofu_forget01 debate global_context
+  DONE AU000020 696.5s
+[6/214] RUN AU000023 qwen3_4b TOFU/tofu_forget01 debate communication
+  DONE AU000023 669.4s
+[7/214] RUN AU000026 qwen3_4b TOFU/tofu_forget01 debate target_memory_comm
+  DONE AU000026 674.6s
+[8/214] RUN AU000031 qwen3_4b TOFU/tofu_forget01 scratchpad target_memory
+  DONE AU000031 220.2s
+[9/214] RUN AU000035 qwen3_4b TOFU/tofu_forget01 scratchpad target_memory_comm
+  DONE AU000035 219.4s
+[10/214] RUN AU000036 qwen3_4b TOFU/tofu_forget01 scratchpad full_inference
+  DONE AU000036 233.1s
+[11/214] RUN AU000038 qwen3_4b TOFU/tofu_forget01 hierarchical global_context
+  DONE AU000038 192.2s
+[12/214] RUN AU000043 qwen3_4b TOFU/tofu_forget01 hierarchical target_context_comm
+  DONE AU000043 199.3s
+[13/214] RUN AU000048 qwen3_4b TOFU/tofu_forget05 independent target_context
+  DONE AU000048 131.6s
+[14/214] RUN AU000056 qwen3_4b TOFU/tofu_forget05 sequential global_context
+  DONE AU000056 144.8s
+[15/214] RUN AU000057 qwen3_4b TOFU/tofu_forget05 sequential target_context
+  DONE AU000057 118.9s
+[16/214] RUN AU000059 qwen3_4b TOFU/tofu_forget05 sequential communication
+  DONE AU000059 115.4s
+[17/214] RUN AU000063 qwen3_4b TOFU/tofu_forget05 sequential full_inference
+  DONE AU000063 119.4s
+[18/214] RUN AU000064 qwen3_4b TOFU/tofu_forget05 debate none
+  DONE AU000064 456.5s
+[19/214] RUN AU000065 qwen3_4b TOFU/tofu_forget05 debate global_context
+  DONE AU000065 471.3s
+[20/214] RUN AU000066 qwen3_4b TOFU/tofu_forget05 debate target_context
+  DONE AU000066 539.9s
+[21/214] RUN AU000072 qwen3_4b TOFU/tofu_forget05 debate full_inference
+  DONE AU000072 523.6s
+[22/214] RUN AU000074 qwen3_4b TOFU/tofu_forget05 scratchpad global_context
+  DONE AU000074 147.4s
+[23/214] RUN AU000075 qwen3_4b TOFU/tofu_forget05 scratchpad target_context
+  DONE AU000075 142.4s
+[24/214] RUN AU000077 qwen3_4b TOFU/tofu_forget05 scratchpad communication
+  DONE AU000077 146.2s
+[25/214] RUN AU000079 qwen3_4b TOFU/tofu_forget05 scratchpad target_context_comm
+  DONE AU000079 153.9s
+[26/214] RUN AU000090 qwen3_4b TOFU/tofu_forget05 hierarchical full_inference
+  DONE AU000090 136.0s
+[27/214] RUN AU000094 qwen3_4b TOFU/tofu_forget10 independent target_memory
+  DONE AU000094 159.9s
+[28/214] RUN AU000099 qwen3_4b TOFU/tofu_forget10 independent full_inference
+  DONE AU000099 157.2s
+[29/214] RUN AU000102 qwen3_4b TOFU/tofu_forget10 sequential target_context
+  DONE AU000102 158.8s
+[30/214] RUN AU000105 qwen3_4b TOFU/tofu_forget10 sequential target_context_memory
+  DONE AU000105 158.6s
+[31/214] RUN AU000111 qwen3_4b TOFU/tofu_forget10 debate target_context
+  DONE AU000111 611.8s
+[32/214] RUN AU000112 qwen3_4b TOFU/tofu_forget10 debate target_memory
+  DONE AU000112 608.3s
+[33/214] RUN AU000114 qwen3_4b TOFU/tofu_forget10 debate target_context_memory
+  DONE AU000114 623.4s
+[34/214] RUN AU000118 qwen3_4b TOFU/tofu_forget10 scratchpad none
+  DONE AU000118 191.8s
+[35/214] RUN AU000120 qwen3_4b TOFU/tofu_forget10 scratchpad target_context
+  DONE AU000120 191.1s
+[36/214] RUN AU000125 qwen3_4b TOFU/tofu_forget10 scratchpad target_memory_comm
+  DONE AU000125 192.4s
+[37/214] RUN AU000128 qwen3_4b TOFU/tofu_forget10 hierarchical global_context
+  DONE AU000128 149.5s
+[38/214] RUN AU000130 qwen3_4b TOFU/tofu_forget10 hierarchical target_memory
+  DONE AU000130 159.1s
+[39/214] RUN AU000131 qwen3_4b TOFU/tofu_forget10 hierarchical communication
+  DONE AU000131 160.3s
+[40/214] RUN AU000137 qwen3_4b MUSE-News/muse_news independent global_context
+  DONE AU000137 152.4s
+[41/214] RUN AU000138 qwen3_4b MUSE-News/muse_news independent target_context
+  DONE AU000138 144.8s
+[42/214] RUN AU000139 qwen3_4b MUSE-News/muse_news independent target_memory
+  DONE AU000139 141.0s
+[43/214] RUN AU000141 qwen3_4b MUSE-News/muse_news independent target_context_memory
+  DONE AU000141 136.6s
+[44/214] RUN AU000151 qwen3_4b MUSE-News/muse_news sequential target_context_comm
+  DONE AU000151 145.1s
+[45/214] RUN AU000152 qwen3_4b MUSE-News/muse_news sequential target_memory_comm
+  DONE AU000152 144.7s
+[46/214] RUN AU000154 qwen3_4b MUSE-News/muse_news debate none
+  DONE AU000154 693.4s
+[47/214] RUN AU000159 qwen3_4b MUSE-News/muse_news debate target_context_memory
+  DONE AU000159 758.7s
+[48/214] RUN AU000160 qwen3_4b MUSE-News/muse_news debate target_context_comm
+  DONE AU000160 754.2s
+[49/214] RUN AU000165 qwen3_4b MUSE-News/muse_news scratchpad target_context
+  DONE AU000165 181.8s
+[50/214] RUN AU000169 qwen3_4b MUSE-News/muse_news scratchpad target_context_comm
+  DONE AU000169 183.4s
+[51/214] RUN AU000170 qwen3_4b MUSE-News/muse_news scratchpad target_memory_comm
+  DONE AU000170 183.4s
+[52/214] RUN AU000171 qwen3_4b MUSE-News/muse_news scratchpad full_inference
+  DONE AU000171 180.3s
+[53/214] RUN AU000174 qwen3_4b MUSE-News/muse_news hierarchical target_context
+  DONE AU000174 162.3s
+[54/214] RUN AU000175 qwen3_4b MUSE-News/muse_news hierarchical target_memory
+  DONE AU000175 154.7s
+[55/214] RUN AU000179 qwen3_4b MUSE-News/muse_news hierarchical target_memory_comm
+  DONE AU000179 155.6s
+[56/214] RUN AU000181 qwen3_4b MUSE-Books/muse_books independent none
+  DONE AU000181 330.4s
+[57/214] RUN AU000185 qwen3_4b MUSE-Books/muse_books independent communication
+  DONE AU000185 326.7s
+[58/214] RUN AU000188 qwen3_4b MUSE-Books/muse_books independent target_memory_comm
+  DONE AU000188 320.0s
+[59/214] RUN AU000194 qwen3_4b MUSE-Books/muse_books sequential communication
+  DONE AU000194 277.1s
+[60/214] RUN AU000201 qwen3_4b MUSE-Books/muse_books debate target_context
+  DONE AU000201 1014.2s
+[61/214] RUN AU000204 qwen3_4b MUSE-Books/muse_books debate target_context_memory
+  DONE AU000204 964.4s
+[62/214] RUN AU000208 qwen3_4b MUSE-Books/muse_books scratchpad none
+  DONE AU000208 305.0s
+[63/214] RUN AU000209 qwen3_4b MUSE-Books/muse_books scratchpad global_context
+  DONE AU000209 258.5s
+[64/214] RUN AU000210 qwen3_4b MUSE-Books/muse_books scratchpad target_context
+  DONE AU000210 296.3s
+[65/214] RUN AU000218 qwen3_4b MUSE-Books/muse_books hierarchical global_context
+  DONE AU000218 234.9s
+[66/214] RUN AU000220 qwen3_4b MUSE-Books/muse_books hierarchical target_memory
+  DONE AU000220 265.6s
+[67/214] RUN AU000221 qwen3_4b MUSE-Books/muse_books hierarchical communication
+  DONE AU000221 249.8s
+[68/214] RUN AU000222 qwen3_4b MUSE-Books/muse_books hierarchical target_context_memory
+  DONE AU000222 238.8s
+[69/214] RUN AU000226 qwen3_4b RWKU/rwku_001 independent none
+  DONE AU000226 121.2s
+[70/214] RUN AU000227 qwen3_4b RWKU/rwku_001 independent global_context
+  DONE AU000227 96.2s
+[71/214] RUN AU000228 qwen3_4b RWKU/rwku_001 independent target_context
+  DONE AU000228 119.6s
+[72/214] RUN AU000231 qwen3_4b RWKU/rwku_001 independent target_context_memory
+  DONE AU000231 101.4s
+[73/214] RUN AU000234 qwen3_4b RWKU/rwku_001 independent full_inference
+  DONE AU000234 102.4s
+[74/214] RUN AU000237 qwen3_4b RWKU/rwku_001 sequential target_context
+  DONE AU000237 120.8s
+[75/214] RUN AU000240 qwen3_4b RWKU/rwku_001 sequential target_context_memory
+  DONE AU000240 113.3s
+[76/214] RUN AU000243 qwen3_4b RWKU/rwku_001 sequential full_inference
+  DONE AU000243 111.2s
+[77/214] RUN AU000245 qwen3_4b RWKU/rwku_001 debate global_context
+  DONE AU000245 423.6s
+[78/214] RUN AU000249 qwen3_4b RWKU/rwku_001 debate target_context_memory
+  DONE AU000249 464.3s
+[79/214] RUN AU000253 qwen3_4b RWKU/rwku_001 scratchpad none
+  DONE AU000253 121.5s
+[80/214] RUN AU000256 qwen3_4b RWKU/rwku_001 scratchpad target_memory
+  DONE AU000256 120.0s
+[81/214] RUN AU000266 qwen3_4b RWKU/rwku_001 hierarchical communication
+  DONE AU000266 162.2s
+[82/214] RUN AU000267 qwen3_4b RWKU/rwku_001 hierarchical target_context_memory
+  DONE AU000267 134.5s
+[83/214] RUN AU000268 qwen3_4b RWKU/rwku_001 hierarchical target_context_comm
+  DONE AU000268 152.1s
+[84/214] RUN AU000291 qwen3_4b RWKU/rwku_023 debate target_context
+  DONE AU000291 411.6s
+[85/214] RUN AU000292 qwen3_4b RWKU/rwku_023 debate target_memory
+  DONE AU000292 388.5s
+[86/214] RUN AU000293 qwen3_4b RWKU/rwku_023 debate communication
+  DONE AU000293 409.6s
+[87/214] RUN AU000294 qwen3_4b RWKU/rwku_023 debate target_context_memory
+  DONE AU000294 431.1s
+[88/214] RUN AU000297 qwen3_4b RWKU/rwku_023 debate full_inference
+  DONE AU000297 445.1s
+[89/214] RUN AU000299 qwen3_4b RWKU/rwku_023 scratchpad global_context
+  DONE AU000299 82.0s
+[90/214] RUN AU000302 qwen3_4b RWKU/rwku_023 scratchpad communication
+  DONE AU000302 107.6s
+[91/214] RUN AU000303 qwen3_4b RWKU/rwku_023 scratchpad target_context_memory
+  DONE AU000303 104.9s
+[92/214] RUN AU000306 qwen3_4b RWKU/rwku_023 scratchpad full_inference
+  DONE AU000306 98.1s
+[93/214] RUN AU000310 qwen3_4b RWKU/rwku_023 hierarchical target_memory
+  DONE AU000310 87.1s
+[94/214] RUN AU000312 qwen3_4b RWKU/rwku_023 hierarchical target_context_memory
+  DONE AU000312 80.8s
+[95/214] RUN AU000322 qwen3_4b RWKU/rwku_045 independent target_context_comm
+  DONE AU000322 126.1s
+[96/214] RUN AU000332 qwen3_4b RWKU/rwku_045 sequential target_memory_comm
+  DONE AU000332 145.5s
+[97/214] RUN AU000335 qwen3_4b RWKU/rwku_045 debate global_context
+  DONE AU000335 483.0s
+[98/214] RUN AU000336 qwen3_4b RWKU/rwku_045 debate target_context
+  DONE AU000336 652.9s
+[99/214] RUN AU000339 qwen3_4b RWKU/rwku_045 debate target_context_memory
+  DONE AU000339 629.4s
+[100/214] RUN AU000341 qwen3_4b RWKU/rwku_045 debate target_memory_comm
+  DONE AU000341 611.6s
+[101/214] RUN AU000344 qwen3_4b RWKU/rwku_045 scratchpad global_context
+  DONE AU000344 99.5s
+[102/214] RUN AU000345 qwen3_4b RWKU/rwku_045 scratchpad target_context
+  DONE AU000345 136.3s
+[103/214] RUN AU000347 qwen3_4b RWKU/rwku_045 scratchpad communication
+  DONE AU000347 154.8s
+[104/214] RUN AU000348 qwen3_4b RWKU/rwku_045 scratchpad target_context_memory
+  DONE AU000348 130.9s
+[105/214] RUN AU000350 qwen3_4b RWKU/rwku_045 scratchpad target_memory_comm
+  DONE AU000350 151.3s
+[106/214] RUN AU000353 qwen3_4b RWKU/rwku_045 hierarchical global_context
+  DONE AU000353 107.0s
+[107/214] RUN AU000355 qwen3_4b RWKU/rwku_045 hierarchical target_memory
+  DONE AU000355 154.4s
+[108/214] RUN AU000357 qwen3_4b RWKU/rwku_045 hierarchical target_context_memory
+  DONE AU000357 148.2s
+[109/214] RUN AU000358 qwen3_4b RWKU/rwku_045 hierarchical target_context_comm
+  DONE AU000358 159.3s
+[110/214] RUN AU000359 qwen3_4b RWKU/rwku_045 hierarchical target_memory_comm
+  DONE AU000359 153.4s
+[111/214] RUN AU000360 qwen3_4b RWKU/rwku_045 hierarchical full_inference
+  DONE AU000360 147.5s
+[112/214] RUN AU000374 qwen3_4b RWKU/rwku_067 sequential communication
+  DONE AU000374 145.9s
+[113/214] RUN AU000376 qwen3_4b RWKU/rwku_067 sequential target_context_comm
+  DONE AU000376 138.0s
+[114/214] RUN AU000380 qwen3_4b RWKU/rwku_067 debate global_context
+  DONE AU000380 390.4s
+[115/214] RUN AU000382 qwen3_4b RWKU/rwku_067 debate target_memory
+  DONE AU000382 528.3s
+[116/214] RUN AU000385 qwen3_4b RWKU/rwku_067 debate target_context_comm
+  DONE AU000385 703.0s
+[117/214] RUN AU000386 qwen3_4b RWKU/rwku_067 debate target_memory_comm
+  DONE AU000386 624.1s
+[118/214] RUN AU000390 qwen3_4b RWKU/rwku_067 scratchpad target_context
+  DONE AU000390 157.2s
+[119/214] RUN AU000396 qwen3_4b RWKU/rwku_067 scratchpad full_inference
+  DONE AU000396 153.3s
+[120/214] RUN AU000397 qwen3_4b RWKU/rwku_067 hierarchical none
+  DONE AU000397 168.0s
+[121/214] RUN AU000399 qwen3_4b RWKU/rwku_067 hierarchical target_context
+  DONE AU000399 159.8s
+[122/214] RUN AU000401 qwen3_4b RWKU/rwku_067 hierarchical communication
+  DONE AU000401 167.5s
+[123/214] RUN AU000402 qwen3_4b RWKU/rwku_067 hierarchical target_context_memory
+  DONE AU000402 158.6s
+[124/214] RUN AU000410 qwen3_4b RWKU/rwku_089 independent communication
+  DONE AU000410 104.1s
+[125/214] RUN AU000413 qwen3_4b RWKU/rwku_089 independent target_memory_comm
+  DONE AU000413 98.3s
+[126/214] RUN AU000414 qwen3_4b RWKU/rwku_089 independent full_inference
+  DONE AU000414 94.9s
+[127/214] RUN AU000415 qwen3_4b RWKU/rwku_089 sequential none
+  DONE AU000415 118.4s
+[128/214] RUN AU000416 qwen3_4b RWKU/rwku_089 sequential global_context
+  DONE AU000416 88.2s
+[129/214] RUN AU000417 qwen3_4b RWKU/rwku_089 sequential target_context
+  DONE AU000417 109.4s
+[130/214] RUN AU000418 qwen3_4b RWKU/rwku_089 sequential target_memory
+  DONE AU000418 106.9s
+[131/214] RUN AU000419 qwen3_4b RWKU/rwku_089 sequential communication
+  DONE AU000419 117.8s
+[132/214] RUN AU000421 qwen3_4b RWKU/rwku_089 sequential target_context_comm
+  DONE AU000421 112.2s
+[133/214] RUN AU000424 qwen3_4b RWKU/rwku_089 debate none
+  DONE AU000424 535.0s
+[134/214] RUN AU000428 qwen3_4b RWKU/rwku_089 debate communication
+  DONE AU000428 562.9s
+[135/214] RUN AU000431 qwen3_4b RWKU/rwku_089 debate target_memory_comm
+  DONE AU000431 554.1s
+[136/214] RUN AU000432 qwen3_4b RWKU/rwku_089 debate full_inference
+  DONE AU000432 543.0s
+[137/214] RUN AU000435 qwen3_4b RWKU/rwku_089 scratchpad target_context
+  DONE AU000435 139.9s
+[138/214] RUN AU000442 qwen3_4b RWKU/rwku_089 hierarchical none
+  DONE AU000442 116.4s
+[139/214] RUN AU000444 qwen3_4b RWKU/rwku_089 hierarchical target_context
+  DONE AU000444 112.9s
+[140/214] RUN AU000447 qwen3_4b RWKU/rwku_089 hierarchical target_context_memory
+  DONE AU000447 109.5s
+[141/214] RUN AU000448 qwen3_4b RWKU/rwku_089 hierarchical target_context_comm
+  DONE AU000448 113.4s
+[142/214] RUN AU000453 qwen3_4b RWKU/rwku_112 independent target_context
+  DONE AU000453 97.0s
+[143/214] RUN AU000455 qwen3_4b RWKU/rwku_112 independent communication
+  DONE AU000455 97.9s
+[144/214] RUN AU000456 qwen3_4b RWKU/rwku_112 independent target_context_memory
+  DONE AU000456 93.3s
+[145/214] RUN AU000458 qwen3_4b RWKU/rwku_112 independent target_memory_comm
+  DONE AU000458 104.9s
+[146/214] RUN AU000459 qwen3_4b RWKU/rwku_112 independent full_inference
+  DONE AU000459 92.9s
+[147/214] RUN AU000461 qwen3_4b RWKU/rwku_112 sequential global_context
+  DONE AU000461 86.4s
+[148/214] RUN AU000467 qwen3_4b RWKU/rwku_112 sequential target_memory_comm
+  DONE AU000467 91.1s
+[149/214] RUN AU000469 qwen3_4b RWKU/rwku_112 debate none
+  DONE AU000469 461.8s
+[150/214] RUN AU000470 qwen3_4b RWKU/rwku_112 debate global_context
+  DONE AU000470 436.5s
+[151/214] RUN AU000471 qwen3_4b RWKU/rwku_112 debate target_context
+  DONE AU000471 447.4s
+[152/214] RUN AU000472 qwen3_4b RWKU/rwku_112 debate target_memory
+  DONE AU000472 439.6s
+[153/214] RUN AU000474 qwen3_4b RWKU/rwku_112 debate target_context_memory
+  DONE AU000474 514.0s
+[154/214] RUN AU000478 qwen3_4b RWKU/rwku_112 scratchpad none
+  DONE AU000478 118.6s
+[155/214] RUN AU000479 qwen3_4b RWKU/rwku_112 scratchpad global_context
+  DONE AU000479 112.3s
+[156/214] RUN AU000480 qwen3_4b RWKU/rwku_112 scratchpad target_context
+  DONE AU000480 116.0s
+[157/214] RUN AU000481 qwen3_4b RWKU/rwku_112 scratchpad target_memory
+  DONE AU000481 112.9s
+[158/214] RUN AU000489 qwen3_4b RWKU/rwku_112 hierarchical target_context
+  DONE AU000489 117.8s
+[159/214] RUN AU000490 qwen3_4b RWKU/rwku_112 hierarchical target_memory
+  DONE AU000490 111.3s
+[160/214] RUN AU000494 qwen3_4b RWKU/rwku_112 hierarchical target_memory_comm
+  DONE AU000494 111.2s
+[161/214] RUN AU000495 qwen3_4b RWKU/rwku_112 hierarchical full_inference
+  DONE AU000495 130.9s
+[162/214] RUN AU000503 qwen3_4b RWKU/rwku_134 independent target_memory_comm
+  DONE AU000503 87.1s
+[163/214] RUN AU000504 qwen3_4b RWKU/rwku_134 independent full_inference
+  DONE AU000504 96.1s
+[164/214] RUN AU000505 qwen3_4b RWKU/rwku_134 sequential none
+  DONE AU000505 101.9s
+[165/214] RUN AU000506 qwen3_4b RWKU/rwku_134 sequential global_context
+  DONE AU000506 76.1s
+[166/214] RUN AU000516 qwen3_4b RWKU/rwku_134 debate target_context
+  DONE AU000516 583.6s
+[167/214] RUN AU000518 qwen3_4b RWKU/rwku_134 debate communication
+  DONE AU000518 547.9s
+[168/214] RUN AU000519 qwen3_4b RWKU/rwku_134 debate target_context_memory
+  DONE AU000519 542.0s
+[169/214] RUN AU000521 qwen3_4b RWKU/rwku_134 debate target_memory_comm
+  DONE AU000521 531.4s
+[170/214] RUN AU000525 qwen3_4b RWKU/rwku_134 scratchpad target_context
+  DONE AU000525 109.9s
+[171/214] RUN AU000526 qwen3_4b RWKU/rwku_134 scratchpad target_memory
+  DONE AU000526 103.8s
+[172/214] RUN AU000527 qwen3_4b RWKU/rwku_134 scratchpad communication
+  DONE AU000527 110.6s
+[173/214] RUN AU000531 qwen3_4b RWKU/rwku_134 scratchpad full_inference
+  DONE AU000531 107.0s
+[174/214] RUN AU000532 qwen3_4b RWKU/rwku_134 hierarchical none
+  DONE AU000532 105.7s
+[175/214] RUN AU000533 qwen3_4b RWKU/rwku_134 hierarchical global_context
+  DONE AU000533 85.8s
+[176/214] RUN AU000535 qwen3_4b RWKU/rwku_134 hierarchical target_memory
+  DONE AU000535 99.1s
+[177/214] RUN AU000544 qwen3_4b RWKU/rwku_156 independent target_memory
+  DONE AU000544 90.9s
+[178/214] RUN AU000550 qwen3_4b RWKU/rwku_156 sequential none
+  DONE AU000550 96.7s
+[179/214] RUN AU000552 qwen3_4b RWKU/rwku_156 sequential target_context
+  DONE AU000552 89.9s
+[180/214] RUN AU000558 qwen3_4b RWKU/rwku_156 sequential full_inference
+  DONE AU000558 89.9s
+[181/214] RUN AU000566 qwen3_4b RWKU/rwku_156 debate target_memory_comm
+  DONE AU000566 435.8s
+[182/214] RUN AU000568 qwen3_4b RWKU/rwku_156 scratchpad none
+  DONE AU000568 74.1s
+[183/214] RUN AU000571 qwen3_4b RWKU/rwku_156 scratchpad target_memory
+  DONE AU000571 85.1s
+[184/214] RUN AU000573 qwen3_4b RWKU/rwku_156 scratchpad target_context_memory
+  DONE AU000573 79.2s
+[185/214] RUN AU000575 qwen3_4b RWKU/rwku_156 scratchpad target_memory_comm
+  DONE AU000575 77.4s
+[186/214] RUN AU000578 qwen3_4b RWKU/rwku_156 hierarchical global_context
+  DONE AU000578 48.3s
+[187/214] RUN AU000580 qwen3_4b RWKU/rwku_156 hierarchical target_memory
+  DONE AU000580 66.4s
+[188/214] RUN AU000584 qwen3_4b RWKU/rwku_156 hierarchical target_memory_comm
+  DONE AU000584 65.7s
+[189/214] RUN AU000602 qwen3_4b RWKU/rwku_178 sequential target_memory_comm
+  DONE AU000602 59.7s
+[190/214] RUN AU000603 qwen3_4b RWKU/rwku_178 sequential full_inference
+  DONE AU000603 61.7s
+[191/214] RUN AU000605 qwen3_4b RWKU/rwku_178 debate global_context
+  DONE AU000605 307.8s
+[192/214] RUN AU000606 qwen3_4b RWKU/rwku_178 debate target_context
+  DONE AU000606 339.1s
+[193/214] RUN AU000610 qwen3_4b RWKU/rwku_178 debate target_context_comm
+  DONE AU000610 359.2s
+[194/214] RUN AU000614 qwen3_4b RWKU/rwku_178 scratchpad global_context
+  DONE AU000614 63.2s
+[195/214] RUN AU000617 qwen3_4b RWKU/rwku_178 scratchpad communication
+  DONE AU000617 69.0s
+[196/214] RUN AU000618 qwen3_4b RWKU/rwku_178 scratchpad target_context_memory
+  DONE AU000618 63.1s
+[197/214] RUN AU000620 qwen3_4b RWKU/rwku_178 scratchpad target_memory_comm
+  DONE AU000620 67.5s
+[198/214] RUN AU000624 qwen3_4b RWKU/rwku_178 hierarchical target_context
+  DONE AU000624 63.9s
+[199/214] RUN AU000628 qwen3_4b RWKU/rwku_178 hierarchical target_context_comm
+  DONE AU000628 62.5s
+[200/214] RUN AU000629 qwen3_4b RWKU/rwku_178 hierarchical target_memory_comm
+  DONE AU000629 56.4s
+[201/214] RUN AU000630 qwen3_4b RWKU/rwku_178 hierarchical full_inference
+  DONE AU000630 67.7s
+[202/214] RUN AU000631 qwen3_4b RWKU/rwku_200 independent none
+  DONE AU000631 77.9s
+[203/214] RUN AU000632 qwen3_4b RWKU/rwku_200 independent global_context
+  DONE AU000632 98.4s
+[204/214] RUN AU000635 qwen3_4b RWKU/rwku_200 independent communication
+  DONE AU000635 78.3s
+[205/214] RUN AU000637 qwen3_4b RWKU/rwku_200 independent target_context_comm
+  DONE AU000637 82.4s
+[206/214] RUN AU000640 qwen3_4b RWKU/rwku_200 sequential none
+  DONE AU000640 84.9s
+[207/214] RUN AU000643 qwen3_4b RWKU/rwku_200 sequential target_memory
+  DONE AU000643 83.3s
+[208/214] RUN AU000653 qwen3_4b RWKU/rwku_200 debate communication
+  DONE AU000653 314.3s
+[209/214] RUN AU000654 qwen3_4b RWKU/rwku_200 debate target_context_memory
+  DONE AU000654 286.4s
+[210/214] RUN AU000655 qwen3_4b RWKU/rwku_200 debate target_context_comm
+  DONE AU000655 366.7s
+[211/214] RUN AU000659 qwen3_4b RWKU/rwku_200 scratchpad global_context
+  DONE AU000659 104.2s
+[212/214] RUN AU000663 qwen3_4b RWKU/rwku_200 scratchpad target_context_memory
+  DONE AU000663 81.7s
+[213/214] RUN AU000668 qwen3_4b RWKU/rwku_200 hierarchical global_context
+  DONE AU000668 89.4s
+[214/214] RUN AU000672 qwen3_4b RWKU/rwku_200 hierarchical target_context_memory
+  DONE AU000672 81.0s

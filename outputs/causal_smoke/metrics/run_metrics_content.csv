@@ -1,0 +1,7 @@
+run_id,block,model_id,benchmark,unit_id,topology,intervention,parameter_method,drr_target,irr_target,retention_target,drr_system,irr_system,retention_system,n_scored_probes
+CSMOKE01,causal_smoke,qwen3_4b,TOFU,tofu_forget01,independent,none,none,1.0,1.0,1.0,1.0,1.0,1.0,3
+CSMOKE02,causal_smoke,qwen3_4b,TOFU,tofu_forget01,independent,target_context_memory,none,0.0,0.0,1.0,0.0,0.0,1.0,3
+CSMOKE03,causal_smoke,qwen3_4b,TOFU,tofu_forget01,independent,full_inference,none,0.0,0.0,1.0,0.0,0.0,1.0,3
+CSMOKE04,causal_smoke,qwen3_4b,TOFU,tofu_forget01,sequential,none,none,1.0,1.0,1.0,1.0,1.0,1.0,3
+CSMOKE05,causal_smoke,qwen3_4b,TOFU,tofu_forget01,sequential,target_context_memory,none,1.0,1.0,1.0,1.0,1.0,1.0,3
+CSMOKE06,causal_smoke,qwen3_4b,TOFU,tofu_forget01,sequential,full_inference,none,0.0,1.0,1.0,0.0,1.0,1.0,3

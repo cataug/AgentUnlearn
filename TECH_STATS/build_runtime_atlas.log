@@ -1,0 +1,72 @@
+
+[1] scanning logs
+
+[2] scanning raw JSON timing fields
+
+[3] choosing canonical runtime
+raw fallback field: elapsed_sec
+
+[4] deriving technical metrics
+
+[5] aggregating dimensions
+
+[6] paired intervention overhead
+
+==========================================================================================
+RUNTIME EXTRACTION
+==========================================================================================
+{
+  "runs_total": 3721,
+  "runs_with_runtime": 3721,
+  "coverage_fraction": 1.0,
+  "aggregate_run_hours": 216.06525000000002,
+  "aggregate_run_days": 9.00271875,
+  "median_run_seconds": 143.0,
+  "p95_run_seconds": 561.7,
+  "runtime_sources": {
+    "runner_DONE_log": 3721
+  }
+}
+
+[7] FIGURE 16
+WROTE: 16_runtime_raincloud_by_model
+
+[8] FIGURE 17
+WROTE: 17_runtime_scaling_law
+
+[9] FIGURE 18
+WROTE: 18_topology_intervention_runtime_matrix
+
+[10] FIGURE 19
+WROTE: 19_compute_effectiveness_frontier
+
+[11] training timing
+
+==============================================================================================
+TECHNICAL RUNTIME ATLAS COMPLETE
+==============================================================================================
+
+TECH_STATS:
+  RUNTIME_SUMMARY.json
+  build_runtime_atlas.log
+  communication_compute_effectiveness.csv
+  paired_runtime_overhead.csv
+  raw_timing_fields_long.csv
+  run_runtime_master.csv
+  runtime_by_benchmark.csv
+  runtime_by_block.csv
+  runtime_by_intervention.csv
+  runtime_by_model.csv
+  runtime_by_parameter_method.csv
+  runtime_by_topology.csv
+  runtime_log_hits.csv
+  runtime_model_x_intervention.csv
+  runtime_model_x_topology.csv
+  runtime_topology_x_intervention.csv
+  timing_fields_discovered.csv
+
+FIGURES:
+  16_runtime_raincloud_by_model
+  17_runtime_scaling_law
+  18_topology_intervention_runtime_matrix
+  19_compute_effectiveness_frontier

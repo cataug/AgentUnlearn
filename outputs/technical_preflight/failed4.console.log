@@ -1,0 +1,15 @@
+
+=== LOAD qwen3_4b (2 conditions) ===
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4703.18it/s]
+[1/2] RUN PREFLIGHT09 qwen3_4b MUSE-Books/muse_books sequential target_context_memory
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (604595 > 131072). Running this sequence through the model will result in indexing errors
+  FAIL PREFLIGHT09: OutOfMemoryError: CUDA out of memory. Tried to allocate 9.23 GiB. GPU 0 has a total capacity of 39.38 GiB of which 7.34 GiB is free. Including non-PyTorch memory, this process has 32.02 GiB memory in use. Of the allocated memory 27.46 GiB is allocated by PyTorch, and 4.06 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[2/2] RUN PREFLIGHT10 qwen3_4b MUSE-Books/muse_books sequential full_inference
+  FAIL PREFLIGHT10: OutOfMemoryError: CUDA out of memory. Tried to allocate 9.23 GiB. GPU 0 has a total capacity of 39.38 GiB of which 7.34 GiB is free. Including non-PyTorch memory, this process has 32.02 GiB memory in use. Of the allocated memory 27.46 GiB is allocated by PyTorch, and 4.06 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+=== LOAD qwen3_8b (2 conditions) ===
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 4222.91it/s]
+[1/2] RUN PREFLIGHT11 qwen3_8b WMDP/wmdp_bio scratchpad target_context_memory
+  DONE PREFLIGHT11 13.5s
+[2/2] RUN PREFLIGHT12 qwen3_8b WMDP/wmdp_bio scratchpad full_inference
+  DONE PREFLIGHT12 8.8s

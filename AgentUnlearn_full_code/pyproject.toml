@@ -1,0 +1,21 @@
+[project]
+name = "agentunlearn"
+version = "0.1.0"
+description = "Reproducible multi-agent selective forgetting and reconstruction experiments"
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "transformers",
+  "pandas",
+  "numpy",
+]
+
+[project.optional-dependencies]
+train = ["peft"]
+semantic = ["sentence-transformers"]
+stats = ["scipy", "statsmodels"]
+parquet = ["pyarrow"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agentunlearn*"]

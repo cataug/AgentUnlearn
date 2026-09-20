@@ -1,0 +1,5 @@
+run_id,block,model_id,benchmark,unit_id,target_id,target_name,topology,intervention,n_agents,chain_length,target_agent_position,debate_rounds,peer_evidence,comm_threshold,temperature,seed,parameter_method,status
+PREFLIGHT09,technical_preflight,qwen3_4b,MUSE-Books,muse_books,books,MUSE Books,sequential,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT10,technical_preflight,qwen3_4b,MUSE-Books,muse_books,books,MUSE Books,sequential,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT11,technical_preflight,qwen3_8b,WMDP,wmdp_bio,bio,WMDP bio,scratchpad,target_context_memory,4,4,2,2,1.0,0.5,0.0,42,none,pending
+PREFLIGHT12,technical_preflight,qwen3_8b,WMDP,wmdp_bio,bio,WMDP bio,scratchpad,full_inference,4,4,2,2,1.0,0.5,0.0,42,none,pending

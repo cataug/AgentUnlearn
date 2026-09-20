@@ -1,0 +1,12 @@
+{
+  "runs_total": 3721,
+  "runs_with_runtime": 3721,
+  "coverage_fraction": 1.0,
+  "aggregate_run_hours": 216.06525000000002,
+  "aggregate_run_days": 9.00271875,
+  "median_run_seconds": 143.0,
+  "p95_run_seconds": 561.7,
+  "runtime_sources": {
+    "runner_DONE_log": 3721
+  }
+}

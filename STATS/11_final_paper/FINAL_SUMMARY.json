@@ -1,0 +1,79 @@
+{
+  "canonical_scorer": {
+    "type": "three-model ensemble LLM-judge calibrated",
+    "target": {
+      "content_f1": 0.07,
+      "semantic": 0.23
+    },
+    "system": {
+      "content_f1": 0.18,
+      "semantic": 0.18
+    },
+    "exact_match_always_positive": true,
+    "grouped_holdout": "probe_id"
+  },
+  "judge_consensus": {
+    "n_total": 600,
+    "n_consensus": 596,
+    "n_unanimous": 555
+  },
+  "runs": 3721,
+  "probe_rows": 52655,
+  "primary_family_tests": 18,
+  "communication_defense": {
+    "drr_target": {
+      "mean_A": 64.17777777777778,
+      "mean_B": 46.84444444444445,
+      "delta": -17.333333333333336,
+      "ci95_low": -22.133333333333333,
+      "ci95_high": -12.711111111111112,
+      "wilcoxon_p": 2.1692565430479929e-10,
+      "p_holm18": 3.4708104688767886e-09
+    },
+    "irr_target": {
+      "mean_A": 61.435897435897445,
+      "mean_B": 54.46153846153846,
+      "delta": -6.9743589743589745,
+      "ci95_low": -10.05128205128205,
+      "ci95_high": -4.205128205128205,
+      "wilcoxon_p": 9.976512188882236e-06,
+      "p_holm18": 0.00011971814626658684
+    },
+    "retention_target": {
+      "mean_A": 81.06666666666665,
+      "mean_B": 80.44444444444444,
+      "delta": -0.6222222222222223,
+      "ci95_low": -1.6888888888888887,
+      "ci95_high": 0.2666666666666667,
+      "wilcoxon_p": 0.28585051315425625,
+      "p_holm18": 1.0
+    },
+    "drr_system": {
+      "mean_A": 75.55555555555556,
+      "mean_B": 74.93333333333334,
+      "delta": -0.6222222222222221,
+      "ci95_low": -2.488888888888889,
+      "ci95_high": 1.0666666666666669,
+      "wilcoxon_p": 0.9719058803018934,
+      "p_holm18": 1.0
+    },
+    "irr_system": {
+      "mean_A": 69.02564102564104,
+      "mean_B": 68.71794871794872,
+      "delta": -0.30769230769230754,
+      "ci95_low": -1.538461538461538,
+      "ci95_high": 0.9230769230769235,
+      "wilcoxon_p": 0.8742208028604828,
+      "p_holm18": 1.0
+    },
+    "retention_system": {
+      "mean_A": 85.6,
+      "mean_B": 85.42222222222222,
+      "delta": -0.17777777777777778,
+      "ci95_low": -0.7111111111111111,
+      "ci95_high": 0.2666666666666667,
+      "wilcoxon_p": 0.49624247444426295,
+      "p_holm18": 1.0
+    }
+  }
+}

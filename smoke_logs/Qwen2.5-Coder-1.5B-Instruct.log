@@ -1,0 +1,22 @@
+========================================================================================
+MODEL       : Qwen2.5-Coder-1.5B-Instruct
+PATH        : /home/tahiti/Spec2Test/models/Qwen__Qwen2.5-Coder-1.5B-Instruct
+torch       : 2.5.1+cu121
+transformers: 5.10.0.dev0
+CUDA        : True
+GPU         : NVIDIA A100-PCIE-40GB
+GPU free    : 31.75 / 39.38 GiB
+
+[1/4] tokenizer
+[2/4] model
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   7%|▋         | 23/338 [00:00<00:01, 210.26it/s]Loading weights:  13%|█▎        | 45/338 [00:00<00:01, 174.40it/s]Loading weights:  20%|█▉        | 66/338 [00:00<00:01, 186.50it/s]Loading weights:  27%|██▋       | 90/338 [00:00<00:01, 201.87it/s]Loading weights:  34%|███▍      | 115/338 [00:00<00:01, 217.78it/s]Loading weights:  41%|████      | 138/338 [00:00<00:00, 204.20it/s]Loading weights:  53%|█████▎    | 180/338 [00:00<00:00, 263.91it/s]Loading weights:  68%|██████▊   | 230/338 [00:00<00:00, 323.40it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 340.91it/s]
+      allocated=2.88 GiB
+[3/4] prompt
+[4/4] generate
+
+OUTPUT:
+LOCAL MODEL SMOKE TEST PASSED
+
+TIME        : 38.4 s
+PEAK GPU    : 2.89 GiB
+RESULT      : PASS

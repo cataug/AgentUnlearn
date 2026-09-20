@@ -1,0 +1,93 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+from typing import List, Sequence, Tuple
+
+from agentunlearn.config import GenerationConfig
+from agentunlearn.io import stable_sample
+from agentunlearn.schemas import BenchmarkBundle, EvidenceItem, RunSpec
+from agentunlearn.similarity import SimilarityEngine
+
+
+@dataclass
+class AgentKnowledgeState:
+    agent_id: int
+    is_target: bool
+    context: List[EvidenceItem]
+    memory: List[EvidenceItem]
+
+
+def _partition(items: Sequence[EvidenceItem], frac_context: float, frac_memory: float, *seed_parts) -> tuple[List[EvidenceItem], List[EvidenceItem]]:
+    items = list(items)
+    if not items:
+        return [], []
+    ordered = stable_sample(items, len(items), *seed_parts)
+    n_ctx = min(len(items), max(0, int(round(len(items) * frac_context))))
+    ctx = ordered[:n_ctx]
+    remaining = ordered[n_ctx:]
+    n_mem = min(len(remaining), max(0, int(round(len(items) * frac_memory))))
+    mem = remaining[:n_mem]
+    # If fractions sum to >1, fill memory from context only as explicitly requested.
+    if n_mem < int(round(len(items) * frac_memory)):
+        need = int(round(len(items) * frac_memory)) - n_mem
+        mem += ordered[:need]
+    return ctx, mem
+
+
+def build_states(bundle: BenchmarkBundle, spec: RunSpec, cfg: GenerationConfig) -> List[AgentKnowledgeState]:
+    target_items = stable_sample(bundle.target_evidence, cfg.max_target_evidence, bundle.unit_id, "target-evidence")
+    retain_items = stable_sample(bundle.retain_evidence, cfg.max_retain_evidence, bundle.unit_id, "retain-evidence")
+
+    target_ctx, target_mem = _partition(
+        target_items,
+        cfg.context_target_fraction,
+        cfg.memory_target_fraction,
+        bundle.unit_id,
+        "target-partition",
+    )
+    retain_ctx, retain_mem = _partition(
+        retain_items,
+        cfg.context_retain_fraction,
+        cfg.memory_retain_fraction,
+        bundle.unit_id,
+        "retain-partition",
+    )
+
+    # peer_evidence controls how much target information peers are allowed to see.
+    peer_target_ctx = stable_sample(target_ctx, int(round(len(target_ctx) * spec.peer_evidence)), bundle.unit_id, spec.peer_evidence, "peer-ctx")
+    peer_target_mem = stable_sample(target_mem, int(round(len(target_mem) * spec.peer_evidence)), bundle.unit_id, spec.peer_evidence, "peer-mem")
+
+    states: List[AgentKnowledgeState] = []
+    target_pos = max(1, min(spec.target_agent_position, max(1, spec.n_agents)))
+
+    for aid in range(1, spec.n_agents + 1):
+        is_target = aid == target_pos
+        ctx = list((target_ctx if is_target else peer_target_ctx) + retain_ctx)
+        mem = list((target_mem if is_target else peer_target_mem) + retain_mem)
+
+        if spec.intervention == "global_context":
+            ctx = [x for x in ctx if not x.is_target]
+        elif is_target and spec.intervention in {"target_context", "target_context_comm", "full_inference"}:
+            ctx = [x for x in ctx if not x.is_target]
+
+        if is_target and spec.intervention in {"target_memory", "full_inference"}:
+            mem = [x for x in mem if not x.is_target]
+
+        states.append(AgentKnowledgeState(aid, is_target, ctx, mem))
+    return states
+
+
+def communication_filter_enabled(spec: RunSpec) -> bool:
+    return spec.intervention in {"communication", "target_context_comm", "full_inference", "parameter_plus_comm"}
+
+
+def maybe_filter_inbound(
+    message: str,
+    receiver_is_target: bool,
+    spec: RunSpec,
+    similarity: SimilarityEngine,
+    target_references: Sequence[str],
+) -> tuple[str, List[dict]]:
+    if not receiver_is_target or not communication_filter_enabled(spec):
+        return message, []
+    return similarity.filter_text(message, target_references, spec.comm_threshold)

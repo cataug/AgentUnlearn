@@ -1,0 +1,28 @@
+
+====================================================================================================
+AGENTUNLEARN STATISTICS EXPORT COMPLETE
+====================================================================================================
+STATS: /home/tahiti/AgentUnlearn/STATS
+
+{
+  "experiment": "AgentUnlearn",
+  "runs_expected": 3721,
+  "runs_complete": 3721,
+  "training_jobs": 20,
+  "training_complete": 20,
+  "metric_csv_files": 5,
+  "run_metric_files": [
+    "run_metrics.csv",
+    "run_metrics_content.csv"
+  ],
+  "probe_score_files": [
+    "probe_scores.csv",
+    "probe_scores_content.csv"
+  ],
+  "trace_files": [
+    "trace_scores.csv"
+  ],
+  "preferred_run_metrics": "run_metrics_content",
+  "scipy_available": true,
+  "note": "Content-aware thresholds 0.30/0.50 are the current automatic scoring thresholds; do not describe them as human-calibrated unless calibration has actually been completed."
+}

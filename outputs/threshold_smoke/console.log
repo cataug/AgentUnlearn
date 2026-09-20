@@ -1,0 +1,17 @@
+
+=== LOAD qwen3_4b (7 conditions) ===
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4305.89it/s]
+[1/7] RUN TSWEEP_OPEN qwen3_4b TOFU/tofu_forget01 sequential target_context_memory
+  DONE TSWEEP_OPEN 9.7s
+[2/7] RUN TSWEEP_30 qwen3_4b TOFU/tofu_forget01 sequential full_inference
+  DONE TSWEEP_30 9.2s
+[3/7] RUN TSWEEP_40 qwen3_4b TOFU/tofu_forget01 sequential full_inference
+  DONE TSWEEP_40 9.7s
+[4/7] RUN TSWEEP_50 qwen3_4b TOFU/tofu_forget01 sequential full_inference
+  DONE TSWEEP_50 9.6s
+[5/7] RUN TSWEEP_60 qwen3_4b TOFU/tofu_forget01 sequential full_inference
+  DONE TSWEEP_60 9.0s
+[6/7] RUN TSWEEP_70 qwen3_4b TOFU/tofu_forget01 sequential full_inference
+  DONE TSWEEP_70 9.4s
+[7/7] RUN TSWEEP_80 qwen3_4b TOFU/tofu_forget01 sequential full_inference
+  DONE TSWEEP_80 9.6s

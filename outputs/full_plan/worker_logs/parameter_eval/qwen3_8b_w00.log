@@ -1,0 +1,344 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/usr/lib/python3/dist-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/usr/lib/python3/dist-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/usr/lib/python3/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 50, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.10 from "/usr/bin/python3.10"
+  * The NumPy version is: "1.26.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/scripts/run_manifest.py", line 15, in <module>
+    from agentunlearn.engine import ExperimentEngine
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/engine.py", line 8, in <module>
+    from agentunlearn.datasets import get_adapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/__init__.py", line 5, in <module>
+    from agentunlearn.datasets.muse import MUSEAdapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/muse.py", line 6, in <module>
+    from agentunlearn.datasets.base import (
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/base.py", line 8, in <module>
+    from agentunlearn.io import answer_list, first_text, recursive_dict_records
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/io.py", line 13, in <module>
+    import numpy as np
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/usr/lib/python3/dist-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/usr/lib/python3/dist-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/usr/lib/python3/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 50, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.10 from "/usr/bin/python3.10"
+  * The NumPy version is: "1.26.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/scripts/run_manifest.py", line 15, in <module>
+    from agentunlearn.engine import ExperimentEngine
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/engine.py", line 8, in <module>
+    from agentunlearn.datasets import get_adapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/__init__.py", line 5, in <module>
+    from agentunlearn.datasets.muse import MUSEAdapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/muse.py", line 6, in <module>
+    from agentunlearn.datasets.base import (
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/base.py", line 8, in <module>
+    from agentunlearn.io import answer_list, first_text, recursive_dict_records
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/io.py", line 13, in <module>
+    import numpy as np
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 5242.49it/s]
+/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/training.py:725: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  raw = torch.load(delta_path, map_location="cpu")
+[1/8] RUN AU003087 qwen3_8b TOFU/tofu_forget01 independent parameter_plus_comm
+  DONE AU003087 162.5s
+[2/8] RUN AU003088 qwen3_8b TOFU/tofu_forget01 sequential parameter_only
+  DONE AU003088 179.0s
+[3/8] RUN AU003090 qwen3_8b TOFU/tofu_forget01 debate parameter_only
+  DONE AU003090 520.9s
+[4/8] RUN AU003091 qwen3_8b TOFU/tofu_forget01 debate parameter_plus_comm
+  DONE AU003091 530.0s
+[5/8] RUN AU003092 qwen3_8b TOFU/tofu_forget01 scratchpad parameter_only
+  DONE AU003092 278.6s
+[6/8] RUN AU003093 qwen3_8b TOFU/tofu_forget01 scratchpad parameter_plus_comm
+  DONE AU003093 272.7s
+[7/8] RUN AU003094 qwen3_8b TOFU/tofu_forget01 hierarchical parameter_only
+  DONE AU003094 164.8s
+[8/8] RUN AU003095 qwen3_8b TOFU/tofu_forget01 hierarchical parameter_plus_comm
+  DONE AU003095 164.4s
+SKIP parameter group ('qwen3_8b', 'tofu_forget01', 'lora_grad_diff'): checkpoint not trained: /home/tahiti/AgentUnlearn/outputs/full_plan/checkpoints/TR0012
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 4432.79it/s]
+[1/4] RUN AU003111 qwen3_8b TOFU/tofu_forget05 debate parameter_plus_comm
+  DONE AU003111 423.0s
+[2/4] RUN AU003112 qwen3_8b TOFU/tofu_forget05 scratchpad parameter_only
+  DONE AU003112 191.5s
+[3/4] RUN AU003114 qwen3_8b TOFU/tofu_forget05 hierarchical parameter_only
+  DONE AU003114 112.9s
+[4/4] RUN AU003115 qwen3_8b TOFU/tofu_forget05 hierarchical parameter_plus_comm
+  DONE AU003115 112.8s
+SKIP parameter group ('qwen3_8b', 'tofu_forget05', 'lora_grad_diff'): checkpoint not trained: /home/tahiti/AgentUnlearn/outputs/full_plan/checkpoints/TR0014
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 4259.57it/s]
+[1/4] RUN AU003129 qwen3_8b TOFU/tofu_forget10 sequential parameter_plus_comm
+  DONE AU003129 166.6s
+[2/4] RUN AU003131 qwen3_8b TOFU/tofu_forget10 debate parameter_plus_comm
+  DONE AU003131 505.0s
+[3/4] RUN AU003133 qwen3_8b TOFU/tofu_forget10 scratchpad parameter_plus_comm
+  DONE AU003133 248.8s
+[4/4] RUN AU003135 qwen3_8b TOFU/tofu_forget10 hierarchical parameter_plus_comm
+  DONE AU003135 150.4s
+SKIP parameter group ('qwen3_8b', 'tofu_forget10', 'lora_grad_diff'): checkpoint not trained: /home/tahiti/AgentUnlearn/outputs/full_plan/checkpoints/TR0016
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights:  97%|█████████▋| 389/399 [00:00<00:00, 3888.87it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 3962.47it/s]
+[1/6] RUN AU003147 qwen3_8b MUSE-News/muse_news independent parameter_plus_comm
+  DONE AU003147 163.5s
+[2/6] RUN AU003149 qwen3_8b MUSE-News/muse_news sequential parameter_plus_comm
+  DONE AU003149 150.4s
+[3/6] RUN AU003150 qwen3_8b MUSE-News/muse_news debate parameter_only
+  DONE AU003150 434.1s
+[4/6] RUN AU003152 qwen3_8b MUSE-News/muse_news scratchpad parameter_only
+  DONE AU003152 103.8s
+[5/6] RUN AU003153 qwen3_8b MUSE-News/muse_news scratchpad parameter_plus_comm
+  DONE AU003153 104.0s
+[6/6] RUN AU003155 qwen3_8b MUSE-News/muse_news hierarchical parameter_plus_comm
+  DONE AU003155 83.1s
+SKIP parameter group ('qwen3_8b', 'muse_news', 'lora_grad_diff'): checkpoint not trained: /home/tahiti/AgentUnlearn/outputs/full_plan/checkpoints/TR0018
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 4265.90it/s]
+/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/training.py:725: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  raw = torch.load(delta_path, map_location="cpu")
+[1/2] RUN AU003171 qwen3_8b RWKU/rwku_001 debate parameter_plus_comm
+  DONE AU003171 238.5s
+[2/2] RUN AU003174 qwen3_8b RWKU/rwku_001 hierarchical parameter_only
+  DONE AU003174 67.3s
+SKIP parameter group ('qwen3_8b', 'rwku_001', 'lora_grad_diff'): checkpoint not trained: /home/tahiti/AgentUnlearn/outputs/full_plan/checkpoints/TR0020
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 5303.84it/s]
+/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/training.py:725: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  raw = torch.load(delta_path, map_location="cpu")
+[1/8] SKIP AU003087 already complete
+[2/8] SKIP AU003088 already complete
+[3/8] SKIP AU003090 already complete
+[4/8] SKIP AU003091 already complete
+[5/8] SKIP AU003092 already complete
+[6/8] SKIP AU003093 already complete
+[7/8] SKIP AU003094 already complete
+[8/8] SKIP AU003095 already complete
+SKIP parameter group ('qwen3_8b', 'tofu_forget01', 'lora_grad_diff'): checkpoint not trained: /home/tahiti/AgentUnlearn/outputs/full_plan/checkpoints/TR0012
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 4805.99it/s]
+[1/4] SKIP AU003111 already complete
+[2/4] SKIP AU003112 already complete
+[3/4] SKIP AU003114 already complete
+[4/4] SKIP AU003115 already complete
+SKIP parameter group ('qwen3_8b', 'tofu_forget05', 'lora_grad_diff'): checkpoint not trained: /home/tahiti/AgentUnlearn/outputs/full_plan/checkpoints/TR0014
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 5563.98it/s]
+[1/4] SKIP AU003129 already complete
+[2/4] SKIP AU003131 already complete
+[3/4] SKIP AU003133 already complete
+[4/4] SKIP AU003135 already complete
+SKIP parameter group ('qwen3_8b', 'tofu_forget10', 'lora_grad_diff'): checkpoint not trained: /home/tahiti/AgentUnlearn/outputs/full_plan/checkpoints/TR0016
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 5446.53it/s]
+[1/6] SKIP AU003147 already complete
+[2/6] SKIP AU003149 already complete
+[3/6] SKIP AU003150 already complete
+[4/6] SKIP AU003152 already complete
+[5/6] SKIP AU003153 already complete
+[6/6] SKIP AU003155 already complete
+SKIP parameter group ('qwen3_8b', 'muse_news', 'lora_grad_diff'): checkpoint not trained: /home/tahiti/AgentUnlearn/outputs/full_plan/checkpoints/TR0018
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 4797.52it/s]
+[1/2] SKIP AU003171 already complete
+[2/2] SKIP AU003174 already complete
+SKIP parameter group ('qwen3_8b', 'rwku_001', 'lora_grad_diff'): checkpoint not trained: /home/tahiti/AgentUnlearn/outputs/full_plan/checkpoints/TR0020
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 4480.97it/s]
+/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/training.py:725: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  raw = torch.load(delta_path, map_location="cpu")
+[1/8] SKIP AU003087 already complete
+[2/8] SKIP AU003088 already complete
+[3/8] SKIP AU003090 already complete
+[4/8] SKIP AU003091 already complete
+[5/8] SKIP AU003092 already complete
+[6/8] SKIP AU003093 already complete
+[7/8] SKIP AU003094 already complete
+[8/8] SKIP AU003095 already complete
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 4250.63it/s]
+[1/5] RUN AU003096 qwen3_8b TOFU/tofu_forget01 independent parameter_only
+  DONE AU003096 182.2s
+[2/5] RUN AU003097 qwen3_8b TOFU/tofu_forget01 independent parameter_plus_comm
+  DONE AU003097 181.8s
+[3/5] RUN AU003098 qwen3_8b TOFU/tofu_forget01 sequential parameter_only
+  DONE AU003098 200.3s
+[4/5] RUN AU003100 qwen3_8b TOFU/tofu_forget01 debate parameter_only
+  DONE AU003100 588.0s
+[5/5] RUN AU003101 qwen3_8b TOFU/tofu_forget01 debate parameter_plus_comm
+  DONE AU003101 599.5s
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 5438.74it/s]
+[1/4] SKIP AU003111 already complete
+[2/4] SKIP AU003112 already complete
+[3/4] SKIP AU003114 already complete
+[4/4] SKIP AU003115 already complete
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 5161.30it/s]
+[1/6] RUN AU003116 qwen3_8b TOFU/tofu_forget05 independent parameter_only
+  DONE AU003116 123.8s
+[2/6] RUN AU003117 qwen3_8b TOFU/tofu_forget05 independent parameter_plus_comm
+  DONE AU003117 124.5s
+[3/6] RUN AU003119 qwen3_8b TOFU/tofu_forget05 sequential parameter_plus_comm
+  DONE AU003119 148.9s
+[4/6] RUN AU003121 qwen3_8b TOFU/tofu_forget05 debate parameter_plus_comm
+  DONE AU003121 503.5s
+[5/6] RUN AU003123 qwen3_8b TOFU/tofu_forget05 scratchpad parameter_plus_comm
+  DONE AU003123 198.1s
+[6/6] RUN AU003125 qwen3_8b TOFU/tofu_forget05 hierarchical parameter_plus_comm
+  DONE AU003125 120.7s
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 4982.17it/s]
+[1/4] SKIP AU003129 already complete
+[2/4] SKIP AU003131 already complete
+[3/4] SKIP AU003133 already complete
+[4/4] SKIP AU003135 already complete
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights:  32%|███▏      | 127/399 [00:00<00:00, 1258.13it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 3367.20it/s]
+[1/4] RUN AU003137 qwen3_8b TOFU/tofu_forget10 independent parameter_plus_comm
+  DONE AU003137 163.8s
+[2/4] RUN AU003140 qwen3_8b TOFU/tofu_forget10 debate parameter_only
+  DONE AU003140 549.4s
+[3/4] RUN AU003143 qwen3_8b TOFU/tofu_forget10 scratchpad parameter_plus_comm
+  DONE AU003143 292.5s
+[4/4] RUN AU003144 qwen3_8b TOFU/tofu_forget10 hierarchical parameter_only
+  DONE AU003144 175.7s
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 7741.58it/s]
+[1/6] SKIP AU003147 already complete
+[2/6] SKIP AU003149 already complete
+[3/6] SKIP AU003150 already complete
+[4/6] SKIP AU003152 already complete
+[5/6] SKIP AU003153 already complete
+[6/6] SKIP AU003155 already complete
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 5349.33it/s]
+[1/4] RUN AU003161 qwen3_8b MUSE-News/muse_news debate parameter_plus_comm
+  DONE AU003161 617.9s
+[2/4] RUN AU003162 qwen3_8b MUSE-News/muse_news scratchpad parameter_only
+  DONE AU003162 207.8s
+[3/4] RUN AU003164 qwen3_8b MUSE-News/muse_news hierarchical parameter_only
+  DONE AU003164 171.2s
+[4/4] RUN AU003165 qwen3_8b MUSE-News/muse_news hierarchical parameter_plus_comm
+  DONE AU003165 153.9s
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 6370.44it/s]
+/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/training.py:725: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  raw = torch.load(delta_path, map_location="cpu")
+[1/2] SKIP AU003171 already complete
+[2/2] SKIP AU003174 already complete
+
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 399/399 [00:00<00:00, 6131.71it/s]
+[1/3] RUN AU003177 qwen3_8b RWKU/rwku_001 independent parameter_plus_comm
+  DONE AU003177 105.4s
+[2/3] RUN AU003178 qwen3_8b RWKU/rwku_001 sequential parameter_only
+  DONE AU003178 122.2s
+[3/3] RUN AU003184 qwen3_8b RWKU/rwku_001 hierarchical parameter_only
+  DONE AU003184 121.6s

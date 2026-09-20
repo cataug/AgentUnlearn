@@ -1,0 +1,2 @@
+run_id,block,model_id,benchmark,unit_id,target_id,target_name,topology,intervention,n_agents,chain_length,target_agent_position,debate_rounds,peer_evidence,comm_threshold,temperature,seed,parameter_method,status
+SMOKE001,smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,sequential,target_context_comm,2,2,2,0,1.0,0.7,0.0,42,none,pending

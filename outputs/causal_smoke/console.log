@@ -1,0 +1,15 @@
+
+=== LOAD qwen3_4b (6 conditions) ===
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4585.92it/s]
+[1/6] RUN CSMOKE01 qwen3_4b TOFU/tofu_forget01 independent none
+  DONE CSMOKE01 10.3s
+[2/6] RUN CSMOKE02 qwen3_4b TOFU/tofu_forget01 independent target_context_memory
+  DONE CSMOKE02 9.8s
+[3/6] RUN CSMOKE03 qwen3_4b TOFU/tofu_forget01 independent full_inference
+  DONE CSMOKE03 9.8s
+[4/6] RUN CSMOKE04 qwen3_4b TOFU/tofu_forget01 sequential none
+  DONE CSMOKE04 9.8s
+[5/6] RUN CSMOKE05 qwen3_4b TOFU/tofu_forget01 sequential target_context_memory
+  DONE CSMOKE05 9.2s
+[6/6] RUN CSMOKE06 qwen3_4b TOFU/tofu_forget01 sequential full_inference
+  DONE CSMOKE06 9.5s

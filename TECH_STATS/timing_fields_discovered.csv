@@ -1,0 +1,3 @@
+timing_field,n_runs,median_sum,mean_sum
+elapsed_sec,3721,142.98211455345154,209.0397343995654
+model_metadata.load_seconds,3721,6.960078716278076,14.386762297624415

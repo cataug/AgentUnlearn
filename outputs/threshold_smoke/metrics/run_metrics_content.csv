@@ -1,0 +1,8 @@
+run_id,block,model_id,benchmark,unit_id,topology,intervention,parameter_method,drr_target,irr_target,retention_target,drr_system,irr_system,retention_system,n_scored_probes
+TSWEEP_30,threshold_smoke,qwen3_4b,TOFU,tofu_forget01,sequential,full_inference,none,0.0,0.0,1.0,0.0,0.0,1.0,3
+TSWEEP_40,threshold_smoke,qwen3_4b,TOFU,tofu_forget01,sequential,full_inference,none,0.0,0.0,1.0,0.0,0.0,1.0,3
+TSWEEP_50,threshold_smoke,qwen3_4b,TOFU,tofu_forget01,sequential,full_inference,none,0.0,0.0,1.0,0.0,0.0,1.0,3
+TSWEEP_60,threshold_smoke,qwen3_4b,TOFU,tofu_forget01,sequential,full_inference,none,0.0,1.0,1.0,0.0,1.0,1.0,3
+TSWEEP_70,threshold_smoke,qwen3_4b,TOFU,tofu_forget01,sequential,full_inference,none,0.0,1.0,1.0,0.0,1.0,1.0,3
+TSWEEP_80,threshold_smoke,qwen3_4b,TOFU,tofu_forget01,sequential,full_inference,none,0.0,1.0,1.0,0.0,1.0,1.0,3
+TSWEEP_OPEN,threshold_smoke,qwen3_4b,TOFU,tofu_forget01,sequential,target_context_memory,none,1.0,1.0,1.0,1.0,1.0,1.0,3

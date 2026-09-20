@@ -1,0 +1,39 @@
+AgentUnlearn — final seven-figure package
+=========================================
+
+01_causal_trajectory
+Overall causal path:
+baseline -> local suppression -> communication-aware defense.
+
+02_communication_defense_forest
+Confirmatory communication-defense effects with
+bootstrap 95% CIs and Holm-adjusted p-values.
+
+03_topology_signature
+Topology-specific fingerprint of communication defense.
+Includes the independent-topology negative control.
+
+04_benchmark_signature
+Benchmark-specific effect matrix across all six
+target/system outcomes.
+
+05_model_and_parameter_landscape
+Model-family consistency plus parameter-level
+forgetting/retention trade-off.
+
+06_robustness_and_wmdp
+Seed/temperature robustness and WMDP appendix stress test.
+
+07_threshold_robustness_atlas
+Scorer threshold sensitivity, old vs grouped-calibrated
+operating point, judge agreement, and held-out F1.
+
+Visual language
+---------------
+- oversized typography;
+- thin black structural outlines;
+- translucent viridis gradients;
+- divergent effect matrices where sign matters;
+- white numeric callouts with dark-red borders;
+- no default matplotlib bar-chart styling;
+- vector PDF + 500-dpi PNG.

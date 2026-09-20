@@ -1,0 +1,7 @@
+run_id,block,model_id,benchmark,unit_id,topology,intervention,probe_id,probe_kind,variant_id,trace_index,step,agent_id,is_target,exact,token_f1,semantic,accumulated_semantic,positive,filtered_segment_count,context_target_count,memory_target_count
+SMOKE001,smoke,qwen3_4b,TOFU,tofu_forget01,sequential,target_context_comm,TOFU:forget01:direct:00008,direct,v0,0,sequential:1,1,0,0.0,0.23684210526315788,0.394771009683609,0.394771009683609,0,0,1,1
+SMOKE001,smoke,qwen3_4b,TOFU,tofu_forget01,sequential,target_context_comm,TOFU:forget01:direct:00008,direct,v0,1,sequential:2,2,1,0.0,0.21333333333333335,0.32141217589378357,0.37796446681022644,0,0,0,1
+SMOKE001,smoke,qwen3_4b,TOFU,tofu_forget01,sequential,target_context_comm,TOFU:forget01:indirect:00014,indirect,v0,0,sequential:1,1,0,0.0,0.4814814814814815,0.5204800367355347,0.5204800367355347,0,0,1,1
+SMOKE001,smoke,qwen3_4b,TOFU,tofu_forget01,sequential,target_context_comm,TOFU:forget01:indirect:00014,indirect,v0,1,sequential:2,2,1,0.0,0.5283018867924528,0.5520524382591248,0.5670159459114075,1,0,0,1
+SMOKE001,smoke,qwen3_4b,TOFU,tofu_forget01,sequential,target_context_comm,TOFU:retain99:retain:02509,retain,v0,0,sequential:1,1,0,0.0,0.32,0.394622802734375,0.394622802734375,0,0,1,1
+SMOKE001,smoke,qwen3_4b,TOFU,tofu_forget01,sequential,target_context_comm,TOFU:retain99:retain:02509,retain,v0,1,sequential:2,2,1,0.0,0.32,0.394622802734375,0.394622802734375,0,0,0,1

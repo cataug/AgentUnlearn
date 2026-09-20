@@ -1,0 +1,8 @@
+model_id,model_path,role
+qwen3_4b,/home/tahiti/AgentUnlearn/models/Qwen3-4B,main
+qwen3_8b,/home/tahiti/AgentUnlearn/models/Qwen3-8B,main
+mistral_7b,/home/tahiti/AgentUnlearn/models/Mistral-7B-Instruct-v0.3,main
+qwen3_14b,/home/tahiti/AgentUnlearn/models/Qwen3-14B,scale_confirmation
+qwen25coder_1p5b,/home/tahiti/AgentUnlearn/models/Qwen2.5-Coder-1.5B-Instruct,specialization_ablation
+qwen25coder_7b,/home/tahiti/AgentUnlearn/models/Qwen2.5-Coder-7B-Instruct,specialization_ablation
+qwen25coder_14b,/home/tahiti/AgentUnlearn/models/Qwen2.5-Coder-14B-Instruct,specialization_ablation

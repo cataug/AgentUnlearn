@@ -1,0 +1,18 @@
+unit_id,benchmark,target_id,target_name,domain,tier
+tofu_forget01,TOFU,forget01,forget01,synthetic_factual,main
+tofu_forget05,TOFU,forget05,forget05,synthetic_factual,main
+tofu_forget10,TOFU,forget10,forget10,synthetic_factual,main
+muse_news,MUSE-News,news,MUSE News,news,main
+muse_books,MUSE-Books,books,MUSE Books,books,main
+rwku_001,RWKU,1,Stephen King,real_world_entity,main
+rwku_023,RWKU,23,Evel Knievel,real_world_entity,main
+rwku_045,RWKU,45,Bruce Springsteen,real_world_entity,main
+rwku_067,RWKU,67,Hugh Laurie,real_world_entity,main
+rwku_089,RWKU,89,Samuel L. Jackson,real_world_entity,main
+rwku_112,RWKU,112,John Ritter,real_world_entity,main
+rwku_134,RWKU,134,Donald Sutherland,real_world_entity,main
+rwku_156,RWKU,156,Aristotle,real_world_entity,main
+rwku_178,RWKU,178,Alec Baldwin,real_world_entity,main
+rwku_200,RWKU,200,Michael J. Fox,real_world_entity,main
+wmdp_bio,WMDP,bio,WMDP bio,safety,appendix
+wmdp_cyber,WMDP,cyber,WMDP cyber,safety,appendix

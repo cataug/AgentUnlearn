@@ -1,0 +1,22 @@
+========================================================================================
+MODEL       : Qwen3-14B
+PATH        : /home/tahiti/.cache/huggingface/hub/models--Qwen--Qwen3-14B/snapshots/40c069824f4251a91eefaf281ebe4c544efd3e18
+torch       : 2.5.1+cu121
+transformers: 5.10.0.dev0
+CUDA        : True
+GPU         : NVIDIA A100-PCIE-40GB
+GPU free    : 31.75 / 39.38 GiB
+
+[1/4] tokenizer
+[2/4] model
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:  25%|██▍       | 109/443 [00:00<00:00, 1085.94it/s]Loading weights:  49%|████▉     | 218/443 [00:00<00:00, 272.56it/s] Loading weights:  62%|██████▏   | 274/443 [00:01<00:00, 236.92it/s]Loading weights:  71%|███████   | 313/443 [00:01<00:00, 256.71it/s]Loading weights: 100%|██████████| 443/443 [00:01<00:00, 388.50it/s]
+      allocated=27.51 GiB
+[3/4] prompt
+[4/4] generate
+
+OUTPUT:
+LOCAL MODEL SMOKE TEST PASSED
+
+TIME        : 229.5 s
+PEAK GPU    : 27.52 GiB
+RESULT      : PASS

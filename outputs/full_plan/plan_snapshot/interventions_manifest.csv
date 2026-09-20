@@ -1,0 +1,10 @@
+intervention_id,target_context,target_memory,communication_filter,parameter_unlearning
+none,0,0,0,0
+global_context,1,0,0,0
+target_context,1,0,0,0
+target_memory,0,1,0,0
+communication,0,0,1,0
+target_context_memory,1,1,0,0
+target_context_comm,1,0,1,0
+target_memory_comm,0,1,1,0
+full_inference,1,1,1,0

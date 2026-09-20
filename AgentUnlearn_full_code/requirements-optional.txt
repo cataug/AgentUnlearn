@@ -1,0 +1,8 @@
+# Optional capabilities; core inference needs only the packages already used by the local model environment.
+peft                       # LoRA parameter baseline
+sentence-transformers      # fixed semantic embedding evaluator/filter, if chosen
+scipy                      # exact tests / statistics
+statsmodels                # GLM and optional mixed-effects logistic model
+pyarrow                    # direct Parquet loading if JSON mirrors are unavailable
+matplotlib                  # publication figures
+pytest                      # tests

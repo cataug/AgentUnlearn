@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-15T12:10:21.008412+00:00",
+  "updated_at": "2026-09-20T04:22:39.842335+00:00",
+  "config": "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/config/production.json",
+  "outputs": "/home/tahiti/AgentUnlearn/outputs/full_plan",
+  "stages": {},
+  "plan": {
+    "inference_total": 3721,
+    "nonparameter_inference": 3521,
+    "parameter_inference": 200,
+    "training_jobs": 20,
+    "snapshot_hashes": {
+      "production.json": "1d5d4d8917416f3ee807e8452ebd4465bb942be40e56827d9dd4daa3fb279cb5",
+      "runs_all.csv": "62bb5961d9b4aec43940a10bdea5b4158f791261a8000e24b512da0857b5fef7",
+      "training_parameter_unlearning.csv": "f5969ba9d4ad6dbcfc458d9c089d9e7d4ec39de74b303f32a412b62f27792f2b",
+      "models_manifest.csv": "963f711cb2e8a63adacdd6b689a21fd4f5d1e8d7ab7e556fb24046e0a02ad7cd",
+      "benchmark_units_manifest.csv": "a37c095be42add961c79f8eaa71702da1379a438d07630718ff7b9d3d6f75c45",
+      "interventions_manifest.csv": "3d9914ec7831474cc16fb723e6be2268cdf094c04b501429ce8e729d5525e559",
+      "topologies_manifest.csv": "a2827494db1e049302516e35c9b26eba894d7d9678a7ce7f782fc5a921810260"
+    }
+  },
+  "worker_map": {
+    "qwen3_4b": 3,
+    "qwen3_8b": 2,
+    "mistral_7b": 2,
+    "qwen25coder_1p5b": 4,
+    "qwen25coder_7b": 2,
+    "qwen3_14b": 1,
+    "qwen25coder_14b": 1
+  },
+  "runs_manifest": "/home/tahiti/AgentUnlearn/outputs/full_plan/plan_snapshot/runs_all.csv",
+  "nonparameter": {
+    "expected": 3521,
+    "complete": 3521,
+    "errors": 0,
+    "remaining": 0,
+    "error_ids": [],
+    "updated_at": "2026-09-20T04:22:39.986650+00:00"
+  },
+  "parameter_training": {
+    "expected": 20,
+    "complete": 20,
+    "resumable": 0,
+    "errors": 0,
+    "remaining": 0,
+    "error_ids": [],
+    "updated_at": "2026-09-20T04:32:47.605907+00:00"
+  },
+  "parameter_evaluation": {
+    "expected": 200,
+    "complete": 200,
+    "errors": 0,
+    "remaining": 0,
+    "error_ids": [],
+    "updated_at": "2026-09-20T07:47:38.918673+00:00"
+  },
+  "overall": {
+    "expected": 3721,
+    "complete": 3721,
+    "errors": 0,
+    "remaining": 0,
+    "error_ids": [],
+    "updated_at": "2026-09-20T07:47:39.015377+00:00"
+  },
+  "scoring": {
+    "complete": true,
+    "updated_at": "2026-09-20T07:50:18.855323+00:00"
+  }
+}

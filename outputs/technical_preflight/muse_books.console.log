@@ -1,0 +1,7 @@
+
+=== LOAD qwen3_4b (2 conditions) ===
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 11948.39it/s]
+[1/2] RUN PREFLIGHT09 qwen3_4b MUSE-Books/muse_books sequential target_context_memory
+  DONE PREFLIGHT09 19.9s
+[2/2] RUN PREFLIGHT10 qwen3_4b MUSE-Books/muse_books sequential full_inference
+  DONE PREFLIGHT10 13.5s

@@ -1,0 +1,55 @@
+run_id,block,model_id,benchmark,unit_id,target_id,target_name,topology,intervention,n_agents,chain_length,target_agent_position,debate_rounds,peer_evidence,comm_threshold,temperature,seed,parameter_method,status
+AU003086,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,independent,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003089,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003099,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,sequential,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003102,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003103,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,scratchpad,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003104,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003105,parameter_unlearning,qwen3_8b,TOFU,tofu_forget01,forget01,forget01,hierarchical,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003106,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003107,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,independent,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003108,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003109,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003110,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003113,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003118,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,sequential,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003120,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,debate,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003122,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,scratchpad,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003124,parameter_unlearning,qwen3_8b,TOFU,tofu_forget05,forget05,forget05,hierarchical,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003126,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003127,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003128,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003130,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003132,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003134,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003136,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,independent,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003138,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003139,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,sequential,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003141,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,debate,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003142,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,scratchpad,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003145,parameter_unlearning,qwen3_8b,TOFU,tofu_forget10,forget10,forget10,hierarchical,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003146,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003148,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003151,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003154,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,news,MUSE News,hierarchical,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003156,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003157,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,news,MUSE News,independent,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003158,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003159,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,news,MUSE News,sequential,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003160,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,news,MUSE News,debate,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003163,parameter_unlearning,qwen3_8b,MUSE-News,muse_news,news,MUSE News,scratchpad,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003166,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003167,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003168,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003169,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003170,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003172,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,parameter_only,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003173,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003175,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,gradient_ascent,pending
+AU003176,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,independent,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003179,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,sequential,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003180,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003181,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,debate,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003182,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,parameter_only,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003183,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,scratchpad,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending
+AU003185,parameter_unlearning,qwen3_8b,RWKU,rwku_001,1,Stephen King,hierarchical,parameter_plus_comm,4,4,2,2,1.0,0.5,0.0,42,lora_grad_diff,pending

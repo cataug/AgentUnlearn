@@ -1,0 +1,22 @@
+========================================================================================
+MODEL       : Qwen2.5-Coder-7B-Instruct
+PATH        : /home/tahiti/crypto/models/Qwen2.5-Coder-7B-Instruct
+torch       : 2.5.1+cu121
+transformers: 5.10.0.dev0
+CUDA        : True
+GPU         : NVIDIA A100-PCIE-40GB
+GPU free    : 31.75 / 39.38 GiB
+
+[1/4] tokenizer
+[2/4] model
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   6%|▌         | 21/339 [00:00<00:01, 203.47it/s]Loading weights:  14%|█▍        | 47/339 [00:00<00:01, 235.63it/s]Loading weights:  24%|██▎       | 80/339 [00:00<00:00, 263.87it/s]Loading weights:  32%|███▏      | 107/339 [00:00<00:00, 234.36it/s]Loading weights:  39%|███▊      | 131/339 [00:00<00:01, 200.04it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 523.21it/s]
+      allocated=14.23 GiB
+[3/4] prompt
+[4/4] generate
+
+OUTPUT:
+LOCAL MODEL SMOKE TEST PASSED
+
+TIME        : 141.7 s
+PEAK GPU    : 14.24 GiB
+RESULT      : PASS

@@ -1,0 +1,56 @@
+{
+  "paths": {
+    "project_root": "/home/tahiti/AgentUnlearn",
+    "models_manifest": "manifests/models_manifest.csv",
+    "runs_manifest": "manifests/runs_all.csv",
+    "training_manifest": "manifests/training_parameter_unlearning.csv",
+    "data_dir": "data",
+    "outputs_dir": "outputs/full_plan",
+    "checkpoints_dir": "outputs/full_plan/checkpoints"
+  },
+  "generation": {
+    "max_new_tokens": 192,
+    "prompt_variants": 5,
+    "base_direct_probes": 1,
+    "base_indirect_probes": 1,
+    "base_retain_probes": 1,
+    "max_target_evidence": 8,
+    "max_retain_evidence": 8,
+    "context_target_fraction": 0.5,
+    "memory_target_fraction": 0.5,
+    "context_retain_fraction": 0.5,
+    "memory_retain_fraction": 0.5,
+    "disable_qwen_thinking": true
+  },
+  "similarity": {
+    "backend": "lexical",
+    "model_path": null,
+    "device": "cuda",
+    "batch_size": 32,
+    "evaluation_threshold": 0.7
+  },
+  "scoring": {
+    "token_f1_threshold": 0.5,
+    "exact_match_is_positive": true,
+    "semantic_positive_threshold": 0.7,
+    "primary_channel": "semantic_or_f1",
+    "llm_judge_model_id": null,
+    "llm_judge_threshold": 1
+  },
+  "training": {
+    "max_steps": 80,
+    "lr": 2e-05,
+    "retain_weight": 1.0,
+    "max_length": 512,
+    "gradient_clip": 1.0,
+    "gradient_ascent_scope": "last_n_layers",
+    "gradient_ascent_last_n_layers": 2,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "lora_target_modules": "all-linear",
+    "train_forget_examples": 32,
+    "train_retain_examples": 32,
+    "checkpoint_every": 10
+  }
+}

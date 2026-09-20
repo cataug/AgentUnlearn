@@ -1,0 +1,49 @@
+==========================================================================================
+FINAL PAPER STATS COMPLETE
+==========================================================================================
+Output: /home/tahiti/AgentUnlearn/STATS/11_final_paper
+Runs: 3721
+Probe rows: 52655
+
+CANONICAL THRESHOLDS
+{
+  "type": "three-model ensemble LLM-judge calibrated",
+  "target": {
+    "content_f1": 0.07,
+    "semantic": 0.23
+  },
+  "system": {
+    "content_f1": 0.18,
+    "semantic": 0.18
+  },
+  "exact_match_always_positive": true,
+  "grouped_holdout": "probe_id"
+}
+
+PRIMARY 18
+             contrast           metric  n_pairs    mean_A    mean_B      delta   ci95_low  ci95_high   wilcoxon_p     p_holm18  significant_holm05
+    local_suppression       drr_target      225 84.355556 64.177778 -20.177778 -25.155556 -15.377778 7.127425e-12 1.211662e-10                True
+    local_suppression       irr_target      195 73.743590 61.435897 -12.307692 -18.461538  -6.153846 1.702674e-04 1.872941e-03                True
+    local_suppression retention_target      225 76.444444 81.066667   4.622222   1.422222   7.822222 1.558600e-03 1.246880e-02                True
+    local_suppression       drr_system      225 87.466667 75.555556 -11.911111 -16.444444  -7.555556 1.165351e-06 1.514956e-05                True
+    local_suppression       irr_system      195 76.820513 69.025641  -7.794872 -12.205128  -3.589744 7.636663e-04 6.872997e-03                True
+    local_suppression retention_system      225 82.577778 85.600000   3.022222   0.355556   5.777778 2.410368e-02 1.446221e-01               False
+communication_defense       drr_target      225 64.177778 46.844444 -17.333333 -22.133333 -12.711111 2.169257e-10 3.470810e-09                True
+communication_defense       irr_target      195 61.435897 54.461538  -6.974359 -10.051282  -4.205128 9.976512e-06 1.197181e-04                True
+communication_defense retention_target      225 81.066667 80.444444  -0.622222  -1.688889   0.266667 2.858505e-01 1.000000e+00               False
+communication_defense       drr_system      225 75.555556 74.933333  -0.622222  -2.488889   1.066667 9.719059e-01 1.000000e+00               False
+communication_defense       irr_system      195 69.025641 68.717949  -0.307692  -1.538462   0.923077 8.742208e-01 1.000000e+00               False
+communication_defense retention_system      225 85.600000 85.422222  -0.177778  -0.711111   0.266667 4.962425e-01 1.000000e+00               False
+        total_defense       drr_target      225 84.355556 46.844444 -37.511111 -43.288889 -31.822222 1.678743e-21 3.021737e-20                True
+        total_defense       irr_target      195 73.743590 54.461538 -19.282051 -25.743590 -12.820513 1.093350e-07 1.640024e-06                True
+        total_defense retention_target      225 76.444444 80.444444   4.000000   0.711111   7.288889 4.846860e-03 3.392802e-02                True
+        total_defense       drr_system      225 87.466667 74.933333 -12.533333 -17.244444  -8.088889 8.455862e-07 1.183821e-05                True
+        total_defense       irr_system      195 76.820513 68.717949  -8.102564 -12.512821  -3.897436 5.848828e-04 5.848828e-03                True
+        total_defense retention_system      225 82.577778 85.422222   2.844444   0.088889   5.688889 4.690709e-02 2.345355e-01               False
+
+THRESHOLD SENSITIVITY
+    metric  grid_points  min_delta  median_delta  max_delta  negative_fraction
+drr_target           99  -0.213333     -0.172444  -0.074667                1.0
+irr_target           99  -0.113846     -0.074872  -0.025641                1.0
+
+FILES: 30

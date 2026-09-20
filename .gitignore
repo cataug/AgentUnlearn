@@ -1,0 +1,51 @@
+# Datasets
+/data
+/data/
+/datasets
+/datasets/
+**/data/
+**/datasets/
+
+# Models / weights
+/models
+/models/
+**/models/
+*.safetensors
+*.bin
+*.pth
+*.ckpt
+*.onnx
+
+# Parameter checkpoints
+/checkpoints
+/checkpoints/
+/outputs/full_plan/checkpoints/
+/outputs/**/checkpoints/
+
+# Raw generation outputs
+/outputs/full_plan/raw/
+/outputs/**/raw/
+
+# Environments / caches
+/.venv
+/.venv/
+/venv
+/venv/
+/env
+/env/
+**/.venv/
+**/__pycache__/
+*.pyc
+*.pyo
+.cache/
+**/.cache/
+wandb/
+
+# Temporary junk
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

@@ -1,0 +1,838 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/usr/lib/python3/dist-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/usr/lib/python3/dist-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/usr/lib/python3/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 50, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.10 from "/usr/bin/python3.10"
+  * The NumPy version is: "1.26.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/scripts/run_manifest.py", line 15, in <module>
+    from agentunlearn.engine import ExperimentEngine
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/engine.py", line 8, in <module>
+    from agentunlearn.datasets import get_adapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/__init__.py", line 5, in <module>
+    from agentunlearn.datasets.muse import MUSEAdapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/muse.py", line 6, in <module>
+    from agentunlearn.datasets.base import (
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/base.py", line 8, in <module>
+    from agentunlearn.io import answer_list, first_text, recursive_dict_records
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/io.py", line 13, in <module>
+    import numpy as np
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/usr/lib/python3/dist-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/usr/lib/python3/dist-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/usr/lib/python3/dist-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/usr/lib/python3/dist-packages/numpy/core/__init__.py", line 50, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.10 from "/usr/bin/python3.10"
+  * The NumPy version is: "1.26.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/scripts/run_manifest.py", line 15, in <module>
+    from agentunlearn.engine import ExperimentEngine
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/engine.py", line 8, in <module>
+    from agentunlearn.datasets import get_adapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/__init__.py", line 5, in <module>
+    from agentunlearn.datasets.muse import MUSEAdapter
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/muse.py", line 6, in <module>
+    from agentunlearn.datasets.base import (
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/datasets/base.py", line 8, in <module>
+    from agentunlearn.io import answer_list, first_text, recursive_dict_records
+  File "/home/tahiti/AgentUnlearn/AgentUnlearn_full_code/agentunlearn/io.py", line 13, in <module>
+    import numpy as np
+  File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+
+=== LOAD mistral_7b (354 conditions) ===
+
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]
+Loading weights:  13%|█▎        | 39/291 [00:00<00:00, 382.86it/s]
+Loading weights:  28%|██▊       | 81/291 [00:00<00:00, 401.16it/s]
+Loading weights:  92%|█████████▏| 269/291 [00:00<00:00, 1070.38it/s]
+Loading weights: 100%|██████████| 291/291 [00:00<00:00, 955.70it/s] 
+[1/354] RUN AU001351 mistral_7b TOFU/tofu_forget01 independent none
+  DONE AU001351 185.6s
+[2/354] RUN AU001352 mistral_7b TOFU/tofu_forget01 independent global_context
+  DONE AU001352 213.5s
+[3/354] RUN AU001353 mistral_7b TOFU/tofu_forget01 independent target_context
+  DONE AU001353 191.4s
+[4/354] RUN AU001354 mistral_7b TOFU/tofu_forget01 independent target_memory
+  DONE AU001354 180.2s
+[5/354] RUN AU001355 mistral_7b TOFU/tofu_forget01 independent communication
+  DONE AU001355 184.5s
+[6/354] RUN AU001356 mistral_7b TOFU/tofu_forget01 independent target_context_memory
+  DONE AU001356 192.8s
+[7/354] RUN AU001359 mistral_7b TOFU/tofu_forget01 independent full_inference
+  DONE AU001359 193.0s
+[8/354] RUN AU001360 mistral_7b TOFU/tofu_forget01 sequential none
+  DONE AU001360 203.1s
+[9/354] RUN AU001362 mistral_7b TOFU/tofu_forget01 sequential target_context
+  DONE AU001362 208.1s
+[10/354] RUN AU001363 mistral_7b TOFU/tofu_forget01 sequential target_memory
+  DONE AU001363 202.4s
+[11/354] RUN AU001365 mistral_7b TOFU/tofu_forget01 sequential target_context_memory
+  DONE AU001365 208.8s
+[12/354] RUN AU001369 mistral_7b TOFU/tofu_forget01 debate none
+  DONE AU001369 775.2s
+[13/354] RUN AU001370 mistral_7b TOFU/tofu_forget01 debate global_context
+  DONE AU001370 915.6s
+[14/354] RUN AU001372 mistral_7b TOFU/tofu_forget01 debate target_memory
+  DONE AU001372 726.9s
+[15/354] RUN AU001375 mistral_7b TOFU/tofu_forget01 debate target_context_comm
+  DONE AU001375 854.5s
+[16/354] RUN AU001376 mistral_7b TOFU/tofu_forget01 debate target_memory_comm
+  DONE AU001376 754.8s
+[17/354] RUN AU001383 mistral_7b TOFU/tofu_forget01 scratchpad target_context_memory
+  DONE AU001383 205.4s
+[18/354] RUN AU001384 mistral_7b TOFU/tofu_forget01 scratchpad target_context_comm
+  DONE AU001384 230.9s
+[19/354] RUN AU001387 mistral_7b TOFU/tofu_forget01 hierarchical none
+  DONE AU001387 191.9s
+[20/354] RUN AU001389 mistral_7b TOFU/tofu_forget01 hierarchical target_context
+  DONE AU001389 211.2s
+[21/354] RUN AU001390 mistral_7b TOFU/tofu_forget01 hierarchical target_memory
+  DONE AU001390 192.0s
+[22/354] RUN AU001392 mistral_7b TOFU/tofu_forget01 hierarchical target_context_memory
+  DONE AU001392 207.6s
+[23/354] RUN AU001393 mistral_7b TOFU/tofu_forget01 hierarchical target_context_comm
+  DONE AU001393 211.4s
+[24/354] RUN AU001394 mistral_7b TOFU/tofu_forget01 hierarchical target_memory_comm
+  DONE AU001394 192.7s
+[25/354] RUN AU001395 mistral_7b TOFU/tofu_forget01 hierarchical full_inference
+  DONE AU001395 206.2s
+[26/354] RUN AU001396 mistral_7b TOFU/tofu_forget05 independent none
+  DONE AU001396 96.7s
+[27/354] RUN AU001397 mistral_7b TOFU/tofu_forget05 independent global_context
+  DONE AU001397 112.3s
+[28/354] RUN AU001399 mistral_7b TOFU/tofu_forget05 independent target_memory
+  DONE AU001399 95.2s
+[29/354] RUN AU001400 mistral_7b TOFU/tofu_forget05 independent communication
+  DONE AU001400 96.6s
+[30/354] RUN AU001401 mistral_7b TOFU/tofu_forget05 independent target_context_memory
+  DONE AU001401 101.5s
+[31/354] RUN AU001402 mistral_7b TOFU/tofu_forget05 independent target_context_comm
+  DONE AU001402 101.1s
+[32/354] RUN AU001403 mistral_7b TOFU/tofu_forget05 independent target_memory_comm
+  DONE AU001403 95.8s
+[33/354] RUN AU001408 mistral_7b TOFU/tofu_forget05 sequential target_memory
+  DONE AU001408 116.8s
+[34/354] RUN AU001410 mistral_7b TOFU/tofu_forget05 sequential target_context_memory
+  DONE AU001410 117.9s
+[35/354] RUN AU001411 mistral_7b TOFU/tofu_forget05 sequential target_context_comm
+  DONE AU001411 125.0s
+[36/354] RUN AU001413 mistral_7b TOFU/tofu_forget05 sequential full_inference
+  DONE AU001413 129.4s
+[37/354] RUN AU001420 mistral_7b TOFU/tofu_forget05 debate target_context_comm
+  DONE AU001420 585.2s
+[38/354] RUN AU001421 mistral_7b TOFU/tofu_forget05 debate target_memory_comm
+  DONE AU001421 495.4s
+[39/354] RUN AU001422 mistral_7b TOFU/tofu_forget05 debate full_inference
+  DONE AU001422 624.8s
+[40/354] RUN AU001424 mistral_7b TOFU/tofu_forget05 scratchpad global_context
+  DONE AU001424 138.1s
+[41/354] RUN AU001425 mistral_7b TOFU/tofu_forget05 scratchpad target_context
+  DONE AU001425 133.6s
+[42/354] RUN AU001427 mistral_7b TOFU/tofu_forget05 scratchpad communication
+  DONE AU001427 118.9s
+[43/354] RUN AU001428 mistral_7b TOFU/tofu_forget05 scratchpad target_context_memory
+  DONE AU001428 133.5s
+[44/354] RUN AU001430 mistral_7b TOFU/tofu_forget05 scratchpad target_memory_comm
+  DONE AU001430 115.2s
+[45/354] RUN AU001431 mistral_7b TOFU/tofu_forget05 scratchpad full_inference
+  DONE AU001431 131.0s
+[46/354] RUN AU001434 mistral_7b TOFU/tofu_forget05 hierarchical target_context
+  DONE AU001434 123.9s
+[47/354] RUN AU001437 mistral_7b TOFU/tofu_forget05 hierarchical target_context_memory
+  DONE AU001437 120.5s
+[48/354] RUN AU001439 mistral_7b TOFU/tofu_forget05 hierarchical target_memory_comm
+  DONE AU001439 112.0s
+[49/354] RUN AU001440 mistral_7b TOFU/tofu_forget05 hierarchical full_inference
+  DONE AU001440 120.1s
+[50/354] RUN AU001441 mistral_7b TOFU/tofu_forget10 independent none
+  DONE AU001441 135.7s
+[51/354] RUN AU001442 mistral_7b TOFU/tofu_forget10 independent global_context
+  DONE AU001442 160.1s
+[52/354] RUN AU001444 mistral_7b TOFU/tofu_forget10 independent target_memory
+  DONE AU001444 132.2s
+[53/354] RUN AU001446 mistral_7b TOFU/tofu_forget10 independent target_context_memory
+  DONE AU001446 142.0s
+[54/354] RUN AU001447 mistral_7b TOFU/tofu_forget10 independent target_context_comm
+  DONE AU001447 142.0s
+[55/354] RUN AU001448 mistral_7b TOFU/tofu_forget10 independent target_memory_comm
+  DONE AU001448 132.5s
+[56/354] RUN AU001451 mistral_7b TOFU/tofu_forget10 sequential global_context
+  DONE AU001451 187.3s
+[57/354] RUN AU001456 mistral_7b TOFU/tofu_forget10 sequential target_context_comm
+  DONE AU001456 176.6s
+[58/354] RUN AU001457 mistral_7b TOFU/tofu_forget10 sequential target_memory_comm
+  DONE AU001457 191.7s
+[59/354] RUN AU001458 mistral_7b TOFU/tofu_forget10 sequential full_inference
+  DONE AU001458 182.6s
+[60/354] RUN AU001459 mistral_7b TOFU/tofu_forget10 debate none
+  DONE AU001459 525.7s
+[61/354] RUN AU001460 mistral_7b TOFU/tofu_forget10 debate global_context
+  DONE AU001460 552.3s
+[62/354] RUN AU001461 mistral_7b TOFU/tofu_forget10 debate target_context
+  DONE AU001461 575.4s
+[63/354] RUN AU001462 mistral_7b TOFU/tofu_forget10 debate target_memory
+  DONE AU001462 528.7s
+[64/354] RUN AU001466 mistral_7b TOFU/tofu_forget10 debate target_memory_comm
+  DONE AU001466 578.7s
+[65/354] RUN AU001467 mistral_7b TOFU/tofu_forget10 debate full_inference
+  DONE AU001467 720.9s
+[66/354] RUN AU001469 mistral_7b TOFU/tofu_forget10 scratchpad global_context
+  DONE AU001469 191.8s
+[67/354] RUN AU001470 mistral_7b TOFU/tofu_forget10 scratchpad target_context
+  DONE AU001470 172.5s
+[68/354] RUN AU001471 mistral_7b TOFU/tofu_forget10 scratchpad target_memory
+  DONE AU001471 181.8s
+[69/354] RUN AU001473 mistral_7b TOFU/tofu_forget10 scratchpad target_context_memory
+  DONE AU001473 177.0s
+[70/354] RUN AU001474 mistral_7b TOFU/tofu_forget10 scratchpad target_context_comm
+  DONE AU001474 171.0s
+[71/354] RUN AU001477 mistral_7b TOFU/tofu_forget10 hierarchical none
+  DONE AU001477 167.6s
+[72/354] RUN AU001478 mistral_7b TOFU/tofu_forget10 hierarchical global_context
+  DONE AU001478 197.8s
+[73/354] RUN AU001479 mistral_7b TOFU/tofu_forget10 hierarchical target_context
+  DONE AU001479 178.7s
+[74/354] RUN AU001481 mistral_7b TOFU/tofu_forget10 hierarchical communication
+  DONE AU001481 167.7s
+[75/354] RUN AU001483 mistral_7b TOFU/tofu_forget10 hierarchical target_context_comm
+  DONE AU001483 177.7s
+[76/354] RUN AU001484 mistral_7b TOFU/tofu_forget10 hierarchical target_memory_comm
+  DONE AU001484 168.2s
+[77/354] RUN AU001489 mistral_7b MUSE-News/muse_news independent target_memory
+  DONE AU001489 160.5s
+[78/354] RUN AU001491 mistral_7b MUSE-News/muse_news independent target_context_memory
+  DONE AU001491 148.9s
+[79/354] RUN AU001492 mistral_7b MUSE-News/muse_news independent target_context_comm
+  DONE AU001492 151.0s
+[80/354] RUN AU001493 mistral_7b MUSE-News/muse_news independent target_memory_comm
+  DONE AU001493 142.2s
+[81/354] RUN AU001494 mistral_7b MUSE-News/muse_news independent full_inference
+  DONE AU001494 139.2s
+[82/354] RUN AU001496 mistral_7b MUSE-News/muse_news sequential global_context
+  DONE AU001496 146.0s
+[83/354] RUN AU001498 mistral_7b MUSE-News/muse_news sequential target_memory
+  DONE AU001498 146.9s
+[84/354] RUN AU001500 mistral_7b MUSE-News/muse_news sequential target_context_memory
+  DONE AU001500 140.1s
+[85/354] RUN AU001501 mistral_7b MUSE-News/muse_news sequential target_context_comm
+  DONE AU001501 147.3s
+[86/354] RUN AU001503 mistral_7b MUSE-News/muse_news sequential full_inference
+  DONE AU001503 139.5s
+[87/354] RUN AU001505 mistral_7b MUSE-News/muse_news debate global_context
+  DONE AU001505 444.9s
+[88/354] RUN AU001506 mistral_7b MUSE-News/muse_news debate target_context
+  DONE AU001506 466.6s
+[89/354] RUN AU001511 mistral_7b MUSE-News/muse_news debate target_memory_comm
+  DONE AU001511 460.3s
+[90/354] RUN AU001512 mistral_7b MUSE-News/muse_news debate full_inference
+  DONE AU001512 482.7s
+[91/354] RUN AU001514 mistral_7b MUSE-News/muse_news scratchpad global_context
+  DONE AU001514 163.2s
+[92/354] RUN AU001516 mistral_7b MUSE-News/muse_news scratchpad target_memory
+  DONE AU001516 185.1s
+[93/354] RUN AU001517 mistral_7b MUSE-News/muse_news scratchpad communication
+  DONE AU001517 192.1s
+[94/354] RUN AU001518 mistral_7b MUSE-News/muse_news scratchpad target_context_memory
+  DONE AU001518 178.0s
+[95/354] RUN AU001519 mistral_7b MUSE-News/muse_news scratchpad target_context_comm
+  DONE AU001519 185.3s
+[96/354] RUN AU001520 mistral_7b MUSE-News/muse_news scratchpad target_memory_comm
+  DONE AU001520 184.3s
+[97/354] RUN AU001522 mistral_7b MUSE-News/muse_news hierarchical none
+  DONE AU001522 153.0s
+[98/354] RUN AU001523 mistral_7b MUSE-News/muse_news hierarchical global_context
+  DONE AU001523 154.4s
+[99/354] RUN AU001524 mistral_7b MUSE-News/muse_news hierarchical target_context
+  DONE AU001524 152.6s
+[100/354] RUN AU001526 mistral_7b MUSE-News/muse_news hierarchical communication
+  DONE AU001526 154.0s
+[101/354] RUN AU001527 mistral_7b MUSE-News/muse_news hierarchical target_context_memory
+  DONE AU001527 151.7s
+[102/354] RUN AU001528 mistral_7b MUSE-News/muse_news hierarchical target_context_comm
+  DONE AU001528 155.7s
+[103/354] RUN AU001529 mistral_7b MUSE-News/muse_news hierarchical target_memory_comm
+  DONE AU001529 147.4s
+[104/354] RUN AU001532 mistral_7b MUSE-Books/muse_books independent global_context
+  DONE AU001532 219.6s
+[105/354] RUN AU001533 mistral_7b MUSE-Books/muse_books independent target_context
+  DONE AU001533 207.2s
+[106/354] RUN AU001534 mistral_7b MUSE-Books/muse_books independent target_memory
+  DONE AU001534 208.7s
+[107/354] RUN AU001537 mistral_7b MUSE-Books/muse_books independent target_context_comm
+  DONE AU001537 206.0s
+[108/354] RUN AU001540 mistral_7b MUSE-Books/muse_books sequential none
+  DONE AU001540 221.7s
+[109/354] RUN AU001541 mistral_7b MUSE-Books/muse_books sequential global_context
+  DONE AU001541 188.1s
+[110/354] RUN AU001542 mistral_7b MUSE-Books/muse_books sequential target_context
+  DONE AU001542 209.3s
+[111/354] RUN AU001543 mistral_7b MUSE-Books/muse_books sequential target_memory
+  DONE AU001543 200.8s
+[112/354] RUN AU001546 mistral_7b MUSE-Books/muse_books sequential target_context_comm
+  DONE AU001546 206.5s
+[113/354] RUN AU001547 mistral_7b MUSE-Books/muse_books sequential target_memory_comm
+  DONE AU001547 201.4s
+[114/354] RUN AU001550 mistral_7b MUSE-Books/muse_books debate global_context
+  DONE AU001550 571.5s
+[115/354] RUN AU001552 mistral_7b MUSE-Books/muse_books debate target_memory
+  DONE AU001552 556.8s
+[116/354] RUN AU001555 mistral_7b MUSE-Books/muse_books debate target_context_comm
+  DONE AU001555 616.1s
+[117/354] RUN AU001556 mistral_7b MUSE-Books/muse_books debate target_memory_comm
+  DONE AU001556 574.7s
+[118/354] RUN AU001557 mistral_7b MUSE-Books/muse_books debate full_inference
+  DONE AU001557 550.8s
+[119/354] RUN AU001558 mistral_7b MUSE-Books/muse_books scratchpad none
+  DONE AU001558 245.7s
+[120/354] RUN AU001561 mistral_7b MUSE-Books/muse_books scratchpad target_memory
+  DONE AU001561 234.9s
+[121/354] RUN AU001563 mistral_7b MUSE-Books/muse_books scratchpad target_context_memory
+  DONE AU001563 226.5s
+[122/354] RUN AU001565 mistral_7b MUSE-Books/muse_books scratchpad target_memory_comm
+  DONE AU001565 237.2s
+[123/354] RUN AU001568 mistral_7b MUSE-Books/muse_books hierarchical global_context
+  DONE AU001568 175.8s
+[124/354] RUN AU001569 mistral_7b MUSE-Books/muse_books hierarchical target_context
+  DONE AU001569 202.4s
+[125/354] RUN AU001572 mistral_7b MUSE-Books/muse_books hierarchical target_context_memory
+  DONE AU001572 199.4s
+[126/354] RUN AU001573 mistral_7b MUSE-Books/muse_books hierarchical target_context_comm
+  DONE AU001573 204.0s
+[127/354] RUN AU001576 mistral_7b RWKU/rwku_001 independent none
+  DONE AU001576 110.4s
+[128/354] RUN AU001577 mistral_7b RWKU/rwku_001 independent global_context
+  DONE AU001577 83.3s
+[129/354] RUN AU001578 mistral_7b RWKU/rwku_001 independent target_context
+  DONE AU001578 102.9s
+[130/354] RUN AU001579 mistral_7b RWKU/rwku_001 independent target_memory
+  DONE AU001579 104.2s
+[131/354] RUN AU001583 mistral_7b RWKU/rwku_001 independent target_memory_comm
+  DONE AU001583 102.1s
+[132/354] RUN AU001585 mistral_7b RWKU/rwku_001 sequential none
+  DONE AU001585 105.7s
+[133/354] RUN AU001586 mistral_7b RWKU/rwku_001 sequential global_context
+  DONE AU001586 87.4s
+[134/354] RUN AU001588 mistral_7b RWKU/rwku_001 sequential target_memory
+  DONE AU001588 100.1s
+[135/354] RUN AU001589 mistral_7b RWKU/rwku_001 sequential communication
+  DONE AU001589 106.2s
+[136/354] RUN AU001590 mistral_7b RWKU/rwku_001 sequential target_context_memory
+  DONE AU001590 103.4s
+[137/354] RUN AU001594 mistral_7b RWKU/rwku_001 debate none
+  DONE AU001594 469.2s
+[138/354] RUN AU001596 mistral_7b RWKU/rwku_001 debate target_context
+  DONE AU001596 443.2s
+[139/354] RUN AU001597 mistral_7b RWKU/rwku_001 debate target_memory
+  DONE AU001597 453.0s
+[140/354] RUN AU001600 mistral_7b RWKU/rwku_001 debate target_context_comm
+  DONE AU001600 446.1s
+[141/354] RUN AU001605 mistral_7b RWKU/rwku_001 scratchpad target_context
+  DONE AU001605 134.3s
+[142/354] RUN AU001606 mistral_7b RWKU/rwku_001 scratchpad target_memory
+  DONE AU001606 133.6s
+[143/354] RUN AU001608 mistral_7b RWKU/rwku_001 scratchpad target_context_memory
+  DONE AU001608 123.0s
+[144/354] RUN AU001609 mistral_7b RWKU/rwku_001 scratchpad target_context_comm
+  DONE AU001609 134.3s
+[145/354] RUN AU001613 mistral_7b RWKU/rwku_001 hierarchical global_context
+  DONE AU001613 92.8s
+[146/354] RUN AU001615 mistral_7b RWKU/rwku_001 hierarchical target_memory
+  DONE AU001615 108.2s
+[147/354] RUN AU001617 mistral_7b RWKU/rwku_001 hierarchical target_context_memory
+  DONE AU001617 115.7s
+[148/354] RUN AU001618 mistral_7b RWKU/rwku_001 hierarchical target_context_comm
+  DONE AU001618 108.2s
+[149/354] RUN AU001622 mistral_7b RWKU/rwku_023 independent global_context
+  DONE AU001622 63.9s
+[150/354] RUN AU001623 mistral_7b RWKU/rwku_023 independent target_context
+  DONE AU001623 79.6s
+[151/354] RUN AU001624 mistral_7b RWKU/rwku_023 independent target_memory
+  DONE AU001624 83.7s
+[152/354] RUN AU001625 mistral_7b RWKU/rwku_023 independent communication
+  DONE AU001625 88.4s
+[153/354] RUN AU001628 mistral_7b RWKU/rwku_023 independent target_memory_comm
+  DONE AU001628 83.8s
+[154/354] RUN AU001629 mistral_7b RWKU/rwku_023 independent full_inference
+  DONE AU001629 77.7s
+[155/354] RUN AU001631 mistral_7b RWKU/rwku_023 sequential global_context
+  DONE AU001631 71.6s
+[156/354] RUN AU001632 mistral_7b RWKU/rwku_023 sequential target_context
+  DONE AU001632 88.9s
+[157/354] RUN AU001633 mistral_7b RWKU/rwku_023 sequential target_memory
+  DONE AU001633 87.2s
+[158/354] RUN AU001635 mistral_7b RWKU/rwku_023 sequential target_context_memory
+  DONE AU001635 82.5s
+[159/354] RUN AU001637 mistral_7b RWKU/rwku_023 sequential target_memory_comm
+  DONE AU001637 86.5s
+[160/354] RUN AU001640 mistral_7b RWKU/rwku_023 debate global_context
+  DONE AU001640 307.6s
+[161/354] RUN AU001641 mistral_7b RWKU/rwku_023 debate target_context
+  DONE AU001641 412.4s
+[162/354] RUN AU001645 mistral_7b RWKU/rwku_023 debate target_context_comm
+  DONE AU001645 423.8s
+[163/354] RUN AU001649 mistral_7b RWKU/rwku_023 scratchpad global_context
+  DONE AU001649 79.8s
+[164/354] RUN AU001650 mistral_7b RWKU/rwku_023 scratchpad target_context
+  DONE AU001650 100.7s
+[165/354] RUN AU001654 mistral_7b RWKU/rwku_023 scratchpad target_context_comm
+  DONE AU001654 101.9s
+[166/354] RUN AU001655 mistral_7b RWKU/rwku_023 scratchpad target_memory_comm
+  DONE AU001655 104.9s
+[167/354] RUN AU001657 mistral_7b RWKU/rwku_023 hierarchical none
+  DONE AU001657 91.8s
+[168/354] RUN AU001658 mistral_7b RWKU/rwku_023 hierarchical global_context
+  DONE AU001658 76.1s
+[169/354] RUN AU001660 mistral_7b RWKU/rwku_023 hierarchical target_memory
+  DONE AU001660 83.4s
+[170/354] RUN AU001661 mistral_7b RWKU/rwku_023 hierarchical communication
+  DONE AU001661 90.8s
+[171/354] RUN AU001666 mistral_7b RWKU/rwku_045 independent none
+  DONE AU001666 120.9s
+[172/354] RUN AU001668 mistral_7b RWKU/rwku_045 independent target_context
+  DONE AU001668 121.9s
+[173/354] RUN AU001669 mistral_7b RWKU/rwku_045 independent target_memory
+  DONE AU001669 127.9s
+[174/354] RUN AU001672 mistral_7b RWKU/rwku_045 independent target_context_comm
+  DONE AU001672 120.3s
+[175/354] RUN AU001675 mistral_7b RWKU/rwku_045 sequential none
+  DONE AU001675 134.8s
+[176/354] RUN AU001676 mistral_7b RWKU/rwku_045 sequential global_context
+  DONE AU001676 158.0s
+[177/354] RUN AU001677 mistral_7b RWKU/rwku_045 sequential target_context
+  DONE AU001677 156.9s
+[178/354] RUN AU001678 mistral_7b RWKU/rwku_045 sequential target_memory
+  DONE AU001678 144.2s
+[179/354] RUN AU001681 mistral_7b RWKU/rwku_045 sequential target_context_comm
+  DONE AU001681 176.0s
+[180/354] RUN AU001686 mistral_7b RWKU/rwku_045 debate target_context
+  DONE AU001686 668.2s
+[181/354] RUN AU001688 mistral_7b RWKU/rwku_045 debate communication
+  DONE AU001688 674.1s
+[182/354] RUN AU001690 mistral_7b RWKU/rwku_045 debate target_context_comm
+  DONE AU001690 694.1s
+[183/354] RUN AU001693 mistral_7b RWKU/rwku_045 scratchpad none
+  DONE AU001693 164.8s
+[184/354] RUN AU001696 mistral_7b RWKU/rwku_045 scratchpad target_memory
+  DONE AU001696 136.0s
+[185/354] RUN AU001697 mistral_7b RWKU/rwku_045 scratchpad communication
+  DONE AU001697 149.3s
+[186/354] RUN AU001698 mistral_7b RWKU/rwku_045 scratchpad target_context_memory
+  DONE AU001698 129.1s
+[187/354] RUN AU001699 mistral_7b RWKU/rwku_045 scratchpad target_context_comm
+  DONE AU001699 143.0s
+[188/354] RUN AU001701 mistral_7b RWKU/rwku_045 scratchpad full_inference
+  DONE AU001701 148.6s
+[189/354] RUN AU001702 mistral_7b RWKU/rwku_045 hierarchical none
+  DONE AU001702 124.7s
+[190/354] RUN AU001704 mistral_7b RWKU/rwku_045 hierarchical target_context
+  DONE AU001704 122.0s
+[191/354] RUN AU001705 mistral_7b RWKU/rwku_045 hierarchical target_memory
+  DONE AU001705 138.1s
+[192/354] RUN AU001706 mistral_7b RWKU/rwku_045 hierarchical communication
+  DONE AU001706 127.5s
+[193/354] RUN AU001708 mistral_7b RWKU/rwku_045 hierarchical target_context_comm
+  DONE AU001708 123.5s
+[194/354] RUN AU001710 mistral_7b RWKU/rwku_045 hierarchical full_inference
+  DONE AU001710 117.4s
+[195/354] RUN AU001711 mistral_7b RWKU/rwku_067 independent none
+  DONE AU001711 136.9s
+[196/354] RUN AU001714 mistral_7b RWKU/rwku_067 independent target_memory
+  DONE AU001714 129.2s
+[197/354] RUN AU001715 mistral_7b RWKU/rwku_067 independent communication
+  DONE AU001715 134.9s
+[198/354] RUN AU001717 mistral_7b RWKU/rwku_067 independent target_context_comm
+  DONE AU001717 128.7s
+[199/354] RUN AU001719 mistral_7b RWKU/rwku_067 independent full_inference
+  DONE AU001719 122.8s
+[200/354] RUN AU001723 mistral_7b RWKU/rwku_067 sequential target_memory
+  DONE AU001723 162.4s
+[201/354] RUN AU001724 mistral_7b RWKU/rwku_067 sequential communication
+  DONE AU001724 133.8s
+[202/354] RUN AU001726 mistral_7b RWKU/rwku_067 sequential target_context_comm
+  DONE AU001726 126.1s
+[203/354] RUN AU001729 mistral_7b RWKU/rwku_067 debate none
+  DONE AU001729 625.1s
+[204/354] RUN AU001733 mistral_7b RWKU/rwku_067 debate communication
+  DONE AU001733 632.9s
+[205/354] RUN AU001734 mistral_7b RWKU/rwku_067 debate target_context_memory
+  DONE AU001734 683.1s
+[206/354] RUN AU001735 mistral_7b RWKU/rwku_067 debate target_context_comm
+  DONE AU001735 604.7s
+[207/354] RUN AU001739 mistral_7b RWKU/rwku_067 scratchpad global_context
+  DONE AU001739 141.7s
+[208/354] RUN AU001740 mistral_7b RWKU/rwku_067 scratchpad target_context
+  DONE AU001740 169.1s
+[209/354] RUN AU001741 mistral_7b RWKU/rwku_067 scratchpad target_memory
+  DONE AU001741 168.2s
+[210/354] RUN AU001742 mistral_7b RWKU/rwku_067 scratchpad communication
+  DONE AU001742 163.5s
+[211/354] RUN AU001743 mistral_7b RWKU/rwku_067 scratchpad target_context_memory
+  DONE AU001743 166.0s
+[212/354] RUN AU001745 mistral_7b RWKU/rwku_067 scratchpad target_memory_comm
+  DONE AU001745 162.5s
+[213/354] RUN AU001746 mistral_7b RWKU/rwku_067 scratchpad full_inference
+  DONE AU001746 181.2s
+[214/354] RUN AU001747 mistral_7b RWKU/rwku_067 hierarchical none
+  DONE AU001747 149.5s
+[215/354] RUN AU001748 mistral_7b RWKU/rwku_067 hierarchical global_context
+  DONE AU001748 126.3s
+[216/354] RUN AU001750 mistral_7b RWKU/rwku_067 hierarchical target_memory
+  DONE AU001750 149.8s
+[217/354] RUN AU001753 mistral_7b RWKU/rwku_067 hierarchical target_context_comm
+  DONE AU001753 139.0s
+[218/354] RUN AU001755 mistral_7b RWKU/rwku_067 hierarchical full_inference
+  DONE AU001755 128.3s
+[219/354] RUN AU001757 mistral_7b RWKU/rwku_089 independent global_context
+  DONE AU001757 107.4s
+[220/354] RUN AU001759 mistral_7b RWKU/rwku_089 independent target_memory
+  DONE AU001759 148.1s
+[221/354] RUN AU001760 mistral_7b RWKU/rwku_089 independent communication
+  DONE AU001760 180.8s
+[222/354] RUN AU001762 mistral_7b RWKU/rwku_089 independent target_context_comm
+  DONE AU001762 153.1s
+[223/354] RUN AU001766 mistral_7b RWKU/rwku_089 sequential global_context
+  DONE AU001766 128.7s
+[224/354] RUN AU001769 mistral_7b RWKU/rwku_089 sequential communication
+  DONE AU001769 181.6s
+[225/354] RUN AU001770 mistral_7b RWKU/rwku_089 sequential target_context_memory
+  DONE AU001770 162.9s
+[226/354] RUN AU001771 mistral_7b RWKU/rwku_089 sequential target_context_comm
+  DONE AU001771 151.2s
+[227/354] RUN AU001772 mistral_7b RWKU/rwku_089 sequential target_memory_comm
+  DONE AU001772 157.1s
+[228/354] RUN AU001773 mistral_7b RWKU/rwku_089 sequential full_inference
+  DONE AU001773 156.5s
+[229/354] RUN AU001776 mistral_7b RWKU/rwku_089 debate target_context
+  DONE AU001776 560.8s
+[230/354] RUN AU001779 mistral_7b RWKU/rwku_089 debate target_context_memory
+  DONE AU001779 591.2s
+[231/354] RUN AU001780 mistral_7b RWKU/rwku_089 debate target_context_comm
+  DONE AU001780 582.9s
+[232/354] RUN AU001782 mistral_7b RWKU/rwku_089 debate full_inference
+  DONE AU001782 586.7s
+[233/354] RUN AU001784 mistral_7b RWKU/rwku_089 scratchpad global_context
+  DONE AU001784 128.2s
+[234/354] RUN AU001788 mistral_7b RWKU/rwku_089 scratchpad target_context_memory
+  DONE AU001788 179.2s
+[235/354] RUN AU001789 mistral_7b RWKU/rwku_089 scratchpad target_context_comm
+  DONE AU001789 182.8s
+[236/354] RUN AU001790 mistral_7b RWKU/rwku_089 scratchpad target_memory_comm
+  DONE AU001790 192.7s
+[237/354] RUN AU001791 mistral_7b RWKU/rwku_089 scratchpad full_inference
+  DONE AU001791 177.0s
+[238/354] RUN AU001792 mistral_7b RWKU/rwku_089 hierarchical none
+  DONE AU001792 164.6s
+[239/354] RUN AU001796 mistral_7b RWKU/rwku_089 hierarchical communication
+  DONE AU001796 165.9s
+[240/354] RUN AU001797 mistral_7b RWKU/rwku_089 hierarchical target_context_memory
+  DONE AU001797 145.4s
+[241/354] RUN AU001800 mistral_7b RWKU/rwku_089 hierarchical full_inference
+  DONE AU001800 145.1s
+[242/354] RUN AU001802 mistral_7b RWKU/rwku_112 independent global_context
+  DONE AU001802 101.0s
+[243/354] RUN AU001803 mistral_7b RWKU/rwku_112 independent target_context
+  DONE AU001803 95.0s
+[244/354] RUN AU001806 mistral_7b RWKU/rwku_112 independent target_context_memory
+  DONE AU001806 88.3s
+[245/354] RUN AU001809 mistral_7b RWKU/rwku_112 independent full_inference
+  DONE AU001809 88.3s
+[246/354] RUN AU001811 mistral_7b RWKU/rwku_112 sequential global_context
+  DONE AU001811 107.3s
+[247/354] RUN AU001812 mistral_7b RWKU/rwku_112 sequential target_context
+  DONE AU001812 111.8s
+[248/354] RUN AU001814 mistral_7b RWKU/rwku_112 sequential communication
+  DONE AU001814 116.6s
+[249/354] RUN AU001817 mistral_7b RWKU/rwku_112 sequential target_memory_comm
+  DONE AU001817 110.3s
+[250/354] RUN AU001819 mistral_7b RWKU/rwku_112 debate none
+  DONE AU001819 523.4s
+[251/354] RUN AU001820 mistral_7b RWKU/rwku_112 debate global_context
+  DONE AU001820 409.0s
+[252/354] RUN AU001821 mistral_7b RWKU/rwku_112 debate target_context
+  DONE AU001821 581.3s
+[253/354] RUN AU001822 mistral_7b RWKU/rwku_112 debate target_memory
+  DONE AU001822 501.9s
+[254/354] RUN AU001825 mistral_7b RWKU/rwku_112 debate target_context_comm
+  DONE AU001825 596.5s
+[255/354] RUN AU001829 mistral_7b RWKU/rwku_112 scratchpad global_context
+  DONE AU001829 116.8s
+[256/354] RUN AU001832 mistral_7b RWKU/rwku_112 scratchpad communication
+  DONE AU001832 116.1s
+[257/354] RUN AU001833 mistral_7b RWKU/rwku_112 scratchpad target_context_memory
+  DONE AU001833 107.9s
+[258/354] RUN AU001840 mistral_7b RWKU/rwku_112 hierarchical target_memory
+  DONE AU001840 89.0s
+[259/354] RUN AU001843 mistral_7b RWKU/rwku_112 hierarchical target_context_comm
+  DONE AU001843 101.7s
+[260/354] RUN AU001844 mistral_7b RWKU/rwku_112 hierarchical target_memory_comm
+  DONE AU001844 88.7s
+[261/354] RUN AU001847 mistral_7b RWKU/rwku_134 independent global_context
+  DONE AU001847 79.1s
+[262/354] RUN AU001849 mistral_7b RWKU/rwku_134 independent target_memory
+  DONE AU001849 96.4s
+[263/354] RUN AU001850 mistral_7b RWKU/rwku_134 independent communication
+  DONE AU001850 102.3s
+[264/354] RUN AU001851 mistral_7b RWKU/rwku_134 independent target_context_memory
+  DONE AU001851 91.8s
+[265/354] RUN AU001854 mistral_7b RWKU/rwku_134 independent full_inference
+  DONE AU001854 90.7s
+[266/354] RUN AU001855 mistral_7b RWKU/rwku_134 sequential none
+  DONE AU001855 171.5s
+[267/354] RUN AU001862 mistral_7b RWKU/rwku_134 sequential target_memory_comm
+  DONE AU001862 140.6s
+[268/354] RUN AU001866 mistral_7b RWKU/rwku_134 debate target_context
+  DONE AU001866 446.2s
+[269/354] RUN AU001872 mistral_7b RWKU/rwku_134 debate full_inference
+  DONE AU001872 590.4s
+[270/354] RUN AU001874 mistral_7b RWKU/rwku_134 scratchpad global_context
+  DONE AU001874 110.9s
+[271/354] RUN AU001875 mistral_7b RWKU/rwku_134 scratchpad target_context
+  DONE AU001875 140.0s
+[272/354] RUN AU001876 mistral_7b RWKU/rwku_134 scratchpad target_memory
+  DONE AU001876 147.3s
+[273/354] RUN AU001877 mistral_7b RWKU/rwku_134 scratchpad communication
+  DONE AU001877 146.1s
+[274/354] RUN AU001878 mistral_7b RWKU/rwku_134 scratchpad target_context_memory
+  DONE AU001878 144.7s
+[275/354] RUN AU001879 mistral_7b RWKU/rwku_134 scratchpad target_context_comm
+  DONE AU001879 136.6s
+[276/354] RUN AU001880 mistral_7b RWKU/rwku_134 scratchpad target_memory_comm
+  DONE AU001880 139.5s
+[277/354] RUN AU001883 mistral_7b RWKU/rwku_134 hierarchical global_context
+  DONE AU001883 91.4s
+[278/354] RUN AU001885 mistral_7b RWKU/rwku_134 hierarchical target_memory
+  DONE AU001885 181.5s
+[279/354] RUN AU001887 mistral_7b RWKU/rwku_134 hierarchical target_context_memory
+  DONE AU001887 180.6s
+[280/354] RUN AU001889 mistral_7b RWKU/rwku_134 hierarchical target_memory_comm
+  DONE AU001889 178.8s
+[281/354] RUN AU001891 mistral_7b RWKU/rwku_156 independent none
+  DONE AU001891 83.0s
+[282/354] RUN AU001894 mistral_7b RWKU/rwku_156 independent target_memory
+  DONE AU001894 81.1s
+[283/354] RUN AU001895 mistral_7b RWKU/rwku_156 independent communication
+  DONE AU001895 83.5s
+[284/354] RUN AU001896 mistral_7b RWKU/rwku_156 independent target_context_memory
+  DONE AU001896 76.1s
+[285/354] RUN AU001898 mistral_7b RWKU/rwku_156 independent target_memory_comm
+  DONE AU001898 81.0s
+[286/354] RUN AU001899 mistral_7b RWKU/rwku_156 independent full_inference
+  DONE AU001899 77.1s
+[287/354] RUN AU001901 mistral_7b RWKU/rwku_156 sequential global_context
+  DONE AU001901 99.4s
+[288/354] RUN AU001902 mistral_7b RWKU/rwku_156 sequential target_context
+  DONE AU001902 120.6s
+[289/354] RUN AU001903 mistral_7b RWKU/rwku_156 sequential target_memory
+  DONE AU001903 113.6s
+[290/354] RUN AU001904 mistral_7b RWKU/rwku_156 sequential communication
+  DONE AU001904 131.2s
+[291/354] RUN AU001905 mistral_7b RWKU/rwku_156 sequential target_context_memory
+  DONE AU001905 110.2s
+[292/354] RUN AU001907 mistral_7b RWKU/rwku_156 sequential target_memory_comm
+  DONE AU001907 130.7s
+[293/354] RUN AU001908 mistral_7b RWKU/rwku_156 sequential full_inference
+  DONE AU001908 115.5s
+[294/354] RUN AU001909 mistral_7b RWKU/rwku_156 debate none
+  DONE AU001909 540.7s
+[295/354] RUN AU001911 mistral_7b RWKU/rwku_156 debate target_context
+  DONE AU001911 600.5s
+[296/354] RUN AU001912 mistral_7b RWKU/rwku_156 debate target_memory
+  DONE AU001912 514.7s
+[297/354] RUN AU001914 mistral_7b RWKU/rwku_156 debate target_context_memory
+  DONE AU001914 538.7s
+[298/354] RUN AU001915 mistral_7b RWKU/rwku_156 debate target_context_comm
+  DONE AU001915 641.4s
+[299/354] RUN AU001918 mistral_7b RWKU/rwku_156 scratchpad none
+  DONE AU001918 104.2s
+[300/354] RUN AU001919 mistral_7b RWKU/rwku_156 scratchpad global_context
+  DONE AU001919 89.0s
+[301/354] RUN AU001923 mistral_7b RWKU/rwku_156 scratchpad target_context_memory
+  DONE AU001923 93.1s
+[302/354] RUN AU001924 mistral_7b RWKU/rwku_156 scratchpad target_context_comm
+  DONE AU001924 110.4s
+[303/354] RUN AU001929 mistral_7b RWKU/rwku_156 hierarchical target_context
+  DONE AU001929 107.6s
+[304/354] RUN AU001930 mistral_7b RWKU/rwku_156 hierarchical target_memory
+  DONE AU001930 114.2s
+[305/354] RUN AU001931 mistral_7b RWKU/rwku_156 hierarchical communication
+  DONE AU001931 105.2s
+[306/354] RUN AU001932 mistral_7b RWKU/rwku_156 hierarchical target_context_memory
+  DONE AU001932 105.6s
+[307/354] RUN AU001933 mistral_7b RWKU/rwku_156 hierarchical target_context_comm
+  DONE AU001933 107.7s
+[308/354] RUN AU001935 mistral_7b RWKU/rwku_156 hierarchical full_inference
+  DONE AU001935 104.5s
+[309/354] RUN AU001936 mistral_7b RWKU/rwku_178 independent none
+  DONE AU001936 116.7s
+[310/354] RUN AU001939 mistral_7b RWKU/rwku_178 independent target_memory
+  DONE AU001939 112.1s
+[311/354] RUN AU001945 mistral_7b RWKU/rwku_178 sequential none
+  DONE AU001945 133.7s
+[312/354] RUN AU001950 mistral_7b RWKU/rwku_178 sequential target_context_memory
+  DONE AU001950 120.6s
+[313/354] RUN AU001951 mistral_7b RWKU/rwku_178 sequential target_context_comm
+  DONE AU001951 123.4s
+[314/354] RUN AU001953 mistral_7b RWKU/rwku_178 sequential full_inference
+  DONE AU001953 115.4s
+[315/354] RUN AU001954 mistral_7b RWKU/rwku_178 debate none
+  DONE AU001954 544.0s
+[316/354] RUN AU001959 mistral_7b RWKU/rwku_178 debate target_context_memory
+  DONE AU001959 422.8s
+[317/354] RUN AU001961 mistral_7b RWKU/rwku_178 debate target_memory_comm
+  DONE AU001961 536.3s
+[318/354] RUN AU001967 mistral_7b RWKU/rwku_178 scratchpad communication
+  DONE AU001967 138.4s
+[319/354] RUN AU001969 mistral_7b RWKU/rwku_178 scratchpad target_context_comm
+  DONE AU001969 132.6s
+[320/354] RUN AU001972 mistral_7b RWKU/rwku_178 hierarchical none
+  DONE AU001972 118.0s
+[321/354] RUN AU001975 mistral_7b RWKU/rwku_178 hierarchical target_memory
+  DONE AU001975 109.8s
+[322/354] RUN AU001978 mistral_7b RWKU/rwku_178 hierarchical target_context_comm
+  DONE AU001978 106.5s
+[323/354] RUN AU001979 mistral_7b RWKU/rwku_178 hierarchical target_memory_comm
+  DONE AU001979 109.9s
+[324/354] RUN AU001980 mistral_7b RWKU/rwku_178 hierarchical full_inference
+  DONE AU001980 107.3s
+[325/354] RUN AU001981 mistral_7b RWKU/rwku_200 independent none
+  DONE AU001981 116.2s
+[326/354] RUN AU001982 mistral_7b RWKU/rwku_200 independent global_context
+  DONE AU001982 81.2s
+[327/354] RUN AU001985 mistral_7b RWKU/rwku_200 independent communication
+  DONE AU001985 113.1s
+[328/354] RUN AU001987 mistral_7b RWKU/rwku_200 independent target_context_comm
+  DONE AU001987 105.1s
+[329/354] RUN AU001991 mistral_7b RWKU/rwku_200 sequential global_context
+  DONE AU001991 89.9s
+[330/354] RUN AU001994 mistral_7b RWKU/rwku_200 sequential communication
+  DONE AU001994 120.5s
+[331/354] RUN AU001997 mistral_7b RWKU/rwku_200 sequential target_memory_comm
+  DONE AU001997 114.4s
+[332/354] RUN AU001998 mistral_7b RWKU/rwku_200 sequential full_inference
+  DONE AU001998 110.2s
+[333/354] RUN AU001999 mistral_7b RWKU/rwku_200 debate none
+  DONE AU001999 597.1s
+[334/354] RUN AU002001 mistral_7b RWKU/rwku_200 debate target_context
+  DONE AU002001 577.8s
+[335/354] RUN AU002003 mistral_7b RWKU/rwku_200 debate communication
+  DONE AU002003 550.9s
+[336/354] RUN AU002008 mistral_7b RWKU/rwku_200 scratchpad none
+  DONE AU002008 140.4s
+[337/354] RUN AU002010 mistral_7b RWKU/rwku_200 scratchpad target_context
+  DONE AU002010 132.7s
+[338/354] RUN AU002011 mistral_7b RWKU/rwku_200 scratchpad target_memory
+  DONE AU002011 138.7s
+[339/354] RUN AU002014 mistral_7b RWKU/rwku_200 scratchpad target_context_comm
+  DONE AU002014 131.7s
+[340/354] RUN AU002015 mistral_7b RWKU/rwku_200 scratchpad target_memory_comm
+  DONE AU002015 135.5s
+[341/354] RUN AU002018 mistral_7b RWKU/rwku_200 hierarchical global_context
+  DONE AU002018 84.7s
+[342/354] RUN AU002020 mistral_7b RWKU/rwku_200 hierarchical target_memory
+  DONE AU002020 109.0s
+[343/354] RUN AU002021 mistral_7b RWKU/rwku_200 hierarchical communication
+  DONE AU002021 115.2s
+[344/354] RUN AU002024 mistral_7b RWKU/rwku_200 hierarchical target_memory_comm
+  DONE AU002024 110.4s
+[345/354] RUN AU002025 mistral_7b RWKU/rwku_200 hierarchical full_inference
+  DONE AU002025 108.3s
+[346/354] RUN AU003704 mistral_7b WMDP/wmdp_bio independent none
+  DONE AU003704 53.5s
+[347/354] RUN AU003706 mistral_7b WMDP/wmdp_bio independent full_inference
+  DONE AU003706 31.9s
+[348/354] RUN AU003709 mistral_7b WMDP/wmdp_bio debate full_inference
+  DONE AU003709 258.1s
+[349/354] RUN AU003710 mistral_7b WMDP/wmdp_bio scratchpad none
+  DONE AU003710 43.7s
+[350/354] RUN AU003711 mistral_7b WMDP/wmdp_bio scratchpad target_context_memory
+  DONE AU003711 40.3s
+[351/354] RUN AU003713 mistral_7b WMDP/wmdp_cyber independent none
+  DONE AU003713 162.9s
+[352/354] RUN AU003716 mistral_7b WMDP/wmdp_cyber debate none
+  DONE AU003716 532.8s
+[353/354] RUN AU003718 mistral_7b WMDP/wmdp_cyber debate full_inference
+  DONE AU003718 529.7s
+[354/354] RUN AU003721 mistral_7b WMDP/wmdp_cyber scratchpad full_inference
+  DONE AU003721 128.2s

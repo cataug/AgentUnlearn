@@ -1,0 +1,4 @@
+judge_a,judge_b,n_binary_pairs,raw_agreement,cohen_kappa
+judge_qwen3_14b,judge_mistral_7b,594,0.9545454545454546,0.8549568614683379
+judge_qwen3_14b,judge_qwen25coder_14b,594,0.9730639730639731,0.9081632653061225
+judge_mistral_7b,judge_qwen25coder_14b,594,0.9444444444444444,0.8168619317226302

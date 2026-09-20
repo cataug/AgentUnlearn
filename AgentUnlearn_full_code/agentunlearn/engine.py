@@ -1,0 +1,233 @@
+from __future__ import annotations
+
+import time
+from datetime import datetime, timezone
+from typing import Dict, List
+
+from agentunlearn.config import ExperimentConfig
+from agentunlearn.datasets import get_adapter
+from agentunlearn.interventions import build_states
+from agentunlearn.models import LocalChatModel
+from agentunlearn.probes import (
+    expand_variants,
+    select_base_probes,
+)
+from agentunlearn.schemas import (
+    BenchmarkBundle,
+    ProbeResult,
+    RunResult,
+    RunSpec,
+)
+from agentunlearn.similarity import SimilarityEngine
+from agentunlearn.topologies import TopologyExecutor
+
+
+class ExperimentEngine:
+    def __init__(
+        self,
+        cfg: ExperimentConfig,
+        model: LocalChatModel,
+    ):
+        self.cfg = cfg
+        self.model = model
+
+        self.similarity = SimilarityEngine(
+            cfg.similarity
+        )
+
+        self.topology = TopologyExecutor(
+            model,
+            cfg.generation,
+            self.similarity,
+        )
+
+        self._bundle_cache: Dict[
+            str,
+            BenchmarkBundle,
+        ] = {}
+
+        self._adapter_cache: Dict[
+            str,
+            object,
+        ] = {}
+
+    def bundle_for(
+        self,
+        spec: RunSpec,
+    ) -> BenchmarkBundle:
+        key = (
+            f"{spec.benchmark}"
+            f"::{spec.unit_id}"
+            f"::{spec.target_id}"
+        )
+
+        if key not in self._bundle_cache:
+
+            if (
+                spec.benchmark
+                not in self._adapter_cache
+            ):
+                self._adapter_cache[
+                    spec.benchmark
+                ] = get_adapter(
+                    spec.benchmark,
+                    self.cfg.paths.resolve(
+                        self.cfg.paths.data_dir
+                    ),
+                )
+
+            adapter = self._adapter_cache[
+                spec.benchmark
+            ]
+
+            self._bundle_cache[
+                key
+            ] = adapter.load_bundle(
+                spec.unit_id,
+                spec.target_id,
+                spec.target_name,
+            )
+
+        return self._bundle_cache[
+            key
+        ]
+
+    @staticmethod
+    def target_references(
+        bundle: BenchmarkBundle,
+    ) -> List[str]:
+        refs: List[str] = []
+
+        for p in (
+            bundle.direct_probes
+            + bundle.indirect_probes
+        ):
+            refs.extend(
+                p.answers
+            )
+
+        refs.extend(
+            x.text
+            for x
+            in bundle.target_evidence
+        )
+
+        # Prevent communication-filter scoring from becoming unbounded.
+        return [
+            x
+            for x in refs
+            if x
+        ][:64]
+
+    def run_spec(
+        self,
+        spec: RunSpec,
+    ) -> RunResult:
+
+        started_dt = datetime.now(
+            timezone.utc
+        )
+
+        t0 = time.time()
+
+        bundle = self.bundle_for(
+            spec
+        )
+
+        refs = self.target_references(
+            bundle
+        )
+
+        base_probes = select_base_probes(
+            bundle,
+            self.cfg.generation,
+        )
+
+        if not base_probes:
+            raise RuntimeError(
+                "No probes available for "
+                f"{spec.benchmark}/"
+                f"{spec.unit_id}"
+            )
+
+        results: List[
+            ProbeResult
+        ] = []
+
+        for base in base_probes:
+
+            # ---------------------------------------------------------
+            # IMPORTANT:
+            # Evidence construction is probe-aware.
+            #
+            # All wording variants of the same semantic probe receive
+            # exactly the same evidence configuration.
+            # ---------------------------------------------------------
+
+            states = build_states(
+                bundle,
+                spec,
+                self.cfg.generation,
+                probe=base,
+            )
+
+            variants = expand_variants(
+                base,
+                self.cfg.generation.prompt_variants,
+            )
+
+            for (
+                variant_id,
+                probe,
+            ) in variants:
+
+                (
+                    target_output,
+                    system_output,
+                    traces,
+                ) = self.topology.run(
+                    states,
+                    probe,
+                    spec,
+                    refs,
+                )
+
+                results.append(
+                    ProbeResult(
+                        probe_id=base.probe_id,
+                        probe_kind=base.kind,
+                        variant_id=variant_id,
+                        prompt=probe.prompt,
+                        answers=list(
+                            probe.answers
+                        ),
+                        target_agent_output=target_output,
+                        system_output=system_output,
+                        traces=traces,
+                        metadata={
+                            "base_metadata":
+                                base.metadata,
+                            "probe_aware_evidence":
+                                True,
+                        },
+                    )
+                )
+
+        finished_dt = datetime.now(
+            timezone.utc
+        )
+
+        return RunResult(
+            spec=spec,
+            benchmark_metadata=
+                bundle.metadata,
+            probes=results,
+            started_at=
+                started_dt.isoformat(),
+            finished_at=
+                finished_dt.isoformat(),
+            elapsed_sec=
+                time.time() - t0,
+            model_metadata=
+                self.model.metadata(),
+        )

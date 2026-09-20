@@ -1,0 +1,5 @@
+
+=== LOAD qwen3_4b (1 conditions) ===
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4073.76it/s]
+[1/1] RUN SMOKE001 qwen3_4b TOFU/tofu_forget01 sequential target_context_comm
+  DONE SMOKE001 8.0s

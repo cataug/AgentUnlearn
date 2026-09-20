@@ -1,0 +1,8 @@
+block,model_id,benchmark,unit_id,target_id,target_name,topology,n_agents,chain_length,target_agent_position,debate_rounds,peer_evidence,temperature,seed,parameter_method,status,run_id,intervention,comm_threshold
+threshold_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,sequential,2,2,2,0,1.0,0.0,42,none,pending,TSWEEP_OPEN,target_context_memory,0.7
+threshold_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,sequential,2,2,2,0,1.0,0.0,42,none,pending,TSWEEP_30,full_inference,0.3
+threshold_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,sequential,2,2,2,0,1.0,0.0,42,none,pending,TSWEEP_40,full_inference,0.4
+threshold_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,sequential,2,2,2,0,1.0,0.0,42,none,pending,TSWEEP_50,full_inference,0.5
+threshold_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,sequential,2,2,2,0,1.0,0.0,42,none,pending,TSWEEP_60,full_inference,0.6
+threshold_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,sequential,2,2,2,0,1.0,0.0,42,none,pending,TSWEEP_70,full_inference,0.7
+threshold_smoke,qwen3_4b,TOFU,tofu_forget01,forget01,forget01,sequential,2,2,2,0,1.0,0.0,42,none,pending,TSWEEP_80,full_inference,0.8
